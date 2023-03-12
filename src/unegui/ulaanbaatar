@@ -28,17 +28,17 @@ for i in range(len(listing)):
     # Find the description and price of each element using XPATH.
     desc = listing[i].find_element(By.XPATH,"div[1]/div[2]/div/a").text
     price = listing[i].find_element(By.XPATH,"div[1]/div[3]/div").text
-
+    room = listing[i].find_element(By.XPATH,"div[1]/div[2]/div/div[3]/span[2]").text
     # Print the description and price to the console.
     #print(desc,price)
 
     # Append the description and price to the price_list.
-    price_list.append([desc,price])
+    price_list.append([desc,price,room])
 
 
 
 # Create a pandas dataframe from the list of prices, with columns named "Тайлбар" and "Үнэ".
-df = pd.DataFrame(price_list, columns = ["Тайлбар","Үнэ"])
+df = pd.DataFrame(price_list, columns = ["Тайлбар","Үнэ","Opoo"])
 
 # Save the dataframe to a CSV file named "unegui.csv", with UTF-8 encoding.
 df.to_csv("unegui.csv",encoding = "utf-8-sig")
