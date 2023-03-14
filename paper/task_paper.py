@@ -1,3 +1,5 @@
+document the data, methodology and the result from src tasks.
+
 """Tasks for compiling the paper and presentation(s)."""
 import shutil
 

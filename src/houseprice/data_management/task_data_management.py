@@ -1,24 +1,20 @@
-"""Tasks for managing the data."""
+"""Tasks for data cleaning and featurization."""
 
 import pandas as pd
 import pytask
 
 from houseprice.config import BLD, SRC
 from houseprice.data_management import clean_data
-from houseprice.utilities import read_yaml
 
 
 @pytask.mark.depends_on(
     {
-        "scripts": ["clean_data.py"],
-        "data_info": SRC / "data_management" / "data_info.yaml",
-        "data": SRC / "data" / "data.csv",
+        "data": SRC / "data" / "house_price.csv",
     },
 )
-@pytask.mark.produces(BLD / "python" / "data" / "data_clean.csv")
+@pytask.mark.produces(BLD / "python" / "data" / "house_price_clean.csv")
 def task_clean_data_python(depends_on, produces):
     """Clean the data (Python version)."""
-    data_info = read_yaml(depends_on["data_info"])
     data = pd.read_csv(depends_on["data"])
-    data = clean_data(data, data_info)
+    data = clean_data(data)
     data.to_csv(produces, index=False)

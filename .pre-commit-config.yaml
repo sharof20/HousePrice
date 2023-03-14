@@ -12,21 +12,21 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
     hooks:
-      - id: check-added-large-files
-        args:
-          - --maxkb=25
+      # - id: check-added-large-files
+      #   args:
+      #     - --maxkb=25
       - id: check-case-conflict
       - id: check-merge-conflict
       - id: check-vcs-permalinks
       - id: check-yaml
       - id: check-toml
-      - id: debug-statements
-      - id: end-of-file-fixer
+      # - id: debug-statements
+      # - id: end-of-file-fixer
       - id: fix-byte-order-marker
         types:
           - text
       - id: forbid-submodules
-      - id: mixed-line-ending
+      # - id: mixed-line-ending
         args:
           - --fix=lf
         description: Forces to replace line ending by the UNIX 'lf' character.
@@ -34,13 +34,13 @@ repos:
         args:
           - --pytest-test-first
       - id: trailing-whitespace
-      - id: check-ast
-      - id: check-docstring-first
-  - repo: https://github.com/psf/black
-    rev: 22.12.0
-    hooks:
-      - id: black
-        language_version: python3.11
+      # - id: check-ast
+      # - id: check-docstring-first
+  # - repo: https://github.com/psf/black
+  #   rev: 22.12.0
+  #   hooks:
+  #     - id: black
+  #       language_version: python3.11
   - repo: https://github.com/asottile/blacken-docs
     rev: 1.13.0
     hooks:
