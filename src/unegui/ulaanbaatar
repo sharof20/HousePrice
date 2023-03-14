@@ -42,7 +42,7 @@ for page in range(1, num_pages + 1):
 
     # Iterate over the elements found in the previous step.
     for i in range(len(listing)):
-        # Find the description and price of each element using XPATH.
+        # Find the description, the number of rooms and price of each element using XPATH.
         try:
             desc = listing[i].find_element(By.XPATH,"div[1]/div[2]/div/a").text
         except NoSuchElementException:
