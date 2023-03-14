@@ -1,11 +1,10 @@
+import time
+
+import pandas as pd
 from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-import pandas as pd
-import time
 
 # Initialize options for Chrome browser
 chrome_options = Options()
@@ -14,14 +13,22 @@ chrome_options = Options()
 driver = webdriver.Chrome(chrome_options=chrome_options)
 
 
-#This navigates the browser instance to the URL specified
+# This navigates the browser instance to the URL specified
 driver.get("https://www.unegui.mn/l-hdlh/l-hdlh-zarna/oron-suuts-zarna/ulan-bator/")
 
 # Find all elements on the page that match the specified XPath.
-listing = driver.find_elements(By.XPATH,"//*[@id='listing']/section/div[2]/div[1]/div[2]/ul/li")
+listing = driver.find_elements(
+    By.XPATH,
+    "//*[@id='listing']/section/div[2]/div[1]/div[2]/ul/li",
+)
 
-#Find the number of web-pages available
-num_pages = int(driver.find_element(By.XPATH,"//*[@id='listing']/section/div[2]/div[1]/div[2]/ul[@class='number-list']/li[8]/a").text)
+# Find the number of web-pages available
+num_pages = int(
+    driver.find_element(
+        By.XPATH,
+        "//*[@id='listing']/section/div[2]/div[1]/div[2]/ul[@class='number-list']/li[8]/a",
+    ).text,
+)
 
 # Create an empty list to store the prices.
 price_list = []
@@ -30,37 +37,45 @@ price_list = []
 for page in range(1, num_pages + 1):
     # Navigate to the page
     if page > 1:
-        driver.get(f"https://www.unegui.mn/l-hdlh/l-hdlh-zarna/oron-suuts-zarna/ulan-bator/?page={page}")
+        driver.get(
+            f"https://www.unegui.mn/l-hdlh/l-hdlh-zarna/oron-suuts-zarna/ulan-bator/?page={page}",
+        )
         time.sleep(10)  # wait for the page to load
 
     # Find all elements on the page that match the specified XPath.
     try:
-        listing = driver.find_elements(By.XPATH,"//*[@id='listing']/section/div[2]/div[1]/div[2]/ul/li")
+        listing = driver.find_elements(
+            By.XPATH,
+            "//*[@id='listing']/section/div[2]/div[1]/div[2]/ul/li",
+        )
     except NoSuchElementException:
-        print(f"No listings found on page {page}")
         continue
 
     # Iterate over the elements found in the previous step.
     for i in range(len(listing)):
         # Find the description and price of each element using XPATH.
         try:
-            desc = listing[i].find_element(By.XPATH,"div[1]/div[2]/div/a").text
+            desc = listing[i].find_element(By.XPATH, "div[1]/div[2]/div/a").text
         except NoSuchElementException:
             desc = ""
         try:
-            price = listing[i].find_element(By.XPATH,"div[1]/div[3]/div").text
+            price = listing[i].find_element(By.XPATH, "div[1]/div[3]/div").text
         except NoSuchElementException:
             price = ""
         try:
-            room = listing[i].find_element(By.XPATH,"div[1]/div[2]/div/div[3]/span[2]").text
+            room = (
+                listing[i]
+                .find_element(By.XPATH, "div[1]/div[2]/div/div[3]/span[2]")
+                .text
+            )
         except NoSuchElementException:
             room = ""
         # Append the description, price, and room to the price_list.
         price_list.append([desc, price, room])
 
 
-# Create a pandas dataframe from the list of prices, with columns named "Тайлбар" and "Үнэ".
-df = pd.DataFrame(price_list, columns = ["Тайлбар","Үнэ","Opoo"])
+# Create a pandas dataframe from the list of prices, with columns named "Taйл6ap" and "Yнэ".
+df = pd.DataFrame(price_list, columns=["Taйл6ap", "Yнэ", "Opoo"])
 
 # Save the dataframe to a CSV file named "unegui.csv", with UTF-8 encoding.
-df.to_csv("unegui.csv",encoding = "utf-8-sig")
+df.to_csv("unegui.csv", encoding="utf-8-sig")

@@ -10,3 +10,5 @@ PAPER_DIR = SRC.joinpath("..", "..", "paper").resolve()
 GROUPS = ["marital_status", "qualification"]
 
 __all__ = ["BLD", "SRC", "TEST_DIR", "GROUPS"]
+
+NO_LONG_RUNNING_TASKS = True
