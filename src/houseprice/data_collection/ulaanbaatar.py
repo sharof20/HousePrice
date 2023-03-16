@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 chrome_options = Options()
 
 # Create a new WebDriver instance with Chrome browser and set options
-driver = webdriver.Chrome(chrome_options=chrome_options)
+driver = webdriver.Chrome(options=chrome_options)
 
 
 # This navigates the browser instance to the URL specified
@@ -32,6 +32,29 @@ num_pages = int(
 
 # Create an empty list to store the prices.
 price_list = []
+
+
+listing[0].find_element(By.XPATH, "a").click() # ("Энrийн зap", not promoted ones)
+
+# list of attributes
+attr = driver.find_elements(By.XPATH, "//*[@id='show-post-render-app']/div/section[1]/div/div[2]/div[1]/div[5]/ul/li")
+
+# first attribute's key and value
+key   = attr[0].find_element(By.XPATH, "span[1]").text
+value = attr[0].find_element(By.XPATH, "span[2]").text
+
+### title
+title = driver.find_element(By.XPATH, "//*[@id='ad-title']").text
+
+### price
+price = driver.find_element(By.XPATH, "//*[@id='show-post-render-app']/div/section[1]/div/div[3]/div/div[1]/div[1]/div/div").text
+
+### descriptions
+desc = driver.find_element(By.XPATH, "//*[@id='show-post-render-app']/div/section[1]/div/div[2]/div[1]/div[6]/div").text
+
+# go back to the list
+driver.back()      # previous page in browser history
+
 
 # Loop through all the pages and scrape the data
 for page in range(1, num_pages + 1):
