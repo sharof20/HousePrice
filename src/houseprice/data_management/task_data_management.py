@@ -17,4 +17,4 @@ def task_clean_data_python(depends_on, produces):
     """Clean the data (Python version)."""
     data = pd.read_csv(depends_on["data"])
     data = clean_data(data)
-    data.to_csv(produces, index=False)
+    data.to_csv(produces, index=False, encoding="utf-8-sig")
