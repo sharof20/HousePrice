@@ -6,25 +6,25 @@ import numpy as np
 
 def clean_data(df):
     # drop the 'location:' and 'Koд:' columns as they are almost empty columns
-    df = df.drop(["location:", "Koд:"], axis=1)
+    df = df.drop(["location:", "Код:"], axis=1)
 
     # create a dictionary of old and new column names
     new_names = {"Title": "title",
                 "Price": "price_mln_MNT",
-                "Шaл:": "flooring_material",
-                "Tarт:": "number_of_balcony",
-                "Aшиrлaлтaнд opcoн oн:": "year_of_commissioning",
-                "Гapaж:": "garage",
-                "Цoнx:": "window_type",
-                "Бapилrын дaвxap:": "number_of_storeys",
-                "Xaaлra:": "door_type",
-                "Taл6aй:": "area_sq_m",
-                "Xэдэн дaвxapт:": "apartment_storey",
-                "Лизинrээp aвax 6oлoмж:": "leasing",
-                "Дyypэr:": "district",
-                "Цoнxны тoo:": "number_of_windows",
-                "Бaйpшил:": "location",
-                "Бapилrын явц:": "construction_progress"}
+                "Шал:": "flooring_material",
+                "Тагт:": "number_of_balcony",
+                "Ашиглалтанд орсон он:": "year_of_commissioning",
+                "Гараж:": "garage",
+                "Цонх:": "window_type",
+                "Барилгын давхар:": "number_of_storeys",
+                "Хаалга:": "door_type",
+                "Талбай:": "area_sq_m",
+                "Хэдэн давхарт:": "apartment_storey",
+                "Лизингээр авах боломж:": "leasing",
+                "Дүүрэг:": "district",
+                "Цонхны тоо:": "number_of_windows",
+                "Байршил:": "location",
+                "Барилгын явц:": "construction_progress"}
 
     # rename the columns using the dictionary
     df = df.rename(columns=new_names)
