@@ -1,4 +1,6 @@
 """Function(s) for cleaning the data set(s)."""
+import pdb
+
 import numpy as np
 
 
@@ -51,5 +53,7 @@ def clean_data(df):
 
     # filter out values below 10 and above 1000. The number of values dropped is 21
     df = df[(df["area_sq_m"] >= 10) & (df["area_sq_m"] <= 1000)]
+
+    pdb.set_trace()
 
     return df
