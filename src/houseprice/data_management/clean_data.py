@@ -9,10 +9,11 @@ def transliterate_mn(text):
     return translit(text, 'mn', reversed=True)
 
 def extract_price(x):
+    price = float(re.findall('(\\d+[\\.\\d]*)', x)[0])
     if 'бум' in x and 'сая' not in x:
-        return float(re.findall('(\\d+[\\.\\d]*)', x)[0]) * 1000
+        return price * 1e3
     else:
-        return float(re.findall('(\\d+[\\.\\d]*)', x)[0])
+        return price
 
 def clean_data(df):
     # drop the 'location:' and 'Koд:' columns as they are almost empty columns
@@ -90,6 +91,34 @@ def clean_data(df):
     df['leasing'] = df['leasing'].replace(lease_dict)
     df['construction_progress'] = df['construction_progress'].replace(prog_dict)
 
+    # fix errors manually
+    # rents
+    df = df[df['title'] != 'Nisekh, buman zaluus khoroolold 2 oroo bair']
+    df = df[~((df['title'] == 'TSambagarawd 2oroo')&(df['price'] == 1))]
+
+    # land
+    df = df[~((df['title'] == 'Towiin shugamtai')&(df['price'] == 210))]
+
+
+    # wrong m2
+    mask = (df['title'] == 'Sky garden-d 3 oroo bair') & (df['price'] == 860)
+    df.loc[mask, 'area_sq_m'] = 106
+    mask = (df['title'] == 'Olimp hothond 67mk 3 uruu bair') & (df['price'] == 245)
+    df.loc[mask, 'area_sq_m'] = 67
+
+    # wrong price
+    mask = (df['title'] == 'Bella vista-d 3 oroo') & (df['price'] == 10600)
+    df.loc[mask, 'price'] = 1060
+    mask = (df['title'] == 'YAarmagt 2 oroo bair') & (df['price'] == 1500)
+    df.loc[mask, 'price'] = 150
+    mask = (df['title'] == 'River garden modun taun 2 oroo') & (df['price'] == 25.8)
+    df.loc[mask, 'price'] = 258
+    mask = (df['title'] == 'Zaisand 4 oroo bair') & (df['price'] == 98)
+    df.loc[mask, 'price'] = 980
+    mask = (df['title'] == 'KHotыn towd 2 oroo bair') & (df['price'] == 40)
+    df.loc[mask, 'price'] = 261.8
+
+
     # those seemingly missing 0 in the price, below 11 is m2 price, above 15 is total price
     df['price_orig'] = df['price']
     df['price_m2']   = df['price']
@@ -100,6 +129,17 @@ def clean_data(df):
     mask = df['price'] > 11
     df.loc[mask, 'price_m2'] = df.loc[mask, 'price'] / df.loc[mask, 'area_sq_m']
 
-    # pdb.set_trace()
+    pdb.set_trace()
+
+    df.price_m2.describe()
+    df.price_m2.unique()
+
+    df[df.price_m2<1]
+    df[df.price_m2>14]
+
+
+
+
+
 
     return df

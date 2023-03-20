@@ -24,3 +24,5 @@ bld/
 *.pdf
 *.run.xml
 *.synctex.gz
+*.iml
+*.xml
