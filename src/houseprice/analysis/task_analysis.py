@@ -7,9 +7,27 @@ import pytask
 import plotly.express as px
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
-import seaborn as sb
+import seaborn as sns
+import pdb
 from houseprice.config import BLD, SRC
 
+# sns.set_theme()
+
+@pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
+@pytask.mark.produces(BLD  / "plot" / "toy.png")
+def task_toy(depends_on, produces):
+    df = pd.read_csv(depends_on)
+    grouped = df.loc[:,['location', 'price_m2']] \
+        .groupby(['location']) \
+        .median() \
+        .sort_values(by='price_m2')
+    pdb.set_trace()
+    # fig = px.box(df, x="location", y="price_m2")
+    # fig.show()
+
+    sns.boxplot(x=df.location, y=df.price_m2, order=grouped.index)
+    plt.xticks(fontsize=5, rotation=-90)
+    plt.show()
 
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
 @pytask.mark.produces(BLD  / "plot" / "histogram.png")
@@ -67,7 +85,7 @@ def task_area_dist(depends_on, produces):
     # read data from csv
     df = pd.read_csv(depends_on)
     # create a histogram using seaborn
-    sb.histplot(x='area_sq_m', data=df, color='red')
+    sns.histplot(x='area_sq_m', data=df, color='red')
 
     # set the chart title and axis labels
     plt.title('Distribution of Areas', fontsize=16)
@@ -87,7 +105,7 @@ def task_price_area(depends_on, produces):
     df = pd.read_csv(depends_on)
 
     # create a scatterplot using seaborn
-    sb.scatterplot(x='price_m2', y='area_sq_m', data=df, color='yellow', edgecolor='blue', s=150)
+    sns.scatterplot(x='price_m2', y='area_sq_m', data=df, color='yellow', edgecolor='blue', s=150)
 
     # set the chart title and axis labels
     plt.title('Price per Square Meter vs. Area', fontsize=16)
@@ -107,7 +125,7 @@ def task_total_price_area(depends_on, produces):
     df = pd.read_csv(depends_on)
 
     # create a scatterplot using seaborn
-    sb.scatterplot(x='area_sq_m', y='price', data=df, color='orange', edgecolor='blue', s=150)
+    sns.scatterplot(x='area_sq_m', y='price', data=df, color='orange', edgecolor='blue', s=150)
 
     # set the chart title and axis labels
     plt.title('Price vs. Area', fontsize=16)
@@ -128,7 +146,7 @@ def task_total_price_dist(depends_on, produces):
     df = pd.read_csv(depends_on)
 
     # create a histogram using seaborn
-    sb.histplot(x='price', data=df, color='green')
+    sns.histplot(x='price', data=df, color='green')
 
     # set the chart title and axis labels
     plt.title('Distribution of price', fontsize=16)
