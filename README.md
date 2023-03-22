@@ -14,15 +14,20 @@ To start working on the HousePrice project, follow these steps:
 1. Create a Conda environment: Use the following command to create an environment
    specifically for this project and activate it:
 
-   $ conda/mamba env create $ conda activate houseprice
+   ```console
+   ```
+
+$ conda/mamba env create $ conda activate houseprice
+
+````
 
    This will help you manage dependencies and ensure that you have the necessary
    packages installed.
 
-1. Install Pre-commit, Pytask, and Pytest: These are tools that help you maintain code
+3. Install Pre-commit, Pytask, and Pytest: These are tools that help you maintain code
    quality, automate tasks, and test your code.
 
-1. Install Chromedriver: This is required to run the project, and you should ensure that
+4. Install Chromedriver: This is required to run the project, and you should ensure that
    you have a version that is compatible with your Chrome browser.
 
 ## Badge:
@@ -41,7 +46,9 @@ sharof20/houseprice/main)
 Once you have set up the environment and installed the necessary packages, you can build
 the project using the following command:
 
+```console
 $ pytask
+````
 
 ## Credits
 
