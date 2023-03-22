@@ -5,7 +5,7 @@ estimates the prices of houses. This project can be useful for real estate
 professionals, homeowners, and anyone else interested in predicting the value of
 residential properties.
 
-How to Get Started:
+## How to Get Started:
 
 To start working on the HousePrice project, follow these steps:
 
@@ -14,29 +14,26 @@ To start working on the HousePrice project, follow these steps:
 1. Create a Conda environment: Use the following command to create an environment
    specifically for this project and activate it:
 
-   ```console
    ```
-
-$ conda/mamba env create $ conda activate houseprice
-
-````
+   $ conda/mamba env create
+   $ conda activate houseprice
+   ```
 
    This will help you manage dependencies and ensure that you have the necessary
    packages installed.
 
-3. Install Pre-commit, Pytask, and Pytest: These are tools that help you maintain code
+1. Install Pre-commit, Pytask, and Pytest: These are tools that help you maintain code
    quality, automate tasks, and test your code.
 
-4. Install Chromedriver: This is required to run the project, and you should ensure that
+1. Install Chromedriver: This is required to run the project, and you should ensure that
    you have a version that is compatible with your Chrome browser.
 
 ## Badge:
 
 You can check the status of pre-commit checks for the project by clicking on the badge
 provided. The badge displays the latest status of the pre-commit checks run on the main
-branch of the repository.
-
-\[!\[pre-commit.ci status\](https://results.pre-commit.ci/badge/github/Sugarkhuu,
+branch of the repository. \[!\[pre-commit.ci
+status\](https://results.pre-commit.ci/badge/github/Sugarkhuu,
 sharof20/houseprice/main.svg)\](https://results.pre-commit.ci/latest/github/Sugarkhuu,
 sharof20/houseprice/main)
 [![image](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -46,9 +43,9 @@ sharof20/houseprice/main)
 Once you have set up the environment and installed the necessary packages, you can build
 the project using the following command:
 
-```console
+```
 $ pytask
-````
+```
 
 ## Credits
 
