@@ -85,16 +85,15 @@
 If you are using this template, please cite this item from the references:
 \citet{GaudeckerEconProjectTemplates}.
 
-The data set for the example project is taken from
-\url{https://www.stem.org.uk/resources/elibrary/resource/28452/large-datasets-stats4schools}.
-It contains data on smoking habits in the UK, with 1691 observations and 12 variables.
-We consider only 4 of the 12 features for the prediction of the variable
-\texttt{smoking}: \texttt{marital\_status}, \texttt{highest\_qualification},
-\texttt{gender} and \texttt{age}. We model the dependence using a Logistic model. All
-numerical features are included linearly, while categorical features are expanded into
-dummy variables. Figures below illustrate the model predictions over the lifetime. You
-will find one figure and one estimation summary table for each installed programming
-language.
+This project, named HousePrice, aims to predict the prices of residential properties.
+The dataset used for this study contains information about 7842 apartments located in Ulaanbaatar, the capital of Mongolia.
+The dataset includes features such as price, square footage, location, and other relevant factors.
+To ensure the reliability and accuracy of the data, we cleaned and preprocessed it before conducting any analysis.
+To gain insights into the dataset, we utilized various data visualization techniques.
+These techniques allowed us to identify important trends and patterns in the data, which served as the foundation for our subsequent analysis.
+After analyzing the dataset, we constructed a machine learning model capable of accurately predicting the prices of residential properties.
+Our model utilizes various features such as location, number of windows, and square footage to generate predictions.
+We thoroughly evaluated the performance of our model and selected the best performing one for this study.
 
 
 
@@ -121,8 +120,19 @@ language.
 
 
 % section introduction (end)
-
-
+\section{Data collection} % (fold)
+\label{sec:data_collection}
+To gather data for this study, we utilized Selenium and Python to scrape the real estate listing website unegui.mn,
+which has been one of the most visited websites in Mongolia since its establishment in 2007.
+Selenium is a commonly used tool for web scraping, data extraction, and web-based task automation.
+By leveraging Selenium's powerful features, we were able to gain access to the website and extract relevant information.
+Our scraping process involved clicking on links, filtering data, and navigating through the website.
+We successfully scraped over 140 web pages of unegui.mn, resulting in a dataset of close to 8000 residential properties located in Ulaanbaatar.
+The collected data includes features such as price, square footage, year of commissioning, flooring material,
+number of balconies, number of garages, window type, door type, district, and construction progress.
+To ensure the reliability and accuracy of the data, we implemented a systematic approach to data collection and pre-processing.
+This included removing duplicates, cleaning data, and addressing any missing or incomplete data points.
+The dataset obtained from our scraping process serves as the foundation for our subsequent data analysis and machine learning model development.
 
 \setstretch{1}
 \printbibliography
