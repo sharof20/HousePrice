@@ -13,10 +13,14 @@ from houseprice.config import BLD, SRC
 
 # sns.set_theme()
 
-@pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
+@pytask.mark.depends_on(BLD / "data" / "house_price_clean_loc.csv")
 @pytask.mark.produces(BLD  / "plot" / "toy.png")
 def task_toy(depends_on, produces):
     df = pd.read_csv(depends_on)
+
+    above5_ads = df.groupby('location')['location'].transform('count') > 5
+    df = df.loc[above5_ads,]
+
     grouped = df.loc[:,['location', 'price_m2']] \
         .groupby(['location']) \
         .median() \
@@ -25,8 +29,11 @@ def task_toy(depends_on, produces):
     # fig = px.box(df, x="location", y="price_m2")
     # fig.show()
 
+    # df.groupby('location').agg({'location': ['count']})
+
     sns.boxplot(x=df.location, y=df.price_m2, order=grouped.index)
-    plt.xticks(fontsize=5, rotation=-90)
+    plt.xticks(fontsize=10, rotation=90)
+    plt.subplots_adjust(bottom=0.2)
     plt.show()
 
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")

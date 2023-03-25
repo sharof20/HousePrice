@@ -20,6 +20,6 @@ def task_clean_location(depends_on, produces):
     data = pd.read_csv(depends_on["data"])
     lctn = pd.read_csv(depends_on["location"])
     lctn = lctn[["ID","location_group"]]
-    pdb.set_trace()
     data = data.merge(lctn, on='ID', how='left')
+    data = data.rename(columns={'location': 'location_data', 'location_group': 'location'})
     data.to_csv(produces, index=False, encoding="utf-8-sig")

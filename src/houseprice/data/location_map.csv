@@ -769,7 +769,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 3758,Gantig willa khotkhond 279.8mk oron suuts,2023,279.8,1,KHan-Uul,Busad,5,Gantig villa,Zaisan
 3761,Park garden 3-r eeljind 84.32mkw 4 oroo,2023,85.32,10,KHan-Uul,Busad,5,Park garden,Tsengeldekh
 3872,Chariot residence khotkhond 205mkw 4 oroo,2020,205,4,KHan-Uul,Busad,5,Chariot residence,Zaisan
-3912,KHudaldaa uilchilgeenii zoriulalttai 3 oroo bair,2020,95.9,1,Bayanzurkh,Bayanmongol khoroolol,5,Bayanmongol khoroolol,Bayanmongol khoroolol
+3912,KHudaldaa uilchilgeenii zoriulalttai 3 oroo bair,2020,95.9,1,Bayanzurkh,Bayanmongol khoroolol,5,Bayanmongol khoroolol,Bayanmongol
 3939,KHunnu 2222-t 2 oroo bair,2023,50,2,KHan-Uul,KHunnu,5,KHunnu,Tsengeldekh
 4098,Global town khotkhond 2 oroo bair 65.87 mkw,2022,65.87,18,KHan-Uul,KHunnu,5,KHunnu,Tsengeldekh
 4112,19 r khoroolold gal togoo tusdaa 2 oroo bair,1988,28,2,KHan-Uul,19-r khoroolol,5,19-r khoroolol,19-r khoroolol
@@ -969,7 +969,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5808,Zaisan orgil shiltgeen khotkhond 3 oroo bair,2012,70.76,3,KHan-Uul,Zaisan,4.706048615,Zaisan,Zaisan
 6027,"Zaisan, orgil shiltgeen khotkhond 2 oroo",2012,70.76,5,KHan-Uul,Zaisan,4.706048615,Zaisan,Zaisan
 6611,"Orgil shiltgeend 70,76 mkw 3 oroo",2012,70.76,3,KHan-Uul,Zaisan,4.706048615,Zaisan,Zaisan
-4504,Bzd 26khoroo mandala khotkhond 70mkw 3oroo grajtai,2019,70.2,14,Bayanzurkh,Bayanmongol khoroolol,4.700854701,Bayanmongol khoroolol,Bayanmongol khoroolol
+4504,Bzd 26khoroo mandala khotkhond 70mkw 3oroo grajtai,2019,70.2,14,Bayanzurkh,Bayanmongol khoroolol,4.700854701,Bayanmongol khoroolol,Bayanmongol
 544,Park view khotkhond 4 oroo oron suuts,2019,111.78,14,Bayanzurkh,Busad,4.700035785,Park view,National park
 137,Garden city 4 oroo,2022,142.5,15,KHan-Uul,YAarmag,4.7,YAarmag,Yarmag
 418,Solaris khotkhond nuuj orokhod belen120 mkw 4 oroo,2022,120,5,KHan-Uul,KHunnu,4.7,KHunnu,Tsengeldekh
@@ -981,7 +981,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 4690,Zaisan goldyen buddad 67m2 1 oroo tawilgыn khamt,2021,67,11,KHan-Uul,Zaisan,4.7,Zaisan,Zaisan
 6178,TSetserlegt khureelengiin khoino 𝐏𝐚𝐫𝐤𝐕𝐢𝐞𝐰 𝐑𝐞𝐬𝐢𝐝𝐞𝐧𝐜𝐞 khotkhond 111.78m,2019,111.78,13,Bayanzurkh,Sunrise,4.7,Sunrise,Dunjingarav
 7090,KHunnu 2222 50m2 2 oroo,2023,50,2,KHan-Uul,KHunnu,4.7,KHunnu,Tsengeldekh
-7211,Emerald residence khotkhond 74.5mkw 3 oroo,2021,74.5,3,Bayanzurkh,Bayanmongol khoroolol,4.7,Bayanmongol khoroolol,Bayanmongol khoroolol
+7211,Emerald residence khotkhond 74.5mkw 3 oroo,2021,74.5,3,Bayanzurkh,Bayanmongol khoroolol,4.7,Bayanmongol khoroolol,Bayanmongol
 7370,Budda wistagыn urd tald global ryesidensed 5 oroo bair,2022,168,16,KHan-Uul,Zaisan,4.7,Zaisan,Zaisan
 2307,Hunnu2222 69.93m2 3 oroo bair,2023,69.93,3,KHan-Uul,KHunnu,4.6999857,KHunnu,Tsengeldekh
 5600,Global town-d 3 oroo,2023,77.85,9,KHan-Uul,Busad,4.692357097,Global town,Home plaza
@@ -1055,10 +1055,10 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 6917,Bzd 26-r khoroo encanto2-t 71mkw 3oroo,2018,71.11,15,Bayanzurkh,Busad,4.514133033,Encanto 2,Yarmag
 6864,"Bzd, enkanto-2 khotkhond 72mkw 2 oroo bair",2019,72,15,Bayanzurkh,Busad,4.513888889,Encanto 2,Yarmag
 2411,Encanto town 2 khotkhond 4 oroo bair,2018,122,12,Bayanzurkh,Busad,4.508196721,Encanto 2,Yarmag
-2776,"Bzd, tsetserlegt khureelengiin khoino santo smart apartmyent khotkhond 3 oroo 81m2",2020,81,8,Bayanzurkh,Bayanmongol khoroolol,4.50617284,Bayanmongol khoroolol,Bayanmongol khoroolol
-4793,"Bzd, tsetserlegt khureelengiin khoino santo smart apartmyent khotkhond 3 oroo",2020,81,8,Bayanzurkh,Bayanmongol khoroolol,4.50617284,Bayanmongol khoroolol,Bayanmongol khoroolol
+2776,"Bzd, tsetserlegt khureelengiin khoino santo smart apartmyent khotkhond 3 oroo 81m2",2020,81,8,Bayanzurkh,Bayanmongol khoroolol,4.50617284,Bayanmongol khoroolol,Bayanmongol
+4793,"Bzd, tsetserlegt khureelengiin khoino santo smart apartmyent khotkhond 3 oroo",2020,81,8,Bayanzurkh,Bayanmongol khoroolol,4.50617284,Bayanmongol khoroolol,Bayanmongol
 6410,santo apartment- d 3 oroo oron suuts,2022,79.9,1,Bayanzurkh,Olimp khotkhon,4.50563204,Olimp khotkhon,Home plaza
-1282,"Park view khotkhond 111,78mkw 4oroo oron suuts",2019,111,14,Bayanzurkh,Bayanmongol khoroolol,4.504504505,Bayanmongol khoroolol,Bayanmongol khoroolol
+1282,"Park view khotkhond 111,78mkw 4oroo oron suuts",2019,111,14,Bayanzurkh,Bayanmongol khoroolol,4.504504505,Bayanmongol khoroolol,Bayanmongol
 6914,KHud 11-r khoroo zaisan residence 5 oroo,2023,145,6,KHan-Uul,Zaisan,4.503448276,Zaisan,Zaisan
 4492,Belmonte luxury residence 1 khotkhond 4 oroo oron suuts,2021,115.47,10,KHan-Uul,YAarmag,4.503334199,YAarmag,Yarmag
 411,Global town khotkhond 3 oroo,2023,86.41,12,KHan-Uul,KHurd,4.501793774,KHurd,Tsengeldekh
@@ -1094,7 +1094,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2668,"Bgd 3-r khoroo, narnы khoroollыn ondort 80mkw 3 oroo bair",2020,80,20,Bayangol,Narnы khoroolol,4.5,Narnы khoroolol,Narnii khoroolol
 2672,KHotыn towd 4oroo,2010,115.6,4,CHingeltei,"40, 50 myangat",4.5,"40, 50 myangat","40, 50 myangat"
 2762,Buti town 2 oroo,2021,74,3,KHan-Uul,Narkhan khotkhon,4.5,Narkhan khotkhon,Emart KHUD
-2768,Global park 68.68mkw 3oroo,2023,68.68,21,Bayanzurkh,Bayanmongol khoroolol,4.5,Bayanmongol khoroolol,Bayanmongol khoroolol
+2768,Global park 68.68mkw 3oroo,2023,68.68,21,Bayanzurkh,Bayanmongol khoroolol,4.5,Bayanmongol khoroolol,Bayanmongol
 3118,Sansart rtsnk awtai sain khaanы orgoo khotkhond 2 oroo,2022,47.7,4,Bayanzurkh,Sansar,4.5,Sansar,Sansar
 3223,Narnы khoroolol,2016,55,20,Bayangol,Narnы khoroolol,4.5,Narnы khoroolol,Narnii khoroolol
 3263,Narnii horoololiin 23 davhariin 20 davhart 55.04 mkv 2 uruu bair,2018,55.04,20,Bayangol,Narnы khoroolol,4.5,Narnы khoroolol,Narnii khoroolol
@@ -1112,7 +1112,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5086,Narnы khoroolold 3 oroo,2019,69.93,21,Bayangol,Narnы khoroolol,4.5,Narnы khoroolol,Narnii khoroolol
 5241,Narnы khoroolold 70mkw 3 oroo,2018,70,11,Bayangol,Narnы khoroolol,4.5,Narnы khoroolol,Narnii khoroolol
 5452,King tower hothond 4 oroo,2023,166,11,KHan-Uul,Zaisan,4.5,Zaisan,Zaisan
-5605,Santo life t 3 oroo bair,2023,65,22,Bayanzurkh,Bayanmongol khoroolol,4.5,Bayanmongol khoroolol,Bayanmongol khoroolol
+5605,Santo life t 3 oroo bair,2023,65,22,Bayanzurkh,Bayanmongol khoroolol,4.5,Bayanmongol khoroolol,Bayanmongol
 5700,Narnы khoroolold 80mk 3 oroo,2016,79.98,14,Bayangol,Narnы khoroolol,4.5,Narnы khoroolol,Narnii khoroolol
 5721,Narnы khoroolold 3 oroo bair,2020,70,11,Bayangol,Narnы khoroolol,4.5,Narnы khoroolol,Narnii khoroolol
 5978,Park east khotkhond 4 oroo,2021,181,14,Bayanzurkh,Sunrise,4.5,Sunrise,Dunjingarav
@@ -1121,7 +1121,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 6109,Park view khotkhond 3 oroo oron suuts 106.22m2,2019,106.22,5,Bayanzurkh,Olimp khotkhon,4.5,Olimp khotkhon,Home plaza
 6110,Mastyer orootoi 3 oroo oron suuts 62m2,2023,62,4,KHan-Uul,Zaisan,4.5,Zaisan,Zaisan
 6320,TSirkiin baruun tald nomun khotkhon 85.28mkw 3 oroo bair,2009,85,9,Sukhbaatar,"40, 50 myangat",4.5,"40, 50 myangat","40, 50 myangat"
-6341,Santo smart apartment 81.8mkw 3n oroo,2021,81.8,8,Bayanzurkh,Bayanmongol khoroolol,4.5,Bayanmongol khoroolol,Bayanmongol khoroolol
+6341,Santo smart apartment 81.8mkw 3n oroo,2021,81.8,8,Bayanzurkh,Bayanmongol khoroolol,4.5,Bayanmongol khoroolol,Bayanmongol
 6513,Narnы khoroolold 3 oroo bair,2020,70,11,KHan-Uul,Narnы khoroolol,4.5,Narnы khoroolol,Narnii khoroolol
 6529,Narnы khoroolold 3 oroo,2020,70,11,Bayangol,Narnы khoroolol,4.5,Narnы khoroolol,Narnii khoroolol
 6838,Awtai sain khotkhond 3 oroo bair,2023,65.4,8,Bayanzurkh,Sansar,4.5,Sansar,Sansar
@@ -1134,8 +1134,8 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5586,SHunshig willad 4 oroo,2022,120.9,3,KHan-Uul,Nisekh,4.5,Nisekh,Nisekh
 3100,Belmonte 1 4oroo bair,2021,115.47,16,KHan-Uul,YAarmag,4.494673941,YAarmag,Yarmag
 4359,"YAarmag, belmonte luxury residence 1 khotkhond 4 oroo oron cuuts",2021,115.47,10,KHan-Uul,YAarmag,4.494673941,YAarmag,Yarmag
-73,Bayanmongol khoroololыn chankh urd santo apartment-d 3 oroo,2020,81.3,8,Bayanzurkh,Bayanmongol khoroolol,4.489544895,Bayanmongol khoroolol,Bayanmongol khoroolol
-75,"Mint,home plaza-n zuun tald santo apartmyent 3 oroo",2020,81.3,8,Bayanzurkh,Bayanmongol khoroolol,4.489544895,Bayanmongol khoroolol,Bayanmongol khoroolol
+73,Bayanmongol khoroololыn chankh urd santo apartment-d 3 oroo,2020,81.3,8,Bayanzurkh,Bayanmongol khoroolol,4.489544895,Bayanmongol khoroolol,Bayanmongol
+75,"Mint,home plaza-n zuun tald santo apartmyent 3 oroo",2020,81.3,8,Bayanzurkh,Bayanmongol khoroolol,4.489544895,Bayanmongol khoroolol,Bayanmongol
 2458,"Narnы khoroolold 79,98m2 3 oroo bair",2019,79.98,14,Bayangol,Narnы khoroolol,4.488622156,Narnы khoroolol,Narnii khoroolol
 773,Enkhtaiwanы guurnii zuun tald aqua garden khotkhond 3 oroo,2024,92,21,KHan-Uul,120 myangat,4.48826087,120 myangat,120 myangat
 876,Enkhtaiwanы guurnii zuun tald aqua garden khotkhond 3 oroo,2024,92,21,KHan-Uul,120 myangat,4.48826087,120 myangat,120 myangat
@@ -1174,9 +1174,9 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 6457,Narnы khoroollыn ondort 80m.kw 3 oroo,2021,80,20,Bayangol,Narnы khoroolol,4.45,Narnы khoroolol,Narnii khoroolol
 6825,Narnы khoroollыn ondort 80m.kw 3 oroo,2018,80,20,Bayangol,Narnы khoroolol,4.45,Narnы khoroolol,Narnii khoroolol
 6888,Narnы khoroololыn ondort 3 oroo,2020,80,20,Bayangol,Narnы khoroolol,4.45,Narnы khoroolol,Narnii khoroolol
-79,"Bzd, tsetserlegt khureelengiin khoino santo smart apartmyent khotkhond 81.8m2 3 oroo",2020,81,8,Bayanzurkh,Bayanmongol khoroolol,4.444444444,Bayanmongol khoroolol,Bayanmongol khoroolol
+79,"Bzd, tsetserlegt khureelengiin khoino santo smart apartmyent khotkhond 81.8m2 3 oroo",2020,81,8,Bayanzurkh,Bayanmongol khoroolol,4.444444444,Bayanmongol khoroolol,Bayanmongol
 338,Songinokhairkhan duuregt 1 oroo,1999,18,1,Songino KHairkhan,21-r khoroolol,4.444444444,21-r khoroolol,21-r khoroolol
-3611,"Bzd, bayanmongol khoroololыn urd santo smart apartmyent-d 3 oroo",2020,81,8,Bayanzurkh,Bayanmongol khoroolol,4.444444444,Bayanmongol khoroolol,Bayanmongol khoroolol
+3611,"Bzd, bayanmongol khoroololыn urd santo smart apartmyent-d 3 oroo",2020,81,8,Bayanzurkh,Bayanmongol khoroolol,4.444444444,Bayanmongol khoroolol,Bayanmongol
 4483,Tansag zeregleliin 4 oroo oron suuts,2013,270,5,KHan-Uul,Zaisan,4.444444444,Zaisan,Zaisan
 1252,KHotыn towd 23-r surguuliin urd 2 oroo bair,2008,75.41,2,CHingeltei,"40, 50 myangat",4.442381647,"40, 50 myangat","40, 50 myangat"
 7634,Garden city 2 khotkhond 4 oroo bair,2022,83.3,8,KHan-Uul,Busad,4.441776711,Garden city,Yarmag
@@ -1201,7 +1201,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 4086,Zaisand 3 oroo bair,2022,57,4,KHan-Uul,Zaisan,4.403508772,Zaisan,Zaisan
 786,Vip residence 3 oroo,2023,80,8,KHan-Uul,YAarmag,4.4,YAarmag,Yarmag
 1223,White hill khotkhon 3 oroo,2022,57.07,4,KHan-Uul,Zaisan,4.4,Zaisan,Zaisan
-1492,Santo life 2 oroo,2024,50,15,Bayanzurkh,Bayanmongol khoroolol,4.4,Bayanmongol khoroolol,Bayanmongol khoroolol
+1492,Santo life 2 oroo,2024,50,15,Bayanzurkh,Bayanmongol khoroolol,4.4,Bayanmongol khoroolol,Bayanmongol
 1615,Santo apartment 95m2 3 oroo bair,2021,95,11,Bayanzurkh,Busad,4.4,Santo,Home plaza
 2126,grand marshal willa khotkhond 106.65 m2 pyentkhaus,2023,106.65,4,Sukhbaatar,Busad,4.4,Marshal,Marshal
 3113,Nekhmel khotkhond 90m2 3 oroo bair,2020,90.18,14,KHan-Uul,Busad,4.4,Nekhmel,19-r khoroolol
@@ -1228,12 +1228,12 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1475,Narnы khoroololыn ondort 69mkw 3 oroo oron suuts,2018,70,10,Bayangol,Busad,4.357142857,Narnii khoroolol,Narnii khoroolol
 6944,Narnы khoroollыn ondort 70m.kw,2018,70,10,Bayangol,Narnы khoroolol,4.357142857,Narnы khoroolol,Narnii khoroolol
 4143,YAarmag garden city-2 khotkhond 83.8mkw 4 oroo oron suuts,2022,83.8,8,KHan-Uul,YAarmag,4.355608592,YAarmag,Yarmag
-481,"Bzd, 26-r khoroo elizabyet khotkhond 84.75mkw 3oroo bair",2016,84.75,5,Bayanzurkh,Bayanmongol khoroolol,4.353982301,Bayanmongol khoroolol,Bayanmongol khoroolol
+481,"Bzd, 26-r khoroo elizabyet khotkhond 84.75mkw 3oroo bair",2016,84.75,5,Bayanzurkh,Bayanmongol khoroolol,4.353982301,Bayanmongol khoroolol,Bayanmongol
 6879,Elizabyet khotkhond 3 oroo bair,2019,84.75,5,Bayanzurkh,Busad,4.353982301,Elizabeth,National park
 6922,Elizabeth khotkhond 3 oroo bair,2018,84.75,5,Bayanzurkh,Busad,4.353982301,Elizabeth,National park
 6970,"Elizabyet khotkhond buren intyeriyer 3 oroo bair 84,5m2",2020,84.75,12,Bayanzurkh,Busad,4.353982301,Elizabeth,National park
 5634,Garden city 2 t 3 oroo bair,2022,83.3,4,KHan-Uul,Busad,4.350060024,Garden city,Yarmag
-444,Bayanmongol khoroollыn urd tansag zeregleliin santo smart khotkhond 3 oroo oron suuts,2021,98,11,Bayanzurkh,Bayanmongol khoroolol,4.35,Bayanmongol khoroolol,Bayanmongol khoroolol
+444,Bayanmongol khoroollыn urd tansag zeregleliin santo smart khotkhond 3 oroo oron suuts,2021,98,11,Bayanzurkh,Bayanmongol khoroolol,4.35,Bayanmongol khoroolol,Bayanmongol
 457,Santo smart apartmyentd,2021,98.6,11,Bayanzurkh,Olimp khotkhon,4.35,Olimp khotkhon,Home plaza
 1565,Garden city 2t 3 oroo bair 83mkw,2021,83.3,4,KHan-Uul,Busad,4.35,Garden city,Yarmag
 6634,YAarmagt 4 oroo oron suuts 82.8m2,2022,82.8,9,KHan-Uul,YAarmag,4.347826087,YAarmag,Yarmag
@@ -1282,7 +1282,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2574,Mandala town-d 122.4 mkw 3 oroo oron suuts,2019,122.4,6,Bayanzurkh,Busad,4.3,Mandala360,National park
 2667,KHotыn tawd uikh baruun tald 24-r surguuliin urd 3 oroo oron suuts 89.42m2.,2010,89.42,5,CHingeltei,Busad,4.3,Khotiin tov,SBTalbai
 2878,Garden city 2 82m2 4 oroo khudaldaldana.,2022,82.8,15,KHan-Uul,Busad,4.3,Garden city 2,Yarmag
-3185,Global park49.79mkw 2oroo,2023,49.79,13,Bayanzurkh,Bayanmongol khoroolol,4.3,Bayanmongol khoroolol,Bayanmongol khoroolol
+3185,Global park49.79mkw 2oroo,2023,49.79,13,Bayanzurkh,Bayanmongol khoroolol,4.3,Bayanmongol khoroolol,Bayanmongol
 3280,Sansart gal togoo tusdaa 2 oroo bair,2022,61,1,Bayanzurkh,Sansar,4.3,Sansar,Sansar
 3405,Sansart rtsnk-n baruun tald awtai sain khaanы orgoo khotkhond 3 oroo bair,2022,65.4,2,Bayanzurkh,Sansar,4.3,Sansar,Sansar
 3534,6-r bichild 2 oroo,1998,30,4,Bayangol,6-r bichil,4.3,6-r bichil,"3, 4-r khoroolol"
@@ -1301,21 +1301,21 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 6276,YAarmagt dream plaza 3 oroo bair 90m2,2022,90,13,KHan-Uul,YAarmag,4.3,YAarmag,Yarmag
 6285,19r khoroolol nekhmel khotkhond 80mkw 3oroo,2022,80,7,KHan-Uul,19-r khoroolol,4.3,19-r khoroolol,19-r khoroolol
 6483,19r khoroolold bairlakh nekhmel khotkhond 87m2 3 oroo,2023,80,8,KHan-Uul,19-r khoroolol,4.3,19-r khoroolol,19-r khoroolol
-6545,Santo smart apartment,2021,98,11,Bayanzurkh,Bayanmongol khoroolol,4.3,Bayanmongol khoroolol,Bayanmongol khoroolol
+6545,Santo smart apartment,2021,98,11,Bayanzurkh,Bayanmongol khoroolol,4.3,Bayanmongol khoroolol,Bayanmongol
 7305,YAarmag dream plaza apartment 4 oroo bair,2022,140,13,KHan-Uul,YAarmag,4.3,YAarmag,Yarmag
 1972,Garden city 2 khotkhond 4 oroo,2022,130.3,8,KHan-Uul,YAarmag,4.3,YAarmag,Yarmag
 1394,Garden city2 4oroo,2022,82.8,15,KHan-Uul,YAarmag,4.299516908,YAarmag,Yarmag
 6177,Cansarыn imartыn khoino tenuun 6 oron suutsand 2 oroo,2022,67,3,Bayanzurkh,Sansar,4.298656716,Sansar,Sansar
 7573,Sansarыn rtsnk baruun tald tenuun apartmyent 6-d 2 oroo oron suuts,2022,67,3,Bayanzurkh,Sansar,4.298507463,Sansar,Sansar
 3371,TSetserlegt khureelengiin khoino 4 oroo,2023,93,8,Bayanzurkh,Olimp khotkhon,4.295376344,Olimp khotkhon,Home plaza
-6030,Bzd-iin 26-r khoroo santo smart apartment-d 2 oroo bair,2016,61,6,Bayanzurkh,Bayanmongol khoroolol,4.295081967,Bayanmongol khoroolol,Bayanmongol khoroolol
-6033,Santo smart 2oroo,2020,61,6,Bayanzurkh,Bayanmongol khoroolol,4.295081967,Bayanmongol khoroolol,Bayanmongol khoroolol
+6030,Bzd-iin 26-r khoroo santo smart apartment-d 2 oroo bair,2016,61,6,Bayanzurkh,Bayanmongol khoroolol,4.295081967,Bayanmongol khoroolol,Bayanmongol
+6033,Santo smart 2oroo,2020,61,6,Bayanzurkh,Bayanmongol khoroolol,4.295081967,Bayanmongol khoroolol,Bayanmongol
 3555,park view khotkhond 2 oroo bair,2019,52.63,2,Bayanzurkh,Busad,4.294128824,Park view,National park
 6172,National park khotkhond 3 oroo,2021,85,5,Bayanzurkh,Busad,4.294117647,National park,National park
 2540,YAarmagt garden city khotkhond 4oroo bair,2022,82.7,3,KHan-Uul,YAarmag,4.292623942,YAarmag,Yarmag
-2473,Bzd-t bayanmongolыn urd santo apartment- d grashtai 3 oroo bair,2022,98.6,10,Bayanzurkh,Bayanmongol khoroolol,4.290060852,Bayanmongol khoroolol,Bayanmongol khoroolol
+2473,Bzd-t bayanmongolыn urd santo apartment- d grashtai 3 oroo bair,2022,98.6,10,Bayanzurkh,Bayanmongol khoroolol,4.290060852,Bayanmongol khoroolol,Bayanmongol
 2396,Santo apartment 2 oroo,2019,61.1,6,Bayanzurkh,Busad,4.288052373,Santo,Home plaza
-6126,26 khoroo santo apartmyent 61mkw 2 oroo,2020,61.1,6,Bayanzurkh,Bayanmongol khoroolol,4.288052373,Bayanmongol khoroolol,Bayanmongol khoroolol
+6126,26 khoroo santo apartmyent 61mkw 2 oroo,2020,61.1,6,Bayanzurkh,Bayanmongol khoroolol,4.288052373,Bayanmongol khoroolol,Bayanmongol
 3772,"YAarmagt garden city khotkhond 95,82 mkw 4 oroo",2022,95,7,KHan-Uul,YAarmag,4.287157895,YAarmag,Yarmag
 113,16r khoroolold 2 oroo bair,1989,28,2,Bayanzurkh,16-r khoroolol,4.285714286,16-r khoroolol,Tsaiz
 3152,Nekhmel khotkhond 3 oroo,2020,91,20,KHan-Uul,Busad,4.285714286,Nekhmel,19-r khoroolol
@@ -1393,10 +1393,10 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 3023,Modun taun 3 oroo,2019,94,5,KHan-Uul,Busad,4.2,Modun town,Marshal
 3098,Santo smart apartmyent,2019,99,11,Bayanzurkh,Busad,4.2,Santo,Home plaza
 3234,YAarmagt vip residence 3 oroo,2023,84,3,KHan-Uul,Busad,4.2,Vip residence,Yarmag
-3308,Emerald residence xotxond 132m2 4 uruu xudaldana,2021,132,3,Bayanzurkh,Busad,4.2,Emerald residence,Bayanmongol khoroolol
+3308,Emerald residence xotxond 132m2 4 uruu xudaldana,2021,132,3,Bayanzurkh,Busad,4.2,Emerald residence,Bayanmongol
 3397,"Gardyen siti2 , 3 oroo",2022,75.5,14,KHan-Uul,YAarmag,4.2,YAarmag,Yarmag
 3980,Vip residence 4 oroo 131.31m2,2021,131.31,6,KHan-Uul,YAarmag,4.2,YAarmag,Yarmag
-4083,Emerald town gal togoo tusdaa 5 uruu bair,2021,178,10,Bayanzurkh,Busad,4.2,Emerald residence,Bayanmongol khoroolol
+4083,Emerald town gal togoo tusdaa 5 uruu bair,2021,178,10,Bayanzurkh,Busad,4.2,Emerald residence,Bayanmongol
 4150,King tauer khotkhond 118mkw 3 oroo bair,2021,118,7,KHan-Uul,King Tower,4.2,King Tower,Marshal
 4174,Garden city 2 4oroo baip,2022,130,2,KHan-Uul,YAarmag,4.2,YAarmag,Yarmag
 4198,"KHud , khan-uul tsogtsolbor khotkhond. 68.55mkw 3 oroo oron suuts",2021,68.55,7,KHan-Uul,19-r khoroolol,4.2,19-r khoroolol,19-r khoroolol
@@ -1464,7 +1464,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 6532,Dragon towiin khoid tald khuuchnы 9 dawkhart,1995,29,7,Songino KHairkhan,1-r khoroolol,4.137931034,1-r khoroolol,1-r khoroolol
 7357,2 oroo,1990,29,2,Bayangol,6-r bichil,4.137931034,6-r bichil,"3, 4-r khoroolol"
 193,Hunnu tower 4 uruu,2022,112.39,14,KHan-Uul,YAarmag,4.13737877,YAarmag,Yarmag
-2226,Elizabyet khotkhond 2oroo,2017,52,10,Bayanzurkh,Bayanmongol khoroolol,4.134615385,Bayanmongol khoroolol,Bayanmongol khoroolol
+2226,Elizabyet khotkhond 2oroo,2017,52,10,Bayanzurkh,Bayanmongol khoroolol,4.134615385,Bayanmongol khoroolol,Bayanmongol
 1871,Artsat1 khotkhond 3oroo oron suuts,2019,84,6,KHan-Uul,YAarmag,4.130952381,YAarmag,Yarmag
 6130,1-r horoolold ugsarmaliin 2 oroo,1989,31,9,Songino KHairkhan,1-r khoroolol,4.129032258,1-r khoroolol,1-r khoroolol
 1639,Enkhtaiwanы guurnii zuun urd tald kei eich apartment 4 oroo,2013,127.75,6,KHan-Uul,KHurd,4.125244618,KHurd,Tsengeldekh
@@ -1473,7 +1473,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1659,Orgil shiltgeen,2013,136,6,KHan-Uul,Zaisan,4.117647059,Zaisan,Zaisan
 2218,CHingeltei duurgiin 6-r khoroo bayanburdiin toirgiin urd 2oroo bair,2000,34,1,CHingeltei,Bayanburd,4.117647059,Bayanburd,Bayanburd
 5834,Roma town 3uruu bair,2020,85,5,KHan-Uul,Zaisan,4.117647059,Zaisan,Zaisan
-1646,Global park khotkhon 2 oroo bair,2023,49.79,13,Bayanzurkh,Bayanmongol khoroolol,4.117292629,Bayanmongol khoroolol,Bayanmongol khoroolol
+1646,Global park khotkhon 2 oroo bair,2023,49.79,13,Bayanzurkh,Bayanmongol khoroolol,4.117292629,Bayanmongol khoroolol,Bayanmongol
 5892,KHan uul 19-r khoroollыn nekhmel khotkhond 3 oroo,2022,80.22,15,KHan-Uul,19-r khoroolol,4.11368736,19-r khoroolol,19-r khoroolol
 5059,KHud yaarmag tawilgatai 71 mkw 3 oroo bair,2022,71,7,KHan-Uul,YAarmag,4.112676056,YAarmag,Yarmag
 5409,"Belmonte luxury residence-2, 3 oroo bair",2022,71,14,KHan-Uul,YAarmag,4.112676056,YAarmag,Yarmag
@@ -1486,11 +1486,11 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5333,KHud shunshig willa 2 -t pyentkhaus 195m2,2021,195,3,KHan-Uul,Busad,4.102564103,Shunshig villa,Yarmag
 7227,Tomor zamd 3 oroo bair,1980,39,1,Bayangol,1-r khoroolol,4.102564103,1-r khoroolol,1-r khoroolol
 2660,Garden city 2 khotkhond 4oroo bair,2021,95.8,7,KHan-Uul,YAarmag,4.102296451,YAarmag,Yarmag
-542,Santo smart khotkhond 98.6mkw 3 oroo oron suuts khupaldana,2018,98.6,11,Bayanzurkh,Bayanmongol khoroolol,4.1,Bayanmongol khoroolol,Bayanmongol khoroolol
+542,Santo smart khotkhond 98.6mkw 3 oroo oron suuts khupaldana,2018,98.6,11,Bayanzurkh,Bayanmongol khoroolol,4.1,Bayanmongol khoroolol,Bayanmongol
 1069,Garden city-2 khotkhond 82.8m2 4 oroo bair,2022,82.8,14,KHan-Uul,YAarmag,4.1,YAarmag,Yarmag
 2462,Vip residence 4 oroo oron suuts,2021,120,8,KHan-Uul,Busad,4.1,Vip residence,Yarmag
 3309,Bayanzurkh 100mk 3 oroo bair,2015,100,10,Bayanzurkh,Busad,4.1,BZD,Officer
-4213,"Bzd , emerald residenced 4oroo",2019,132,3,Bayanzurkh,Busad,4.1,Emerald residence,Bayanmongol khoroolol
+4213,"Bzd , emerald residenced 4oroo",2019,132,3,Bayanzurkh,Busad,4.1,Emerald residence,Bayanmongol
 4484,Garden city-2 72.5m2 shine 3 oroo oron suuts khudaldaldana.,2022,72.5,10,KHan-Uul,Busad,4.1,Garden city 2,Yarmag
 4485,Selbe komfort 114m2 4 oroo bair,2023,114,5,Sukhbaatar,Busad,4.1,Selbe comfort,Natur
 4538,Selbe komfort 92 m.kw 4 oroo bair,2023,92,5,Sukhbaatar,Busad,4.1,Selbe comfort,Natur
@@ -1507,14 +1507,14 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 7199,"Bzd, 26-r khoroo, santo smart apartmyent khotkhond 3 oroo oron suuts",2020,98.6,11,Bayanzurkh,Olimp khotkhon,4.1,Olimp khotkhon,Home plaza
 7345,Lyuks 5 3 oroo bair,2016,100,10,Bayanzurkh,13-r khoroolol,4.1,13-r khoroolol,13-r khoroolol
 7722,Vip residence 3 oroo bair,2021,84.9,4,KHan-Uul,YAarmag,4.1,YAarmag,Yarmag
-3987,Emirald residence emirald khotkhond 175.93mkw 5 oroo,2017,175.93,12,Bayanzurkh,Busad,4.098220883,Emerald residence,Bayanmongol khoroolol
+3987,Emirald residence emirald khotkhond 175.93mkw 5 oroo,2017,175.93,12,Bayanzurkh,Busad,4.098220883,Emerald residence,Bayanmongol
 431,Peace mall-iin zuun tald 123 mkw 4 oroo bair,2008,123,11,CHingeltei,5-r khoroolol,4.097560976,5-r khoroolol,Tsirk
 1789,KHurd rapid khoroolold 2 oroo bair,2008,72,2,KHan-Uul,120 myangat,4.097222222,120 myangat,120 myangat
 101,Sansart 2 oroo bair,1989,31,3,Bayanzurkh,15-r khoroolol,4.096774194,15-r khoroolol,Jukov
 836,Sansar 2 oroo bair,1989,31,3,Bayanzurkh,Sansar,4.096774194,Sansar,Sansar
 6576,Sansart 2 oroo bair 31m2,1990,31,3,Bayanzurkh,15-r khoroolol,4.096774194,15-r khoroolol,Jukov
 5206,KHan-uul 19-r khoroolold 3 oroo oron suuts,2023,63.49,3,KHan-Uul,Busad,4.095133092,19,19-r khoroolol
-476,"Bzd-26, santo smart apartmyented 3 oroo",2018,120,13,Bayanzurkh,Bayanmongol khoroolol,4.091666667,Bayanmongol khoroolol,Bayanmongol khoroolol
+476,"Bzd-26, santo smart apartmyented 3 oroo",2018,120,13,Bayanzurkh,Bayanmongol khoroolol,4.091666667,Bayanmongol khoroolol,Bayanmongol
 509,Zaisand seven star-d 55m2,2023,55,9,KHan-Uul,Zaisan,4.090909091,Zaisan,Zaisan
 3337,Sansart 4 oroo bair,1989,44,4,Bayanzurkh,Busad,4.090909091,Sansar,Sansar
 4610,Ashiglaltand orson shine bair,2022,61.6,12,KHan-Uul,YAarmag,4.090909091,YAarmag,Yarmag
@@ -1570,7 +1570,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 6107,YAarmag vip residence 3 oroo,2023,74,1,KHan-Uul,YAarmag,4.013513514,YAarmag,Yarmag
 3536,Santo life 2 oroo,2023,51.5,6,Bayanzurkh,Busad,4.012427184,Santo,Home plaza
 5883,Ub shilen banknы khajuud 4 oroo bair 124m2,2013,124,6,CHingeltei,Busad,4.012096774,Ubcity,"40, 50 myangat"
-1644,Global park khotkhon 2oroo,2023,53.14,11,Bayanzurkh,Bayanmongol khoroolol,4.008280015,Bayanmongol khoroolol,Bayanmongol khoroolol
+1644,Global park khotkhon 2oroo,2023,53.14,11,Bayanzurkh,Bayanmongol khoroolol,4.008280015,Bayanmongol khoroolol,Bayanmongol
 3279,Active garden -d 4 oroo bair,2022,92.82,9,KHan-Uul,Nisekh,4.007756949,Nisekh,Nisekh
 557,"YAarmag, garden city 2 khotkhond 4 oroo",2022,130,2,KHan-Uul,YAarmag,4.007692308,YAarmag,Yarmag
 5769,Bagshiin deed jijig 3 oroo,2011,53.15,2,Sukhbaatar,11-r khoroolol,4.00752587,11-r khoroolol,11-r khoroolol
@@ -1597,7 +1597,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1321,"Kh aparment k- eich apartmyent 4 oroo bair 182,98m2",2013,182.98,15,KHan-Uul,120 myangat,4,120 myangat,120 myangat
 1474,Zaisan khill-ыn zuun tald 3 oroo bair,2022,62,3,KHan-Uul,Zaisan,4,Zaisan,Zaisan
 1485,Zaisand 3 oroo bair,2022,50,3,KHan-Uul,Zaisan,4,Zaisan,Zaisan
-1511,Emerald khotkhond 6 oroo bair,2020,178,12,Bayanzurkh,Bayanmongol khoroolol,4,Bayanmongol khoroolol,Bayanmongol khoroolol
+1511,Emerald khotkhond 6 oroo bair,2020,178,12,Bayanzurkh,Bayanmongol khoroolol,4,Bayanmongol khoroolol,Bayanmongol
 1623,KHotыn towd nomun khotkhond 2 oroo oron suuts,2009,77,11,Sukhbaatar,5-r khoroolol,4,5-r khoroolol,Tsirk
 1690,Golden buddha -d 289 m.kw 5 oroo,2021,289,4,KHan-Uul,Zaisan,4,Zaisan,Zaisan
 1709,10-r khoroolol neverland khotkhond 43m2 2 oroo,2023,43,6,Bayangol,10-r khoroolol,4,10-r khoroolol,10-r khoroolol
@@ -1629,7 +1629,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 3583,"Bzd, morning star khotkhond 1 oroo bair",2020,30,1,Bayanzurkh,Busad,4,Morning star,Zuun 4 zam
 3695,"Bzd, morning star khotkhond 1 oroo bair",2019,30,16,Bayanzurkh,Busad,4,Morning star,Zuun 4 zam
 3709,KHotыn towd duplyeks bair 5 oroo,2008,209,12,KHan-Uul,Busad,4,Khotiin tov,SBTalbai
-3817,Emerald khotkhond 132.05 m2 5 oroo bair,2017,132.05,2,Bayanzurkh,Busad,4,Emerald residence,Bayanmongol khoroolol
+3817,Emerald khotkhond 132.05 m2 5 oroo bair,2017,132.05,2,Bayanzurkh,Busad,4,Emerald residence,Bayanmongol
 3834,Bzd 26-r khoroo santo apartmyent khotkhond 98.6 mk 3 oroo bair,2021,98.6,11,Bayanzurkh,Busad,4,Santo,Home plaza
 4044,Bzd-n 26-r khoroo santo apartmyented 119 mkw 3 oroo,2021,119,14,Bayanzurkh,Busad,4,Santo,Home plaza
 4078,TSirkiin khajuud 2 oroo bair,2001,58,7,Sukhbaatar,5-r khoroolol,4,5-r khoroolol,Tsirk
@@ -1682,7 +1682,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 650,Grand marshal luxury villas 75.35mkw 3 oroo,2022,75,3,Sukhbaatar,Busad,3.986666667,Marshal,Marshal
 6284,Dorwon uliralыn tsogtsolbor khotkhond 3oroo,2023,75,4,CHingeltei,Busad,3.986666667,0,#N/A
 6957,TSirkiin baruun tald 13r bairand gal togoo tusdaa 3oroo oron suuts,1991,69,3,Sukhbaatar,5-r khoroolol,3.985507246,5-r khoroolol,Tsirk
-6794,Global park tosold 3 oroo 62m2,2023,62,8,KHan-Uul,Bayanmongol khoroolol,3.983870968,Bayanmongol khoroolol,Bayanmongol khoroolol
+6794,Global park tosold 3 oroo 62m2,2023,62,8,KHan-Uul,Bayanmongol khoroolol,3.983870968,Bayanmongol khoroolol,Bayanmongol
 7712,Mastyer untlagыn orootei 85mkw 2oroo,2023,85,6,KHan-Uul,Busad,3.98,0,#N/A
 2471,Sansart 4n uruu oron suuts hudaldana,1990,44,2,Bayanzurkh,Sansar,3.977272727,Sansar,Sansar
 2923,Sansarыn tunyeld ugsarmalыn gal togoo tusdaa 4 oroo,1988,44,4,Bayanzurkh,Sansar,3.977272727,Sansar,Sansar
@@ -1721,7 +1721,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 3532,Santo life,2023,72.3,4,Bayanzurkh,Busad,3.924204703,Santo,Home plaza
 1180,"YAarmag belmonte khotkhond 4 oroo bair 126,15m2",2021,126.15,4,KHan-Uul,YAarmag,3.923900119,YAarmag,Yarmag
 6804,Belmontye residens khotkhond 4 oroo bair,2021,126.15,4,KHan-Uul,YAarmag,3.923900119,YAarmag,Yarmag
-2996,Emirald khotkhond 5 oroo oron suuts 175m2,2019,175,12,Bayanzurkh,Busad,3.92,Emerald residence,Bayanmongol khoroolol
+2996,Emirald khotkhond 5 oroo oron suuts 175m2,2019,175,12,Bayanzurkh,Busad,3.92,Emerald residence,Bayanmongol
 6855,KHunsnii 4t 2oroo bair,1980,50,2,Sukhbaatar,Busad,3.92,Khunsnii 4,11-r khoroolol
 3111,"Bgd, narnы khoroolold 1 oroo bair 39.55m2",2014,39.55,12,Bayangol,Narnы khoroolol,3.91908976,Narnы khoroolol,Narnii khoroolol
 6435,Narnы khoroolol 1-r eeljind tawilgatai 1 oroo,2014,39.55,12,Bayangol,Narnы khoroolol,3.91908976,Narnы khoroolol,Narnii khoroolol
@@ -1729,7 +1729,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5739,73mkw 3 oroo,2022,73,5,KHan-Uul,YAarmag,3.917808219,YAarmag,Yarmag
 5884,Zaisan village khotkhond 122 mkw 3 ooroo bair khudaldana,2013,122,3,KHan-Uul,Zaisan,3.913934426,Zaisan,Zaisan
 150,"Sbd, 5 khoroo, oros 3 surguuliin urd 92mkw 3 oroo",2014,92,1,Sukhbaatar,220 myangat,3.913043478,220 myangat,SBTalbai
-1996,Santo 2 oroo,2019,55,5,Bayanzurkh,Bayanmongol khoroolol,3.909090909,Bayanmongol khoroolol,Bayanmongol khoroolol
+1996,Santo 2 oroo,2019,55,5,Bayanzurkh,Bayanmongol khoroolol,3.909090909,Bayanmongol khoroolol,Bayanmongol
 6070,"TSetserlegt khureelend 2 oroo 55,78m²",2018,55.78,3,Bayanzurkh,Busad,3.908210828,National park,National park
 528,Santo smart khotkhond 3 oroo oron suuts,2018,119.9,13,Bayanzurkh,Olimp khotkhon,3.903252711,Olimp khotkhon,Home plaza
 2331,Orchlon complex pyentkhaus,2020,166,17,Bayanzurkh,Busad,3.90060241,Orchlon complex,10-r khoroolol
@@ -1793,7 +1793,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 155,Bichil khoroolold 3oroo bair,1996,40,4,Bayangol,6-r bichil,3.875,6-r bichil,"3, 4-r khoroolol"
 2701,120 myangat erel khotkhond 80m2 3 oroo bair,2004,80,3,KHan-Uul,120 myangat,3.875,120 myangat,120 myangat
 2708,120 myangat erel khotkhon 3 oroo bair,2004,80,3,KHan-Uul,120 myangat,3.875,120 myangat,120 myangat
-6424,Kristal taund 3 oroo bair,2013,80,2,Bayanzurkh,Bayanmongol khoroolol,3.875,Bayanmongol khoroolol,Bayanmongol khoroolol
+6424,Kristal taund 3 oroo bair,2013,80,2,Bayanzurkh,Bayanmongol khoroolol,3.875,Bayanmongol khoroolol,Bayanmongol
 5560,Olimp villaged 2 uruu bair,2015,42.6,3,Bayanzurkh,Olympic village,3.873239437,Olympic village,Home plaza
 3282,Zaisangiin suld khotkhond 62 m2 bair,2022,62,11,KHan-Uul,Zaisan luxury village,3.870967742,Zaisan luxury village,Zaisan
 1636,Rapit 2 oroo,2016,56.87,9,KHan-Uul,KHurd,3.868471954,KHurd,Tsengeldekh
@@ -1926,7 +1926,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 7147,YEson-erdene khotkhond 2 oroo,2022,54.57,11,Bayangol,Narnы khoroolol,3.799523548,Narnы khoroolol,Narnii khoroolol
 5845,KHud zaisand 3 oroo 66m2,2018,66,2,KHan-Uul,Zaisan,3.799393939,Zaisan,Zaisan
 7416,YAarmag happy residence khotkhond 2 oroo oron suuts,2022,54,4,KHan-Uul,YAarmag,3.796296296,YAarmag,Yarmag
-5219,Elizabyet khotkhond 3 oroo bair,2017,70.07,7,Bayanzurkh,Bayanmongol khoroolol,3.796203796,Bayanmongol khoroolol,Bayanmongol khoroolol
+5219,Elizabyet khotkhond 3 oroo bair,2017,70.07,7,Bayanzurkh,Bayanmongol khoroolol,3.796203796,Bayanmongol khoroolol,Bayanmongol
 1552,Mandala gardyend 2 oroo bair,2022,46.1,10,KHan-Uul,YAarmag,3.796095445,YAarmag,Yarmag
 1554,Bgd tumur zamd 2 uruu,2020,56.64,7,Bayangol,Tomor zam,3.795903955,Tomor zam,Tomor zam
 3951,19r khoroolold 2 oroo bair,2018,46.4,8,KHan-Uul,19-r khoroolol,3.793103448,19-r khoroolol,19-r khoroolol
@@ -2041,7 +2041,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 3574,Iris residence-d 5 oroo bair,2022,159,13,KHan-Uul,YAarmag,3.7,YAarmag,Yarmag
 3846,"Mandala garden 59,4m2 2 oroo",2023,59.4,16,KHan-Uul,YAarmag,3.7,YAarmag,Yarmag
 4291,Nutgiin buyan happy residence-d 3 oroo bair,2023,86.94,2,KHan-Uul,YAarmag,3.7,YAarmag,Yarmag
-4764,Elizabeth khotkhond 85.17m 3 oroo,2020,85.17,15,Bayanzurkh,Bayanmongol khoroolol,3.7,Bayanmongol khoroolol,Bayanmongol khoroolol
+4764,Elizabeth khotkhond 85.17m 3 oroo,2020,85.17,15,Bayanzurkh,Bayanmongol khoroolol,3.7,Bayanmongol khoroolol,Bayanmongol
 5177,Happy residence 3 oroo bair,2021,70,10,KHan-Uul,YAarmag,3.7,YAarmag,Yarmag
 5326,Happy residence khotkhond 2 oroo bair 70m2,2021,70,10,KHan-Uul,YAarmag,3.7,YAarmag,Yarmag
 5740,KHunnu molыn zamыn urd tald new garden khotkhond 79.9 3oroo bair,2019,79.99,9,KHan-Uul,YAarmag,3.7,YAarmag,Yarmag
@@ -2100,17 +2100,17 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1640,"Bzd 2oroo bair 47,8m2",2019,47.8,12,Bayanzurkh,Busad,3.661087866,BZD,Officer
 7732,King tower -t 205m.kw duplyeks 5 oroo bair,2018,205,12,KHan-Uul,King Tower,3.658536585,King Tower,Marshal
 6034,"KHud,19 khoroolol 3 oroo 65m2",2023,65,4,KHan-Uul,19-r khoroolol,3.658461538,19-r khoroolol,19-r khoroolol
-3619,"Bzd, bayanmongol khoroololыn urd elizabyet khotkhond 2 oroo",2019,60.16,4,Bayanzurkh,Bayanmongol khoroolol,3.656914894,Bayanmongol khoroolol,Bayanmongol khoroolol
+3619,"Bzd, bayanmongol khoroololыn urd elizabyet khotkhond 2 oroo",2019,60.16,4,Bayanzurkh,Bayanmongol khoroolol,3.656914894,Bayanmongol khoroolol,Bayanmongol
 1067,Olimp hothond 67mk 3 uruu bair,2019,67,15,Bayanzurkh,Olympic village,3.656716418,Olympic village,Home plaza
 1400,Olimp khotkhon 3 oroo 67m2,2019,67,15,Bayanzurkh,Olimp khotkhon,3.656716418,Olimp khotkhon,Home plaza
-3404,Elizabyet khotkhond 3 oroo bair,2020,67,16,Bayanzurkh,Bayanmongol khoroolol,3.656716418,Bayanmongol khoroolol,Bayanmongol khoroolol
+3404,Elizabyet khotkhond 3 oroo bair,2020,67,16,Bayanzurkh,Bayanmongol khoroolol,3.656716418,Bayanmongol khoroolol,Bayanmongol
 2384,Sunshine village khotkhond 2 oroo bair,2018,57.46,2,Bayanzurkh,Busad,3.654716324,Sunshine,National park
 7852,TSetserlegt khureelengiin khoino sunshine village-d 2 oroo bair,2017,57.46,1,Bayanzurkh,Busad,3.654716324,Sunshine,National park
 2097,SHine olimp khotkhond 3 oroo bair,2018,75.26,5,Bayanzurkh,Olimp khotkhon,3.653999469,Olimp khotkhon,Home plaza
 942,Bgd tbd anduudыn urd panasonic-toi bairand 2oroo bair,2015,52,12,Bayangol,Busad,3.653846154,Anduud,Tomor zam
 246,Narnы khoroollыn khoino bairlakh yeson erdene khotkhond 65.97m² 2 oroo shine bair,2022,65.97,7,Bayangol,19-r khoroolol,3.653175686,19-r khoroolol,19-r khoroolol
 673,Narnы khoroollыn khoino bairlakh yeson erdene khotkhond 65.97m 2 oroo,2022,65.97,8,Bayangol,Busad,3.652720934,Eson erdene,Altai khotkhon
-7467,Bzd-santo apartment-d 61.9mkw2 oroo,2019,61.9,16,Bayanzurkh,Bayanmongol khoroolol,3.651050081,Bayanmongol khoroolol,Bayanmongol khoroolol
+7467,Bzd-santo apartment-d 61.9mkw2 oroo,2019,61.9,16,Bayanzurkh,Bayanmongol khoroolol,3.651050081,Bayanmongol khoroolol,Bayanmongol
 1042,SHine yaarmagt 2 oroo bair,2023,54.4,16,KHan-Uul,YAarmag,3.65,YAarmag,Yarmag
 2489,YEson erdene khotkhond 2 oroo bair,2022,66,8,Bayangol,19-r khoroolol,3.65,19-r khoroolol,19-r khoroolol
 2528,Nisekh active garden residence khotkhond 3 oroo oron suuts,2022,79.46,13,KHan-Uul,Nisekh,3.65,Nisekh,Nisekh
@@ -2122,8 +2122,8 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 6004,YEson erdene khotkhond 2 oroo,2022,65.97,7,Bayangol,Narnы khoroolol,3.649992421,Narnы khoroolol,Narnii khoroolol
 4904,"Nisekhiin toirog, active garden nd 3 oroo",2022,79.46,13,KHan-Uul,Nisekh,3.649635036,Nisekh,Nisekh
 4984,1dawkhart uilchilgeenii zoriulalttai,2022,37,1,Sukhbaatar,100 ail,3.648648649,100 ail,100 ail
-1309,Elizabyet khotkhon 60.16mkw 2 oroo bair,2019,60.16,4,Bayanzurkh,Bayanmongol khoroolol,3.648603723,Bayanmongol khoroolol,Bayanmongol khoroolol
-2486,Elizabyet khotkhond 2 oroo bair,2019,60.16,4,Bayanzurkh,Bayanmongol khoroolol,3.648603723,Bayanmongol khoroolol,Bayanmongol khoroolol
+1309,Elizabyet khotkhon 60.16mkw 2 oroo bair,2019,60.16,4,Bayanzurkh,Bayanmongol khoroolol,3.648603723,Bayanmongol khoroolol,Bayanmongol
+2486,Elizabyet khotkhond 2 oroo bair,2019,60.16,4,Bayanzurkh,Bayanmongol khoroolol,3.648603723,Bayanmongol khoroolol,Bayanmongol
 2759,Elizabyet khotkhond 2 oroo,2019,60.16,4,Bayanzurkh,Busad,3.648603723,Elizabeth,National park
 2906,Elyezabit khotkhond 60.16mkw 2 oroo,2018,60.16,4,Bayanzurkh,Busad,3.648603723,Elizabeth,National park
 3423,Elizabeth elizabet khotkhond 60.16mkw 2 oroo,2019,60.16,4,Bayanzurkh,Olimp khotkhon,3.648603723,Olimp khotkhon,Home plaza
@@ -2133,7 +2133,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 3349,1r khoroolold gal togoo tusdaa 3 oroo bair,1985,48,7,Songino KHairkhan,1-r khoroolol,3.645833333,1-r khoroolol,1-r khoroolol
 6550,Elizabyet khotkhon 2 oroo,2018,60.16,4,Bayanzurkh,Busad,3.640292553,Elizabeth,National park
 3352,KHotыn towd consul tower 2 oroo,2018,47.8,16,Bayanzurkh,Busad,3.640167364,Consul tower,Emart Sansar
-1946,"Bzd, 26-r khoroo, santo smart khotkhond 2 oroo",2019,61,3,Bayanzurkh,Bayanmongol khoroolol,3.639344262,Bayanmongol khoroolol,Bayanmongol khoroolol
+1946,"Bzd, 26-r khoroo, santo smart khotkhond 2 oroo",2019,61,3,Bayanzurkh,Bayanmongol khoroolol,3.639344262,Bayanmongol khoroolol,Bayanmongol
 3783,yeson erdene khotkhond 2 oroo bair,2022,65.97,7,Bayangol,Narnы khoroolol,3.638017281,Narnы khoroolol,Narnii khoroolol
 860,Zaisan kfc-n khajuud zam daguu bairlaltai 3 oroo bair,2017,66,3,KHan-Uul,Zaisan,3.636363636,Zaisan,Zaisan
 1717,"YAarmagt nova vista khotkhond 74,71 mkw 3 oroo",2022,74,9,KHan-Uul,YAarmag,3.635135135,YAarmag,Yarmag
@@ -2148,7 +2148,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 4684,Kingtower-t 5 oroo duplyeks,2023,190,9,KHan-Uul,King Tower,3.631578947,King Tower,Marshal
 6697,King towert 5 uruu duplex,2023,190,9,KHan-Uul,King Tower,3.631578947,King Tower,Marshal
 2447,"Narnы khoroolold 84m2, 3 oroo oron suuts",2013,84,12,Bayangol,Narnы khoroolol,3.630952381,Narnы khoroolol,Narnii khoroolol
-6641,Bayanmongold 3uruu zogsooltoi,2016,73,4,Bayanzurkh,Bayanmongol khoroolol,3.630136986,Bayanmongol khoroolol,Bayanmongol khoroolol
+6641,Bayanmongold 3uruu zogsooltoi,2016,73,4,Bayanzurkh,Bayanmongol khoroolol,3.630136986,Bayanmongol khoroolol,Bayanmongol
 2305,Bzd 26-r khoroo true l khotkhond 85.4mkw 4 oroo bair,2016,85.4,13,Bayanzurkh,Busad,3.629976581,National park,National park
 43,Bgd modnы-2 3 oroo 62m2 bair,2012,62,1,Bayangol,"3, 4 khoroolol",3.629032258,"3, 4 khoroolol","3, 4-r khoroolol"
 555,SHine yaarmag tsogtsolbor khoroolold gal togoo tusdaa 2 oroo,2022,54,14,KHan-Uul,YAarmag,3.626666667,YAarmag,Yarmag
@@ -2167,7 +2167,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 6412,"Sunrise town-d 3 oroo gal togoonы tawilga, uudnii khuwtsasnы shuugeetei bair",2015,94.63,2,Bayanzurkh,Ikh Mongol khoroolol,3.614075874,Ikh Mongol khoroolol,Dunjingarav
 1650,Elizabyet khotkhond 3 oroo bair,2019,67.8,16,Bayanzurkh,Olimp khotkhon,3.613569322,Olimp khotkhon,Home plaza
 7215,Zaisan orgil star khotkhond 3 oroo khudaldana,2006,119,6,KHan-Uul,Zaisan,3.613445378,Zaisan,Zaisan
-1728,Elizabyet khotkhond 3 oroo bair,2016,67.82,16,Bayanzurkh,Bayanmongol khoroolol,3.612503686,Bayanmongol khoroolol,Bayanmongol khoroolol
+1728,Elizabyet khotkhond 3 oroo bair,2016,67.82,16,Bayanzurkh,Bayanmongol khoroolol,3.612503686,Bayanmongol khoroolol,Bayanmongol
 2831,Crystal od apartment 2oroo,2022,37.93,2,Bayangol,Busad,3.611916689,Crystal od,Baruun 4 zam
 702,YAarmag belmonte khotkhond 5 oroo oron suuts,2022,146,3,KHan-Uul,YAarmag,3.611575342,YAarmag,Yarmag
 374,Nisekhiin toirogt gal togoo tusdaa 1 oroo,1993,18,5,KHan-Uul,Nisekh,3.611111111,Nisekh,Nisekh
@@ -2237,7 +2237,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 4283,SHine khotыn zakhirgaanы zuun tald bairlakh garden city khotkhond 108.5m2,2019,108.5,1,KHan-Uul,YAarmag,3.6,YAarmag,Yarmag
 4313,Zaisan nomun willaj khotkhond 112.8mkw 4 oroo,2015,112.8,7,KHan-Uul,Zaisan,3.6,Zaisan,Zaisan
 4314,YAarmag nova vista khotkhon 3oroo bair,2022,75,10,KHan-Uul,YAarmag,3.6,YAarmag,Yarmag
-4318,Elizabeth,2018,85.17,15,Bayanzurkh,Bayanmongol khoroolol,3.6,Bayanmongol khoroolol,Bayanmongol khoroolol
+4318,Elizabeth,2018,85.17,15,Bayanzurkh,Bayanmongol khoroolol,3.6,Bayanmongol khoroolol,Bayanmongol
 4354,Zaisan white hill khotkhond 2 oroo bair,2022,64,9,KHan-Uul,Zaisan,3.6,Zaisan,Zaisan
 4370,6-r bichil khoroolold 4 oroo oronsuuts,1990,50,7,Bayangol,6-r bichil,3.6,6-r bichil,"3, 4-r khoroolol"
 4450,Lite citi / lait siti khotkhon 3 oroo,2022,80,1,KHan-Uul,YAarmag,3.6,YAarmag,Yarmag
@@ -2292,8 +2292,8 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 717,Sansart gal togoo tusdaa 3 oroo bair 39m2,1989,39,2,Bayanzurkh,15-r khoroolol,3.58974359,15-r khoroolol,Jukov
 5078,Mandala gardyen khotkhond 2 oroo,2023,46.8,7,KHan-Uul,YAarmag,3.58974359,YAarmag,Yarmag
 934,Orgil star khotkhond 3 oroo,2012,120,6,KHan-Uul,Busad,3.588,Orgil star,Zaisan Orgil
-3618,"Bzd, tsetserlegt khureelengiin khoino time tower khotkhond 3 oroo bair 65.5m2.",2015,65.5,15,Bayanzurkh,Bayanmongol khoroolol,3.58778626,Bayanmongol khoroolol,Bayanmongol khoroolol
-7473,"65,5m2 3oroo oron suuts",2017,65.5,15,Bayanzurkh,Bayanmongol khoroolol,3.58778626,Bayanmongol khoroolol,Bayanmongol khoroolol
+3618,"Bzd, tsetserlegt khureelengiin khoino time tower khotkhond 3 oroo bair 65.5m2.",2015,65.5,15,Bayanzurkh,Bayanmongol khoroolol,3.58778626,Bayanmongol khoroolol,Bayanmongol
+7473,"65,5m2 3oroo oron suuts",2017,65.5,15,Bayanzurkh,Bayanmongol khoroolol,3.58778626,Bayanmongol khoroolol,Bayanmongol
 4569,11r khoroolold 5 oroo bair,2015,223,12,Sukhbaatar,11-r khoroolol,3.587443946,11-r khoroolol,11-r khoroolol
 6180,Horoolling etsest 3 oroo,1989,46,9,Bayangol,"3, 4 khoroolol",3.586956522,"3, 4 khoroolol","3, 4-r khoroolol"
 3765,16-r khoroolold 2 oroo,2000,29,3,Bayanzurkh,16-r khoroolol,3.586206897,16-r khoroolol,Tsaiz
@@ -2304,12 +2304,12 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2446,4 oroo 100m2,2020,100,2,Bayangol,Teewriin towchoo,3.58,Teewriin towchoo,Tomor zam
 4536,St apartmyent khotkhon 2oroo,2023,48.7,4,Sukhbaatar,100 ail,3.58,100 ail,100 ail
 71,Bzd-ikh mongol khoroolol 38mkw 2 oroo,2013,38,10,Bayanzurkh,Ikh Mongol khoroolol,3.578947368,Ikh Mongol khoroolol,Dunjingarav
-3612,Ikh mongol khoroolold 2 oroo,2013,38,6,Bayanzurkh,Bayanmongol khoroolol,3.578947368,Bayanmongol khoroolol,Bayanmongol khoroolol
+3612,Ikh mongol khoroolold 2 oroo,2013,38,6,Bayanzurkh,Bayanmongol khoroolol,3.578947368,Bayanmongol khoroolol,Bayanmongol
 6792,Narkhan khotkhond,2010,69.9,8,KHan-Uul,Narkhan khotkhon,3.576537911,Narkhan khotkhon,Emart KHUD
 561,11 r horoolold 2 uruu bair,2018,33,15,Sukhbaatar,11-r khoroolol,3.575757576,11-r khoroolol,11-r khoroolol
 3590,"KHud, 19-r khoroolol porta bianca itali zagwarыn oron suutsand 3 oroo",2020,89.5,4,KHan-Uul,19-r khoroolol,3.575418994,19-r khoroolol,19-r khoroolol
 4941,Narnы khoroolol 84.46 m2 3 oroo,2014,84,5,Bayangol,Narnы khoroolol,3.571428571,Narnы khoroolol,Narnii khoroolol
-7121,Bayanmongolыn baruun tald saruul khotkhond 2 oroo bair,2023,42,9,Bayanzurkh,Bayanmongol khoroolol,3.571428571,Bayanmongol khoroolol,Bayanmongol khoroolol
+7121,Bayanmongolыn baruun tald saruul khotkhond 2 oroo bair,2023,42,9,Bayanzurkh,Bayanmongol khoroolol,3.571428571,Bayanmongol khoroolol,Bayanmongol
 1275,120 myangatad 2 oroo bair,2009,47.66,7,KHan-Uul,120 myangat,3.566932438,120 myangat,120 myangat
 3839,Bzd 13-r khoroololыn awtobusnы buudliin chankh ard bairlaltai 1 oroo bair,2009,44.3,7,Bayanzurkh,13-r khoroolol,3.566591422,13-r khoroolol,13-r khoroolol
 3148,Sansart 3 oroo 80m2,2010,80,8,Bayanzurkh,Sansar,3.5625,Sansar,Sansar
@@ -2322,7 +2322,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1877,KHud-n 19-n uilchilgeenii towiin urd,2022,60.8,3,KHan-Uul,19-r khoroolol,3.558552632,19-r khoroolol,19-r khoroolol
 5448,13 khoroolol tsyentral mall-d 97mkw 3oroo,2019,97,10,Bayanzurkh,13-r khoroolol,3.556701031,13-r khoroolol,13-r khoroolol
 3075,Sansar ye mart-n khoino 90m2 4 oroo bair,2012,90,11,Bayanzurkh,Sansar,3.555555556,Sansar,Sansar
-6905,Bzd26-r khoroo saruul khotkhond 2 oroo oron suuts,2015,40.8,5,Bayanzurkh,Bayanmongol khoroolol,3.553921569,Bayanmongol khoroolol,Bayanmongol khoroolol
+6905,Bzd26-r khoroo saruul khotkhond 2 oroo oron suuts,2015,40.8,5,Bayanzurkh,Bayanmongol khoroolol,3.553921569,Bayanmongol khoroolol,Bayanmongol
 6482,"11r khoroolol, 2r surguulыn baruun tald 67.54mkw 3 oroo",2015,67.54,5,Sukhbaatar,11-r khoroolol,3.553449808,11-r khoroolol,11-r khoroolol
 437,Sunset khotkhond towiin shugamd kholbogdson 3oroo,2022,84.45,3,KHan-Uul,Busad,3.552397869,Sunset,Yarmag
 4581,Dunjingaraw khoroolold 3 oroo,2011,74.6,2,Bayanzurkh,Busad,3.55227882,Dunjingarav khotkhon,Dunjingarav
@@ -2351,8 +2351,8 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2913,Sunrise townd 3 uruu bair,2015,90,12,Bayanzurkh,Busad,3.544444444,Sunrise,Dunjingarav
 3314,YAarmagt aktiw gardyend 79mkw,2022,79,11,KHan-Uul,YAarmag,3.544303797,YAarmag,Yarmag
 4448,Active garden residence khotkhond 79 mkw 3 oroo bair,2022,79,13,KHan-Uul,YAarmag,3.544303797,YAarmag,Yarmag
-3438,Bayanmongol khoroolold 73.7mkw 3 oroo,2010,73.7,4,Bayanzurkh,Bayanmongol khoroolol,3.541383989,Bayanmongol khoroolol,Bayanmongol khoroolol
-5754,Bzd 26-r khoroo bayanmongol khoroolold 3 oroo 73.7m2,2017,73.7,4,Bayanzurkh,Bayanmongol khoroolol,3.541383989,Bayanmongol khoroolol,Bayanmongol khoroolol
+3438,Bayanmongol khoroolold 73.7mkw 3 oroo,2010,73.7,4,Bayanzurkh,Bayanmongol khoroolol,3.541383989,Bayanmongol khoroolol,Bayanmongol
+5754,Bzd 26-r khoroo bayanmongol khoroolold 3 oroo 73.7m2,2017,73.7,4,Bayanzurkh,Bayanmongol khoroolol,3.541383989,Bayanmongol khoroolol,Bayanmongol
 365,KHud green house khotkhond 2 oroo bair,2015,50,2,KHan-Uul,Zaisan,3.54,Zaisan,Zaisan
 2158,KHud griinkhaust 2 oroo bair,2015,50,2,KHan-Uul,Busad,3.54,Green house,Zaisan Orgil
 3824,Nisora tsamkhagt 3 oroo bair,2016,113,15,Bayanzurkh,Sansar,3.539823009,Sansar,Sansar
@@ -2484,7 +2484,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 4686,Gemtliin emnelgiin zuun tald 2 oroo bair,2023,44,16,Bayangol,"3, 4 khoroolol",3.5,"3, 4 khoroolol","3, 4-r khoroolol"
 4784,19t 3 oroo,2022,108,12,KHan-Uul,19-r khoroolol,3.5,19-r khoroolol,19-r khoroolol
 4816,"Four season 80,71 m2 3 uruu narnii guur baruun tald 4 uliral narnы guur",2022,80.71,14,Bayangol,Narnы khoroolol,3.5,Narnы khoroolol,Narnii khoroolol
-4831,River villa 2 oroo,2022,60,3,KHan-Uul,Bayanmongol khoroolol,3.5,Bayanmongol khoroolol,Bayanmongol khoroolol
+4831,River villa 2 oroo,2022,60,3,KHan-Uul,Bayanmongol khoroolol,3.5,Bayanmongol khoroolol,Bayanmongol
 4852,Gumuda garden khotkhond 71.51mkw-tai 3 oroo bair,2024,71.51,3,KHan-Uul,YAarmag,3.5,YAarmag,Yarmag
 4874,Tsagaan ord hothond 80m2 3 uruu bair,2020,80,4,KHan-Uul,Misheel,3.5,Misheel,Misheel
 4894,Mandala gardyen khotkhond 106m2 4 oroo bair,2022,106,6,KHan-Uul,YAarmag,3.5,YAarmag,Yarmag
@@ -2562,10 +2562,10 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 3341,YAarmagt 2 oroo bair,2022,43,3,KHan-Uul,YAarmag,3.488372093,YAarmag,Yarmag
 3972,KHud udirdlagыn akadyemыn urd 69-r bairand 2 oroo bair,2014,43,1,KHan-Uul,19-r khoroolol,3.488372093,19-r khoroolol,19-r khoroolol
 1369,YAarmagt 106.1m2 4 oroo bair,2022,106.1,1,KHan-Uul,YAarmag,3.487276155,YAarmag,Yarmag
-4570,"Bzd, 26-r khoroo, taim tauer khotkhond 2 oroo",2016,63.1,3,Bayanzurkh,Bayanmongol khoroolol,3.486529319,Bayanmongol khoroolol,Bayanmongol khoroolol
+4570,"Bzd, 26-r khoroo, taim tauer khotkhond 2 oroo",2016,63.1,3,Bayanzurkh,Bayanmongol khoroolol,3.486529319,Bayanmongol khoroolol,Bayanmongol
 2116,S apartment 2 oroo,2022,57.09,3,Sukhbaatar,Dolgoon nuur,3.485724295,Dolgoon nuur,Dolgoon nuur
 2029,KHurdыn 1 oroo,2012,35,6,KHan-Uul,KHurd,3.485714286,KHurd,Tsengeldekh
-727,Saruul khotkhond 2 oroo bair,2019,42.2,4,Bayanzurkh,Bayanmongol khoroolol,3.483412322,Bayanmongol khoroolol,Bayanmongol khoroolol
+727,Saruul khotkhond 2 oroo bair,2019,42.2,4,Bayanzurkh,Bayanmongol khoroolol,3.483412322,Bayanmongol khoroolol,Bayanmongol
 2601,Bars zakhыn khoino premium ub-d 4 oroo bair,2020,100.5,14,Bayangol,Tomor zam,3.482587065,Tomor zam,Tomor zam
 5023,Jiguur grandыn shine galtogoo tusdaa 3 oroo bair,2022,74,8,KHan-Uul,Busad,3.482432432,Jiguur grand,120 myangat
 6790,KHud 1-r khoroo 2 oroo 56m2,2003,56,4,KHan-Uul,120 myangat,3.482142857,120 myangat,120 myangat
@@ -2575,7 +2575,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 4658,River villa khotkhond 2 oroo bair,2022,46,9,KHan-Uul,Busad,3.47826087,River villa ,Home plaza
 2169,115 surguuliin ard 2 oroo bair,2016,63.3,3,KHan-Uul,UB Town,3.475513428,UB Town,Misheel
 7561,Golomt khotkhond 2 oroo,2008,67.35,4,CHingeltei,Baruun 4 zam,3.474387528,Baruun 4 zam,Baruun 4 zam
-1757,Bayanmongol khoroolold 2 oroo,2010,43.2,7,Bayanzurkh,Bayanmongol khoroolol,3.472222222,Bayanmongol khoroolol,Bayanmongol khoroolol
+1757,Bayanmongol khoroolold 2 oroo,2010,43.2,7,Bayanzurkh,Bayanmongol khoroolol,3.472222222,Bayanmongol khoroolol,Bayanmongol
 2835,Tomor zamd 2oroo,2022,49,11,Bayangol,Tomor zam,3.469387755,Tomor zam,Tomor zam
 6090,Olimp willaj khotkhond 49m2 2 oroo bair,2014,49,2,Bayanzurkh,Olimp khotkhon,3.469387755,Olimp khotkhon,Home plaza
 5376,Narlag urguud 3 oroo bair,2016,94,6,Bayanzurkh,Busad,3.468085106,Narlag orgoo khotkhon,National park
@@ -2602,26 +2602,26 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2078,Inel zaisan willaj 3 oroo,2014,79,10,KHan-Uul,Zaisan,3.443037975,Zaisan,Zaisan
 923,10 r khoroolol my toun,2018,49,1,Bayangol,10-r khoroolol,3.441632653,10-r khoroolol,10-r khoroolol
 412,River view khotkhond 3 oroo,2023,77,6,KHan-Uul,Misheel,3.441558442,Misheel,Misheel
-3260,Bayanmongold 4 oroo bair,2014,96,5,Bayanzurkh,Bayanmongol khoroolol,3.4375,Bayanmongol khoroolol,Bayanmongol khoroolol
-3588,Bayanmongol khoroolold 96mkw 4 oroo oron suuts,2010,96,5,Bayanzurkh,Bayanmongol khoroolol,3.4375,Bayanmongol khoroolol,Bayanmongol khoroolol
-4540,Bzd 12-r khoroo bayanmongol khoroolol 4 oroo,2012,96,5,Bayanzurkh,Bayanmongol khoroolol,3.4375,Bayanmongol khoroolol,Bayanmongol khoroolol
+3260,Bayanmongold 4 oroo bair,2014,96,5,Bayanzurkh,Bayanmongol khoroolol,3.4375,Bayanmongol khoroolol,Bayanmongol
+3588,Bayanmongol khoroolold 96mkw 4 oroo oron suuts,2010,96,5,Bayanzurkh,Bayanmongol khoroolol,3.4375,Bayanmongol khoroolol,Bayanmongol
+4540,Bzd 12-r khoroo bayanmongol khoroolol 4 oroo,2012,96,5,Bayanzurkh,Bayanmongol khoroolol,3.4375,Bayanmongol khoroolol,Bayanmongol
 4822,"1-r khoroolol, kharkhorin zakhыn khoino 1 dawkharыn gal togol tusdaa 3 oroo bair",1989,48,1,Songino KHairkhan,1-r khoroolol,3.4375,1-r khoroolol,1-r khoroolol
-6415,Bayanmongol khoroolold 4 oroo oron suuts 96m2.,2013,96,5,Bayanzurkh,Bayanmongol khoroolol,3.4375,Bayanmongol khoroolol,Bayanmongol khoroolol
-6594,Bayanmongol khoroolol dunjingaraw 96 mkw 4 oroo,2013,96,5,Bayanzurkh,Bayanmongol khoroolol,3.4375,Bayanmongol khoroolol,Bayanmongol khoroolol
+6415,Bayanmongol khoroolold 4 oroo oron suuts 96m2.,2013,96,5,Bayanzurkh,Bayanmongol khoroolol,3.4375,Bayanmongol khoroolol,Bayanmongol
+6594,Bayanmongol khoroolol dunjingaraw 96 mkw 4 oroo,2013,96,5,Bayanzurkh,Bayanmongol khoroolol,3.4375,Bayanmongol khoroolol,Bayanmongol
 3998,2 oroo bair 42.5m2,2013,42.5,7,Bayanzurkh,Ikh Mongol khoroolol,3.435294118,Ikh Mongol khoroolol,Dunjingarav
 6818,Ikh mongol khoroolold 2oroo,2014,42.5,7,Bayanzurkh,Ikh Mongol khoroolol,3.435294118,Ikh Mongol khoroolol,Dunjingarav
-1432,"Bzd, 26-r khoroo olimpik willaj 2 oroo",2019,48.92,7,Bayanzurkh,Bayanmongol khoroolol,3.43417825,Bayanmongol khoroolol,Bayanmongol khoroolol
+1432,"Bzd, 26-r khoroo olimpik willaj 2 oroo",2019,48.92,7,Bayanzurkh,Bayanmongol khoroolol,3.43417825,Bayanmongol khoroolol,Bayanmongol
 7517,KHurd rapid hurd rapid khoroolold 2 oroo oron suuts khudaldana.,2013,67.03,12,KHan-Uul,Busad,3.431299418,Rapid,Tsengeldekh
 7798,Naturt 1 oroo bair,2017,37.6,7,Bayanzurkh,13-r khoroolol,3.430851064,13-r khoroolol,13-r khoroolol
 1011,Nisekh gardyend 2 oroo bair,2022,49.99,8,KHan-Uul,Nisekh,3.430686137,Nisekh,Nisekh
 4932,YAarmagt sunset house khotkhond 3 oroo,2022,70,2,KHan-Uul,YAarmag,3.429142857,YAarmag,Yarmag
-7114,Saruul khoroolold 3 oroo bair,2020,70,6,Bayanzurkh,Bayanmongol khoroolol,3.428571429,Bayanmongol khoroolol,Bayanmongol khoroolol
-4024,"Bzd, 26-r khoroo bayanmongol khoroolol-d 4 oroo oron suuts",2012,96.27,5,Bayanzurkh,Bayanmongol khoroolol,3.427859146,Bayanmongol khoroolol,Bayanmongol khoroolol
-4885,Bayanmongol khoroolol-d 96.27m 4oroo oron,2012,96.27,5,Bayanzurkh,Bayanmongol khoroolol,3.427859146,Bayanmongol khoroolol,Bayanmongol khoroolol
-6321,Bzd 12-r khoroo bayanmongol khoroolol-d 4 oroo oron suuts,2013,96.27,5,Bayanzurkh,Bayanmongol khoroolol,3.427859146,Bayanmongol khoroolol,Bayanmongol khoroolol
+7114,Saruul khoroolold 3 oroo bair,2020,70,6,Bayanzurkh,Bayanmongol khoroolol,3.428571429,Bayanmongol khoroolol,Bayanmongol
+4024,"Bzd, 26-r khoroo bayanmongol khoroolol-d 4 oroo oron suuts",2012,96.27,5,Bayanzurkh,Bayanmongol khoroolol,3.427859146,Bayanmongol khoroolol,Bayanmongol
+4885,Bayanmongol khoroolol-d 96.27m 4oroo oron,2012,96.27,5,Bayanzurkh,Bayanmongol khoroolol,3.427859146,Bayanmongol khoroolol,Bayanmongol
+6321,Bzd 12-r khoroo bayanmongol khoroolol-d 4 oroo oron suuts,2013,96.27,5,Bayanzurkh,Bayanmongol khoroolol,3.427859146,Bayanmongol khoroolol,Bayanmongol
 728,Dolgoon nuurt gerchilgee belen 2 oroo bair,2022,33.55,12,Sukhbaatar,Dolgoon nuur,3.427719821,Dolgoon nuur,Dolgoon nuur
 1327,Dolgoon nuurыn khoino orgoo apartmyented 2oroo,2022,33.55,12,Sukhbaatar,Dolgoon nuur,3.427719821,Dolgoon nuur,Dolgoon nuur
-7102,Bayanmongol horoolold 4uruu grashiin hamt,2013,96.3,5,Bayanzurkh,Bayanmongol khoroolol,3.426791277,Bayanmongol khoroolol,Bayanmongol khoroolol
+7102,Bayanmongol horoolold 4uruu grashiin hamt,2013,96.3,5,Bayanzurkh,Bayanmongol khoroolol,3.426791277,Bayanmongol khoroolol,Bayanmongol
 7829,"3,4-r khoroollыn etsest 13-r surguuliin baruun talыn bairand 2 oroo bair",2011,46.7,11,Bayangol,"3, 4 khoroolol",3.426124197,"3, 4 khoroolol","3, 4-r khoroolol"
 5935,Inel zaisan khotkhond 3 oroo bair,2013,78.89,6,KHan-Uul,Zaisan,3.422487007,Zaisan,Zaisan
 261,Olimp khotkhond 3 oroo bair,2017,64.3,1,Bayanzurkh,Olimp khotkhon,3.421461897,Olimp khotkhon,Home plaza
@@ -2637,7 +2637,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2769,Zaisand 79mkw 3 oroo,2015,79,6,KHan-Uul,Zaisan,3.417721519,Zaisan,Zaisan
 6093,Zaisan inyel khotkhond 3oroo bair 79mkw,2019,79,6,KHan-Uul,Zaisan,3.417721519,Zaisan,Zaisan
 6552,"Inel zaisan khotkhond 79m2, 3 oroo bair",2014,79,6,KHan-Uul,Zaisan,3.417721519,Zaisan,Zaisan
-7554,Bzd bayanmongol khoroolol 403 1 dawkhart 2 oroo,2008,87.78,1,Bayanzurkh,Bayanmongol khoroolol,3.417634997,Bayanmongol khoroolol,Bayanmongol khoroolol
+7554,Bzd bayanmongol khoroolol 403 1 dawkhart 2 oroo,2008,87.78,1,Bayanzurkh,Bayanmongol khoroolol,3.417634997,Bayanmongol khoroolol,Bayanmongol
 7271,Zaisan 3 uruu,2016,120,1,KHan-Uul,Zaisan,3.416666667,Zaisan,Zaisan
 3861,Saruul khotkhond bair,2016,41,5,Bayanzurkh,Busad,3.414634146,Saruul khotkhon,100 ail
 4293,Dolgoon nuur castle town khotkhond 2-oroo,2023,41,13,Sukhbaatar,Dolgoon nuur,3.414634146,Dolgoon nuur,Dolgoon nuur
@@ -2666,7 +2666,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 226,YEsonerdene khotkhond 2oroo,2018,68.41,3,Bayangol,Narnы khoroolol,3.400087706,Narnы khoroolol,Narnii khoroolol
 7300,Altai khotkhond 2 oroo 58.94m2,2023,58.94,11,Bayangol,Altai khotkhon,3.400067866,Altai khotkhon,Altai khotkhon
 5711,Bgd. 24-r khoroo narnы guurnii baruun tald bairlaltai four_season_villa-d 3 oroo,2023,63.34,10,Bayangol,Busad,3.400063151,Narnii guur,Altai khotkhon
-1765,Elizabyet khotkhond 3 oroo oron suuts,2020,58.32,10,Bayanzurkh,Bayanmongol khoroolol,3.400034294,Bayanmongol khoroolol,Bayanmongol khoroolol
+1765,Elizabyet khotkhond 3 oroo oron suuts,2020,58.32,10,Bayanzurkh,Bayanmongol khoroolol,3.400034294,Bayanmongol khoroolol,Bayanmongol
 3237,"Bzd, elizabyet khotkhond 58.32 mkw 3 oroo oron suuts",2019,58.32,10,Bayanzurkh,Busad,3.400034294,Elizabeth,National park
 5702,Bzd elizabyet khotkhond 3 oroo oron suuts,2018,58.32,10,Bayanzurkh,Olimp khotkhon,3.400034294,Olimp khotkhon,Home plaza
 16,King tower- khotkhond 137mk 3 oroo shine bair,2022,137,7,KHan-Uul,King Tower,3.4,King Tower,Marshal
@@ -2686,7 +2686,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2293,KHanswill khotkhond 98 mkw 3 oroo bair,2016,98,10,KHan-Uul,KHanswill khotkhon,3.4,KHanswill khotkhon,National park
 2362,"KHud yaarmag mandala gardyen 77,3mkw 3 oroo",2022,77.3,11,KHan-Uul,YAarmag,3.4,YAarmag,Yarmag
 2714,"KHotыn towd zam daguu 41,81m2 2 oroo bair",2023,41.81,11,Sukhbaatar,Dolgoon nuur,3.4,Dolgoon nuur,Dolgoon nuur
-2828,"Bzd, elizabyet khotkhond 3 oroo oron suuts",2019,58.32,10,Bayanzurkh,Bayanmongol khoroolol,3.4,Bayanmongol khoroolol,Bayanmongol khoroolol
+2828,"Bzd, elizabyet khotkhond 3 oroo oron suuts",2019,58.32,10,Bayanzurkh,Bayanmongol khoroolol,3.4,Bayanmongol khoroolol,Bayanmongol
 2951,KHotыn towd 2 oroo bair,2013,77,9,Bayanzurkh,Busad,3.4,Khotiin tov,SBTalbai
 3015,Gemtliin emneleg-n zuun tald shine 2 uruu oron suuts hudaldana,2023,53,3,Bayangol,Busad,3.4,Gemtel,"3, 4-r khoroolol"
 3581,Elyezabyeta khotkhond duflyeks 59.45 mkw 2 oroo,2016,59.45,10,Bayanzurkh,Busad,3.4,Elizabeth,National park
@@ -2695,7 +2695,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 4022,KHotыn aaa-bused 105 mkw 3 oroo bair,2012,105,5,Sukhbaatar,Busad,3.4,SBTalbai,SBTalbai
 4456,Misheel expogiin hajuud 3 uruu,2022,76,12,KHan-Uul,Busad,3.4,Misheel,Misheel
 4606,YAarmag vip residence-d pyentkhaus 5 oroo,2022,252.69,8,KHan-Uul,YAarmag,3.4,YAarmag,Yarmag
-4646,Elizabyet khotkhond 58 mkw 3 oroo oron suuts,2019,58.32,10,Bayanzurkh,Bayanmongol khoroolol,3.4,Bayanmongol khoroolol,Bayanmongol khoroolol
+4646,Elizabyet khotkhond 58 mkw 3 oroo oron suuts,2019,58.32,10,Bayanzurkh,Bayanmongol khoroolol,3.4,Bayanmongol khoroolol,Bayanmongol
 4647,YAarmagt nova vista khotkhond 3 oroo bair,2022,77,4,KHan-Uul,YAarmag,3.4,YAarmag,Yarmag
 4777,Nowa wista 2 oroo,2022,53.48,10,KHan-Uul,YAarmag,3.4,YAarmag,Yarmag
 4801,Hermes center ard my town-d 2-oroo,2016,41,1,Bayangol,10-r khoroolol,3.4,10-r khoroolol,10-r khoroolol
@@ -2705,11 +2705,11 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5136,Altai khotkhon 2 oroo bair,2014,41.25,6,KHan-Uul,Altai khotkhon,3.4,Altai khotkhon,Altai khotkhon
 5243,Inel zaisan village 4 oroo bair 120m2,2015,120,5,KHan-Uul,Zaisan,3.4,Zaisan,Zaisan
 5304,"Mandala gardyen 77,3mwk 3 oroo",2023,77.3,11,KHan-Uul,YAarmag,3.4,YAarmag,Yarmag
-5503,"Saruul khoroolol 6-r eeljiin a2, blok zakhialgaa awch baina.",2023,52.06,9,Bayanzurkh,Bayanmongol khoroolol,3.4,Bayanmongol khoroolol,Bayanmongol khoroolol
+5503,"Saruul khoroolol 6-r eeljiin a2, blok zakhialgaa awch baina.",2023,52.06,9,Bayanzurkh,Bayanmongol khoroolol,3.4,Bayanmongol khoroolol,Bayanmongol
 5724,Altargana khotkhon 4 oroo bair,2017,113,5,KHan-Uul,Misheel,3.4,Misheel,Misheel
 5946,YEson erdene 2 oroo,2018,68.4,5,Bayangol,Narnы khoroolol,3.4,Narnы khoroolol,Narnii khoroolol
 5980,Bgd 10 khoroolol my town khotkhond 2 oroo bair,2022,41.9,1,Bayangol,10-r khoroolol,3.4,10-r khoroolol,10-r khoroolol
-6202,"Crystal town/kristal taun khotkhond 140m2, 4 oroo bair",2014,140,9,Bayanzurkh,Bayanmongol khoroolol,3.4,Bayanmongol khoroolol,Bayanmongol khoroolol
+6202,"Crystal town/kristal taun khotkhond 140m2, 4 oroo bair",2014,140,9,Bayanzurkh,Bayanmongol khoroolol,3.4,Bayanmongol khoroolol,Bayanmongol
 6628,Anu-n elchin saidыn yaamnы esreg tald 3 oroo 96m2,2011,96.95,9,Bayanzurkh,11-r khoroolol,3.4,11-r khoroolol,11-r khoroolol
 6963,120d naran khotkhond 114mkw 3 oroo,2006,114,9,KHan-Uul,120 myangat,3.4,120 myangat,120 myangat
 7004,Sunset house khotkhond 3oroo,2023,88,3,KHan-Uul,YAarmag,3.4,YAarmag,Yarmag
@@ -2749,7 +2749,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5809,KHud-n urd saruul orgoo khotkhond 3 oroo bair,2014,70,6,KHan-Uul,19-r khoroolol,3.385714286,19-r khoroolol,19-r khoroolol
 5710,KHud-t 2 oroo bair,2021,65,10,KHan-Uul,19-r khoroolol,3.384615385,19-r khoroolol,19-r khoroolol
 82,"Talbaigaas khoish 1km, dolgoon nuurt",2022,34,11,Sukhbaatar,Dolgoon nuur,3.382352941,Dolgoon nuur,Dolgoon nuur
-1439,Bzd 26r khoroo sumber ord khotkhond 68m2 3 oroo bair,2014,68,11,Bayanzurkh,Bayanmongol khoroolol,3.382352941,Bayanmongol khoroolol,Bayanmongol khoroolol
+1439,Bzd 26r khoroo sumber ord khotkhond 68m2 3 oroo bair,2014,68,11,Bayanzurkh,Bayanmongol khoroolol,3.382352941,Bayanmongol khoroolol,Bayanmongol
 3572,"Dolgoon nuurt, 4-r surguuliin khoino",2022,34,11,Sukhbaatar,Dolgoon nuur,3.382352941,Dolgoon nuur,Dolgoon nuur
 6201,19d 52r surguuliin chankh ard 1oroo gal togoo tusdaa,1984,34,2,KHan-Uul,19-r khoroolol,3.382352941,19-r khoroolol,19-r khoroolol
 196,Dolgoon nuurt shine belen 2 oroo,2023,42,7,Sukhbaatar,Dolgoon nuur,3.380952381,Dolgoon nuur,Dolgoon nuur
@@ -2764,7 +2764,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 314,River villa khotkhon,2022,69.67,13,Bayanzurkh,Busad,3.373044352,River villa ,Home plaza
 502,Ikh nayad-n khajuud river villa khotkhond 2 oroo oron suuts,2021,69.67,13,KHan-Uul,Busad,3.373044352,River villa ,Home plaza
 7681,Ikh nayad-n khajuud river villa khotkhond 2 oroo,2022,69.67,13,KHan-Uul,Busad,3.373044352,River villa ,Home plaza
-1314,Saruul khoroolold,2019,43,8,Bayanzurkh,Bayanmongol khoroolol,3.372093023,Bayanmongol khoroolol,Bayanmongol khoroolol
+1314,Saruul khoroolold,2019,43,8,Bayanzurkh,Bayanmongol khoroolol,3.372093023,Bayanmongol khoroolol,Bayanmongol
 2917,Sansrыn kolonkod 2 oroo bair,2017,43,7,Bayanzurkh,Sansar,3.372093023,Sansar,Sansar
 4095,"YAarmag, soul gardyen khotkhond 2 oroo oron suuts",2022,43,16,KHan-Uul,YAarmag,3.372093023,YAarmag,Yarmag
 7694,4-r khoroolold 2 oroo bair,2003,43,4,Bayangol,"3, 4 khoroolol",3.372093023,"3, 4 khoroolol","3, 4-r khoroolol"
@@ -2785,7 +2785,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1912,King tauert 3 oroo oron suuts,2022,137,12,KHan-Uul,King Tower,3.357664234,King Tower,Marshal
 2756,King tauert 3 oroo oron suuts,2022,137,12,KHan-Uul,King Tower,3.357664234,King Tower,Marshal
 6805,River villa-d 2 oroo bair 70m2,2021,70,13,Bayanzurkh,Busad,3.357142857,River villa ,Home plaza
-1562,Bzd 26 khoroo elizabet khotkhond 3 oroo 59m2,2017,59,10,Bayanzurkh,Bayanmongol khoroolol,3.355932203,Bayanmongol khoroolol,Bayanmongol khoroolol
+1562,Bzd 26 khoroo elizabet khotkhond 3 oroo 59m2,2017,59,10,Bayanzurkh,Bayanmongol khoroolol,3.355932203,Bayanmongol khoroolol,Bayanmongol
 2024,"Ikh nayad khudaldaanы zuun tald 𝐑𝐈𝐕𝐄𝐑 𝐕𝐈𝐋𝐋𝐀, a blokt 3 oroo bair",2021,77.5,12,KHan-Uul,Tomor zam,3.35483871,Tomor zam,Tomor zam
 5467,River villa,2020,77.5,12,Bayanzurkh,Zuragt,3.35483871,Zuragt,Bayanburd
 487,Nukhtiin zam daguu sunset house khotkhond 3 oroo,2021,88,2,KHan-Uul,YAarmag,3.352272727,YAarmag,Yarmag
@@ -2820,14 +2820,14 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1942,Kaidu siti khotkhond 2 oroo oronsuuts,2023,51,6,Bayanzurkh,Ofitsyer,3.329019608,Ofitsyer,Officer
 2080,"Naturt, homeland khotkhond 52m2 3 oroo",2012,52,5,Bayanzurkh,13-r khoroolol,3.326923077,13-r khoroolol,13-r khoroolol
 273,KHurd gruppыn nisekh gardyen khotkhond 36mkw 1oroo bair gerchilgee garsan,2023,36.09,6,KHan-Uul,YAarmag,3.325020781,YAarmag,Yarmag
-3348,"Bzd,elizabeth khotkhond 105.48mkw 3 oroo bair",2021,105,7,Bayanzurkh,Bayanmongol khoroolol,3.323809524,Bayanmongol khoroolol,Bayanmongol khoroolol
+3348,"Bzd,elizabeth khotkhond 105.48mkw 3 oroo bair",2021,105,7,Bayanzurkh,Bayanmongol khoroolol,3.323809524,Bayanmongol khoroolol,Bayanmongol
 4869,Zaisan altan bogd khotkhond 2 oroo bair,2022,62,2,KHan-Uul,Zaisan,3.322580645,Zaisan,Zaisan
 6549,Inel 115-r surguuliin urd 2 oroo 56mkw bair,2012,56,5,KHan-Uul,Zaisan,3.321428571,Zaisan,Zaisan
 5923,Twin apartment 2-t 63.83mkw 3 oroo,2022,63.83,2,Bayangol,"3, 4 khoroolol",3.321322262,"3, 4 khoroolol","3, 4-r khoroolol"
 4797,"YAarmag, cedar city khotkhond 2 oroo bair",2022,57,11,KHan-Uul,YAarmag,3.320877193,YAarmag,Yarmag
 2062,Anu elchin 3 oroo,2011,50,12,Bayanzurkh,Busad,3.32,US embassy,Emart Sansar
 4617,Narnы khoroolol 84.5mkw 3 oroo,2014,84,12,Bayangol,Narnы khoroolol,3.319642857,Narnы khoroolol,Narnii khoroolol
-3620,"Bzd, bayanmongol khorololыn urd elizabyet khotkhond 3 oroo",2021,105.48,7,Bayanzurkh,Bayanmongol khoroolol,3.318164581,Bayanmongol khoroolol,Bayanmongol khoroolol
+3620,"Bzd, bayanmongol khorololыn urd elizabyet khotkhond 3 oroo",2021,105.48,7,Bayanzurkh,Bayanmongol khoroolol,3.318164581,Bayanmongol khoroolol,Bayanmongol
 6680,Saruul khoroolol 40mkw 2 oroo,2015,40.1,5,Bayanzurkh,Busad,3.316708229,Saruul khotkhon,100 ail
 3325,Cedar city residenced 3uruu bair,2023,74.56,4,KHan-Uul,YAarmag,3.31276824,YAarmag,Yarmag
 1783,Dragon towiin ard 1oroo bair,1990,16,1,Songino KHairkhan,1-r khoroolol,3.3125,1-r khoroolol,1-r khoroolol
@@ -2847,7 +2847,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1655,Naturt gal togoo tusdaa 2 oroo bair,2013,62,8,Bayanzurkh,13-r khoroolol,3.306451613,13-r khoroolol,13-r khoroolol
 2915,Sunrise town hothond 3 uruu bair,2015,62,12,Bayanzurkh,Busad,3.306451613,Sunrise,Dunjingarav
 3469,Naturt zam daguu 62mkw gal togoo tusdaa 2 oroo,2014,62,8,Bayanzurkh,Busad,3.306451613,Natur,Natur
-1834,Saruul khoroolol 6-r eelj 52.02 mkw 2 oroo,2023,52.02,6,Bayanzurkh,Bayanmongol khoroolol,3.306420607,Bayanmongol khoroolol,Bayanmongol khoroolol
+1834,Saruul khoroolol 6-r eelj 52.02 mkw 2 oroo,2023,52.02,6,Bayanzurkh,Bayanmongol khoroolol,3.306420607,Bayanmongol khoroolol,Bayanmongol
 646,Nobless apartmyent d 5 oroo bair 242m2,2005,242,5,KHan-Uul,Zaisan,3.305785124,Zaisan,Zaisan
 3228,Jargalan khotkhond 6 oroo duplyeks,2004,242,5,KHan-Uul,120 myangat,3.305785124,120 myangat,120 myangat
 4353,King towyert 121mkw 3 oroo,2022,121,3,KHan-Uul,King Tower,3.305785124,King Tower,Marshal
@@ -2883,7 +2883,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 648,"King tower - khotkhond, 127 bair, 114m2, 4 oroo bair",2019,114,13,KHan-Uul,King Tower,3.3,King Tower,Marshal
 685,YAarmag buyant ukhaa tauer 120 mkw 4 oroo,2022,120,8,KHan-Uul,YAarmag,3.3,YAarmag,Yarmag
 822,Kaidu siti kaidu city khotkhond 49.09 mkw 3 oroo bair,2023,49.09,17,Bayanzurkh,16-r khoroolol,3.3,16-r khoroolol,Tsaiz
-1051,Elizabeth khotkhond 105.48mkw 3 oroo bair,2021,105.48,7,Bayanzurkh,Bayanmongol khoroolol,3.3,Bayanmongol khoroolol,Bayanmongol khoroolol
+1051,Elizabeth khotkhond 105.48mkw 3 oroo bair,2021,105.48,7,Bayanzurkh,Bayanmongol khoroolol,3.3,Bayanmongol khoroolol,Bayanmongol
 1408,"11-r khoroolol, anu-elchingiin urd 30mkw 1 oroo bair",2011,30,12,Sukhbaatar,11-r khoroolol,3.3,11-r khoroolol,11-r khoroolol
 1491,141mk 4n oroo bair,2023,141,11,KHan-Uul,Nisekh,3.3,Nisekh,Nisekh
 1749,Naturt 4 oroo _ bartyert mashin bair oroltsuulna,2021,100.7,12,Bayanzurkh,13-r khoroolol,3.3,13-r khoroolol,13-r khoroolol
@@ -2891,7 +2891,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1851,Narnы guurnii baruun tald four season village,2022,120,8,Bayangol,Narnы khoroolol,3.3,Narnы khoroolol,Narnii khoroolol
 1917,SHineer barigdsan khotkhond 30 m2 bair,2023,30,1,CHingeltei,Bayanburd,3.3,Bayanburd,Bayanburd
 1959,Akadyemi khotkhonы urd bairlakh dondogdulam khotkhond 4 oroo,2021,104.39,6,KHan-Uul,Zaisan,3.3,Zaisan,Zaisan
-2172,Saruul khoroolold 67m² 3 oroo bair,2019,67,10,Bayanzurkh,Bayanmongol khoroolol,3.3,Bayanmongol khoroolol,Bayanmongol khoroolol
+2172,Saruul khoroolold 67m² 3 oroo bair,2019,67,10,Bayanzurkh,Bayanmongol khoroolol,3.3,Bayanmongol khoroolol,Bayanmongol
 2194,YAarmag tsetserlegt khureelen buyant ukhaa tauer 77.98mkw 3 oroo bair,2022,78,5,KHan-Uul,YAarmag,3.3,YAarmag,Yarmag
 2562,YAarmagt syedar siti khotkhond 3-n oroo bair 82m2,2022,82,10,KHan-Uul,YAarmag,3.3,YAarmag,Yarmag
 2770,KHanswilld 3 oroo,2014,107,3,KHan-Uul,KHanswill khotkhon,3.3,KHanswill khotkhon,National park
@@ -2962,8 +2962,8 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2926,Rapidыn khajuud 99.4mkw 3 oroo,2019,99.4,9,KHan-Uul,Busad,3.299798793,Rapid,Tsengeldekh
 3603,KHurd rapid khajuud 3 oroo,2019,99.4,9,KHan-Uul,Busad,3.299798793,Rapid,Tsengeldekh
 1833,"Saruul khoroolol 6-r eelj 96,08mkw 3oroo",2023,96.08,9,Bayanzurkh,Busad,3.299333888,Saruul khotkhon,100 ail
-539,"Bzd, 26 khoroo, elizabyet khotkhond 3 oroo",2021,105.48,7,Bayanzurkh,Bayanmongol khoroolol,3.299203641,Bayanmongol khoroolol,Bayanmongol khoroolol
-5819,Bayanmongol khoroolold 2 oroo bair,2010,68.2,6,Bayanzurkh,Bayanmongol khoroolol,3.299120235,Bayanmongol khoroolol,Bayanmongol khoroolol
+539,"Bzd, 26 khoroo, elizabyet khotkhond 3 oroo",2021,105.48,7,Bayanzurkh,Bayanmongol khoroolol,3.299203641,Bayanmongol khoroolol,Bayanmongol
+5819,Bayanmongol khoroolold 2 oroo bair,2010,68.2,6,Bayanzurkh,Bayanmongol khoroolol,3.299120235,Bayanmongol khoroolol,Bayanmongol
 6569,Altai khotkhon khajuu talыn koyo town khotkhon 3 oroo bair,2022,63.05,11,KHan-Uul,Busad,3.298969072,Koyo town,Altai khotkhon
 2091,Zaisan roma town khotkhond 4 oroo bair,2018,144,9,KHan-Uul,Zaisan,3.298611111,Zaisan,Zaisan
 3458,King_towert tokhilog 144 m² 4-oroog,2017,144,5,KHan-Uul,King Tower,3.298611111,King Tower,Marshal
@@ -2998,12 +2998,12 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5411,4 uruutei,2017,73,4,Bayanzurkh,Edu apart campus,3.287671233,Edu apart campus,National park
 5031,TSetserlegt khureelengiin khoino olympic village khotkhond 49.3 mkw 2 oroo bair,2015,49.3,7,Bayanzurkh,Olympic village,3.286004057,Olympic village,Home plaza
 5836,2 uruu 49m2,2014,49.3,7,KHan-Uul,19-r khoroolol,3.286004057,19-r khoroolol,19-r khoroolol
-6771,Saruul khoroolol 2 oroo,2019,42,2,Bayanzurkh,Bayanmongol khoroolol,3.285714286,Bayanmongol khoroolol,Bayanmongol khoroolol
+6771,Saruul khoroolol 2 oroo,2019,42,2,Bayanzurkh,Bayanmongol khoroolol,3.285714286,Bayanmongol khoroolol,Bayanmongol
 6314,"Bzd, 13 khoroolol bokhiin orgoonii baruun tald 62.1mkw 2 oroo oron suuts",2015,62.1,10,Bayanzurkh,13-r khoroolol,3.285024155,13-r khoroolol,13-r khoroolol
 6601,KHud 11 khoroo zaisan tolgoin zun tald 4 oroo 108.5m2,2013,109,7,KHan-Uul,Zaisan,3.284862385,Zaisan,Zaisan
 64,YAarmag - bogd willa - 3 oroo,2020,70.4,15,KHan-Uul,YAarmag,3.284090909,YAarmag,Yarmag
 1558,Elizabyet khotkhond 3 oroo bair,2021,106,7,Bayanzurkh,Olimp khotkhon,3.283018868,Olimp khotkhon,Home plaza
-3531,Elizabeth khotkhond 3oroo bair,2021,106,7,Bayanzurkh,Bayanmongol khoroolol,3.283018868,Bayanmongol khoroolol,Bayanmongol khoroolol
+3531,Elizabeth khotkhond 3oroo bair,2021,106,7,Bayanzurkh,Bayanmongol khoroolol,3.283018868,Bayanmongol khoroolol,Bayanmongol
 1007,KHotыn towd a bused bairlal mash saitai 3 oroo bair,2010,70.7,5,Sukhbaatar,13-r khoroolol,3.281471004,13-r khoroolol,13-r khoroolol
 1945,"KHotыn towiin aaa bused 3 oroo bair, sbd 1 khoroo",2010,70.7,5,Sukhbaatar,13-r khoroolol,3.281471004,13-r khoroolol,13-r khoroolol
 57,Bzd kino uildwert gal togoo tusdaa 32m2 2-oroo bair,1999,32,8,Bayanzurkh,Ofitsyer,3.28125,Ofitsyer,Officer
@@ -3013,14 +3013,14 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2818,KHan-ul duureg yaarmag 1 oroo bair,2022,29.28,16,KHan-Uul,YAarmag,3.278688525,YAarmag,Yarmag
 4829,Orbitыn shtskhotkhond khuuchnы ugsarmal 2 oroo,1993,29,4,Songino KHairkhan,Orbit,3.275862069,Orbit,Tolgoit
 5751,Zaisan tolgoin zuun tald 74.5m2 3 oroo,2013,75,2,KHan-Uul,Zaisan,3.275333333,Zaisan,Zaisan
-6959,Bzd bayanmongol khoroololыn zuun tald bairlakh sumber ord khotkhond 2 oroo bair,2018,59.56,5,Bayanzurkh,Bayanmongol khoroolol,3.274009402,Bayanmongol khoroolol,Bayanmongol khoroolol
+6959,Bzd bayanmongol khoroololыn zuun tald bairlakh sumber ord khotkhond 2 oroo bair,2018,59.56,5,Bayanzurkh,Bayanmongol khoroolol,3.274009402,Bayanmongol khoroolol,Bayanmongol
 3158,Zaisand 3 oroo bair,2022,95,3,KHan-Uul,Busad,3.273684211,Zaisan,Zaisan
-2117,Sumber ordod 4 oroo 110m2,2014,110,3,Bayanzurkh,Bayanmongol khoroolol,3.272727273,Bayanmongol khoroolol,Bayanmongol khoroolol
-4210,Bzd 26 khoroo sumber ord khotkhond 4 oroo bair oron suuts,2014,110,4,Bayanzurkh,Bayanmongol khoroolol,3.272727273,Bayanmongol khoroolol,Bayanmongol khoroolol
-4628,Bzd 26-khoroo sumber ord khotkhond 4 oroo oron suuts,2014,110,4,Bayanzurkh,Bayanmongol khoroolol,3.272727273,Bayanmongol khoroolol,Bayanmongol khoroolol
+2117,Sumber ordod 4 oroo 110m2,2014,110,3,Bayanzurkh,Bayanmongol khoroolol,3.272727273,Bayanmongol khoroolol,Bayanmongol
+4210,Bzd 26 khoroo sumber ord khotkhond 4 oroo bair oron suuts,2014,110,4,Bayanzurkh,Bayanmongol khoroolol,3.272727273,Bayanmongol khoroolol,Bayanmongol
+4628,Bzd 26-khoroo sumber ord khotkhond 4 oroo oron suuts,2014,110,4,Bayanzurkh,Bayanmongol khoroolol,3.272727273,Bayanmongol khoroolol,Bayanmongol
 7311,Shine altai hothond 2oroo 55.02mk2 bair,2022,55.02,9,Bayangol,Altai khotkhon,3.271537623,Altai khotkhon,Altai khotkhon
 1027,Tengisiin khoino gal togoo tusdaa 2 oroo bair,1990,52,2,CHingeltei,Bayanburd,3.269230769,Bayanburd,Bayanburd
-4693,Saruul khoroolold 87.24mkw 3 oroo,2017,87.24,9,Bayanzurkh,Bayanmongol khoroolol,3.266850069,Bayanmongol khoroolol,Bayanmongol khoroolol
+4693,Saruul khoroolold 87.24mkw 3 oroo,2017,87.24,9,Bayanzurkh,Bayanmongol khoroolol,3.266850069,Bayanmongol khoroolol,Bayanmongol
 3329,Neg oroo 30mkw 1 dawkhart,2023,30,1,Sukhbaatar,Busad,3.266666667,0,#N/A
 6209,Altargana khotkhond 3 oroo oron suuts,2018,75,7,KHan-Uul,19-r khoroolol,3.266666667,19-r khoroolol,19-r khoroolol
 6839,30 m2 bair,2023,30,1,Sukhbaatar,Bayanburd,3.266666667,Bayanburd,Bayanburd
@@ -3062,8 +3062,8 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2811,Wokzalыn zamыn khoino 2 oroo bair,2021,77,15,Bayangol,Tomor zam,3.246753247,Tomor zam,Tomor zam
 4368,Pryemium apartmyent 2oroo,2022,77,15,Bayangol,Tomor zam,3.246753247,Tomor zam,Tomor zam
 4593,"Hud Bair 2 oroo 49,3m12",2014,49.3,7,KHan-Uul,UB Town,3.245436105,UB Town,Misheel
-6206,"Bzd, 26 khoroond 3 oroo bair",2019,72.8,11,Bayanzurkh,Bayanmongol khoroolol,3.241758242,Bayanmongol khoroolol,Bayanmongol khoroolol
-7348,Bzd 26-r khoroo saruul khoroolold 3 oroo,2019,72.8,11,KHan-Uul,Bayanmongol khoroolol,3.241758242,Bayanmongol khoroolol,Bayanmongol khoroolol
+6206,"Bzd, 26 khoroond 3 oroo bair",2019,72.8,11,Bayanzurkh,Bayanmongol khoroolol,3.241758242,Bayanmongol khoroolol,Bayanmongol
+7348,Bzd 26-r khoroo saruul khoroolold 3 oroo,2019,72.8,11,KHan-Uul,Bayanmongol khoroolol,3.241758242,Bayanmongol khoroolol,Bayanmongol
 333,Buren tawilgatai gal togoo tusdaa 2 oroo bair,2023,53.99,2,Bayanzurkh,Ofitsyer,3.241340989,Ofitsyer,Officer
 102,11r khoroolold 2oroog 3 oroo bolgoson,1989,54,5,Sukhbaatar,11-r khoroolol,3.240740741,11-r khoroolol,11-r khoroolol
 1504,3 oroo bolgoson bair,2000,54,5,Sukhbaatar,11-r khoroolol,3.240740741,11-r khoroolol,11-r khoroolol
@@ -3081,7 +3081,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 4493,Bzd iin 2 khoroo ktms iin zuun khoino bairlakh bairand 2 oroo,2019,51,7,Bayanzurkh,Busad,3.235294118,KTMS,KTMS
 6063,"Modnы 2, ganitiin saruul denj khotkhond 3 oroo bair",2009,68,3,Bayangol,"3, 4 khoroolol",3.235294118,"3, 4 khoroolol","3, 4-r khoroolol"
 6159,11-r khoroolold 30 mk 1 oroo bair,2010,30,12,Sukhbaatar,11-r khoroolol,3.233333333,11-r khoroolol,11-r khoroolol
-970,Saruul khoroolold 3 oroo,2019,73,11,Bayanzurkh,Bayanmongol khoroolol,3.232876712,Bayanmongol khoroolol,Bayanmongol khoroolol
+970,Saruul khoroolold 3 oroo,2019,73,11,Bayanzurkh,Bayanmongol khoroolol,3.232876712,Bayanmongol khoroolol,Bayanmongol
 3851,Bgd 24-r khoroo shine altai khotkhond 52.60 mk 3 oroo oron suuts,2021,52.6,7,Bayangol,Altai khotkhon,3.231939163,Altai khotkhon,Altai khotkhon
 7568,Dolgoon nuurt 3 oroo bair,2020,82,5,Sukhbaatar,Dolgoon nuur,3.231707317,Dolgoon nuur,Dolgoon nuur
 31,"Sbd, awto plaza chankh khoino buren zaswar khiisen gal togoo tusdaa 2 oroo bair",1999,52,3,Sukhbaatar,100 ail,3.230769231,100 ail,100 ail
@@ -3126,7 +3126,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 7669,16-r khoroolold 1 oroo bair 24m2,2018,24,15,Bayanzurkh,16-r khoroolol,3.208333333,16-r khoroolol,Tsaiz
 1759,2 oroo,2022,62.34,14,Bayangol,Altai khotkhon,3.208213025,Altai khotkhon,Altai khotkhon
 1584,"Bzd 16-r khoroolol 3 oroo bair 98,19m2",2016,98.19,6,Bayanzurkh,16-r khoroolol,3.208065995,16-r khoroolol,Tsaiz
-4697,Bzd saruul khoroolol,2022,52.06,7,Bayanzurkh,Bayanmongol khoroolol,3.207837111,Bayanmongol khoroolol,Bayanmongol khoroolol
+4697,Bzd saruul khoroolol,2022,52.06,7,Bayanzurkh,Bayanmongol khoroolol,3.207837111,Bayanmongol khoroolol,Bayanmongol
 425,2 oroo 53m2,2015,53,4,Bayanzurkh,13-r khoroolol,3.20754717,13-r khoroolol,13-r khoroolol
 2844,KHan -uul iweel khotkhond ij buren tawilgatai 2 oroo bair,2015,53,10,KHan-Uul,Busad,3.20754717,Iveel,Tavanbogd
 5763,21-r zuun khotkhond 2 oroo,2015,53,8,Bayanzurkh,Busad,3.20754717,21-r zuun,Tsaiz
@@ -3163,7 +3163,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 577,"Bzd negdsen emnelegiin khoino ipotyekt oochyergui khamragdakh bolomjtoi 72,8mkw 3 oroo",2023,73,7,Bayanzurkh,14-r khoroolol,3.2,14-r khoroolol,Narantuul
 694,Deedsiin orgoo khotkhond 3 oroo 56m2,2022,56.14,12,KHan-Uul,YAarmag,3.2,YAarmag,Yarmag
 705,Bayanzurkh duurgiin emnelegiin ard sondor apartmyentad 3 oroo,2023,69,10,Bayanzurkh,Ofitsyer,3.2,Ofitsyer,Officer
-732,Bzd 26khoroo sunny townd 3oroo,2018,74.72,10,Bayanzurkh,Bayanmongol khoroolol,3.2,Bayanmongol khoroolol,Bayanmongol khoroolol
+732,Bzd 26khoroo sunny townd 3oroo,2018,74.72,10,Bayanzurkh,Bayanmongol khoroolol,3.2,Bayanmongol khoroolol,Bayanmongol
 830,Zaisan ub town khotkhond 62.6m2 3oroo bair,2016,62.6,2,KHan-Uul,UB Town,3.2,UB Town,Misheel
 919,11 khoroolol saruul khotkhond 2 oroo bair,2016,65.41,4,Sukhbaatar,11-r khoroolol,3.2,11-r khoroolol,11-r khoroolol
 921,13-r khoroolold 2 oroo oron suuts,2013,65.8,9,Bayanzurkh,13-r khoroolol,3.2,13-r khoroolol,13-r khoroolol
@@ -3292,7 +3292,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 7533,YAarmag nukhted 2 oroo bair,2023,53.15,3,KHan-Uul,YAarmag,3.198494826,YAarmag,Yarmag
 1602,Modnы 2 niigmiin daatgalыn khajuud bairlaltai.,2021,42.21,3,Bayangol,Busad,3.198294243,Modnii 2,Baruun 4 zam
 2647,Nairamdal zuslangiin khajuud 2 oroo oron suuts,2008,81.3,4,Songino KHairkhan,Nairamdal,3.19803198,Nairamdal,Tolgoit
-551,Bayanmongol khoroolold 2 oroo bair,2009,68.8,3,Bayanzurkh,Bayanmongol khoroolol,3.197674419,Bayanmongol khoroolol,Bayanmongol khoroolol
+551,Bayanmongol khoroolold 2 oroo bair,2009,68.8,3,Bayanzurkh,Bayanmongol khoroolol,3.197674419,Bayanmongol khoroolol,Bayanmongol
 2173,13r khoroolold 3 oroo,2017,65.7,12,Bayanzurkh,13-r khoroolol,3.196347032,13-r khoroolol,13-r khoroolol
 4438,General town 2oroo,2016,46,3,KHan-Uul,Busad,3.195652174,General town,Zaisan
 6890,1 oroo bair,2008,26.6,3,Bayanzurkh,13-r khoroolol,3.195488722,13-r khoroolol,13-r khoroolol
@@ -3331,9 +3331,9 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1587,Saruul khotkhond 2 oroo bair,2016,55,9,Bayanzurkh,Busad,3.181818182,Saruul khotkhon,100 ail
 2966,Altan orgood 2 oroo bair,2012,55,4,Bayanzurkh,Busad,3.181818182,Altan-Orgoo,13-r khoroolol
 4720,13-r khoroolol central mall-d 3 oroo bair,2020,88,12,Bayanzurkh,13-r khoroolol,3.181818182,13-r khoroolol,13-r khoroolol
-5816,BZD Bayanmongold 44mkw 1 oroo,2011,44,1,Bayanzurkh,Bayanmongol khoroolol,3.181818182,Bayanmongol khoroolol,Bayanmongol khoroolol
+5816,BZD Bayanmongold 44mkw 1 oroo,2011,44,1,Bayanzurkh,Bayanmongol khoroolol,3.181818182,Bayanmongol khoroolol,Bayanmongol
 6511,"KHoroolold, gemtliin zuun tald 2 oroo bair",2022,44,1,Bayangol,"3, 4 khoroolol",3.181818182,"3, 4 khoroolol","3, 4-r khoroolol"
-6571,Bzd 26-r khoroo saruul khoroolold 2 oroo bair,2017,44,6,Bayanzurkh,Bayanmongol khoroolol,3.181818182,Bayanmongol khoroolol,Bayanmongol khoroolol
+6571,Bzd 26-r khoroo saruul khoroolold 2 oroo bair,2017,44,6,Bayanzurkh,Bayanmongol khoroolol,3.181818182,Bayanmongol khoroolol,Bayanmongol
 6798,120 myangatad 2 oroo bair,2023,55,2,KHan-Uul,120 myangat,3.181818182,120 myangat,120 myangat
 6819,2 oroo bair,2013,55,12,Bayanzurkh,15-r khoroolol,3.181818182,15-r khoroolol,Jukov
 6901,Altai khotkhond 2oroo,2022,55,10,Bayangol,Altai khotkhon,3.181818182,Altai khotkhon,Altai khotkhon
@@ -3350,7 +3350,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 3895,3 oroo bair,2015,78,12,Bayanzurkh,14-r khoroolol,3.179487179,14-r khoroolol,Narantuul
 7587,13-r khoroolol altan orgoo khotkhond 3 oroo bair,2010,95,9,Bayanzurkh,15-r khoroolol,3.178947368,15-r khoroolol,Jukov
 153,KHud yaarmagt 1 oroo bair,2022,29.28,10,KHan-Uul,YAarmag,3.176229508,YAarmag,Yarmag
-6667,Bayanmongol khoroolold 2 oroo bair,2012,80.3,5,Bayanzurkh,Bayanmongol khoroolol,3.175591532,Bayanmongol khoroolol,Bayanmongol khoroolol
+6667,Bayanmongol khoroolold 2 oroo bair,2012,80.3,5,Bayanzurkh,Bayanmongol khoroolol,3.175591532,Bayanmongol khoroolol,Bayanmongol
 1280,Zaisand 1oroo oron suuts,2014,40,7,KHan-Uul,Zaisan,3.175,Zaisan,Zaisan
 3578,1 oroo bair,2014,40,3,KHan-Uul,Zaisan,3.175,Zaisan,Zaisan
 4162,Bgd 3 oroo 63m2,2010,63,8,Bayangol,"3, 4 khoroolol",3.174603175,"3, 4 khoroolol","3, 4-r khoroolol"
@@ -3364,7 +3364,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 722,KHud 19 khoroolold 41m2 2 oroo bair,2015,41,15,KHan-Uul,19-r khoroolol,3.170731707,19-r khoroolol,19-r khoroolol
 1756,"YAarmag deedsiin orgoo khotkhon 41,39mkw 2 oroo",2023,41,10,KHan-Uul,YAarmag,3.170731707,YAarmag,Yarmag
 7317,Bzd 26r khoroo sumber ord khotkhond 4n oroo,2014,110.42,3,Bayanzurkh,Busad,3.169715631,Sumber Ord,Dunjingarav
-3471,Saruul khoroolold shine 52mkw 2 oroo,2023,52.06,7,Bayanzurkh,Bayanmongol khoroolol,3.1694199,Bayanmongol khoroolol,Bayanmongol khoroolol
+3471,Saruul khoroolold shine 52mkw 2 oroo,2023,52.06,7,Bayanzurkh,Bayanmongol khoroolol,3.1694199,Bayanmongol khoroolol,Bayanmongol
 6229,Ikh nyalkhasd 47mkw 2 oroo,2018,47.337,2,Bayangol,"3, 4 khoroolol",3.168768617,"3, 4 khoroolol","3, 4-r khoroolol"
 7548,TSagaan khuaran khotkhond 3 oroo,2021,66.3,4,Bayanzurkh,Ogoomor zakhыn zuun,3.167420814,Ogoomor zakhыn zuun,Ogoomor zakh
 1101,Telmuun hothond tow zamiin bulangiin neg davhariin neg uruu,2016,30,1,KHan-Uul,19-r khoroolol,3.166666667,19-r khoroolol,19-r khoroolol
@@ -3383,7 +3383,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1741,KHoroolold achlal ikh delguuriin khoino 12 dawkhar oron suutsand 2 oroo bair khudaldana,2000,52.2,10,Bayangol,"3, 4 khoroolol",3.16091954,"3, 4 khoroolol","3, 4-r khoroolol"
 380,Bogd ard zaswar khiisen 2 oroo bair,2009,38,6,Bayangol,Tomor zam,3.157894737,Tomor zam,Tomor zam
 973,Sansart gal togoo tusdaa 2 oroo bair,1990,38,5,Bayanzurkh,Sansar,3.157894737,Sansar,Sansar
-3448,Bayanmongol khoroolold 2 oroo bair,2012,76,2,Bayanzurkh,Busad,3.157894737,Bayanmongol,Bayanmongol khoroolol
+3448,Bayanmongol khoroolold 2 oroo bair,2012,76,2,Bayanzurkh,Busad,3.157894737,Bayanmongol,Bayanmongol
 5486,KHangai khotkhond 2 oroo bair,2018,38,6,Sukhbaatar,Busad,3.157894737,Khangai,Dolgoon nuur
 6600,Rtsnk khajuud 57mkw 2 oroo,2012,57,8,Bayanzurkh,11-r khoroolol,3.157894737,11-r khoroolol,11-r khoroolol
 7294,Bzd 16 khoolold 2 oroo bair,1989,38,2,Bayanzurkh,16-r khoroolol,3.157894737,16-r khoroolol,Tsaiz
@@ -3396,7 +3396,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2860,Bagshiin deed 2oroo,2012,46,2,Bayanzurkh,Busad,3.152173913,Bagshiin deed,Bagshiin deed
 120,Koyo town 52.37mk 2 uruu,2022,52.37,16,Bayangol,Altai khotkhon,3.150658774,Altai khotkhon,Altai khotkhon
 1484,Sunny town 3 uruu 74m2,2015,74.72,11,Bayanzurkh,Olimp khotkhon,3.150428266,Olimp khotkhon,Home plaza
-5526,Saruul khoroolold 2 oroo,2018,54.6,9,Bayanzurkh,Bayanmongol khoroolol,3.15018315,Bayanmongol khoroolol,Bayanmongol khoroolol
+5526,Saruul khoroolold 2 oroo,2018,54.6,9,Bayanzurkh,Bayanmongol khoroolol,3.15018315,Bayanmongol khoroolol,Bayanmongol
 4030,Dunjingaraw khotkhond 3 oroo bair 74.6m2,2011,74.6,2,Bayanzurkh,Busad,3.150134048,Dunjingarav khotkhon,Dunjingarav
 364,YAarmag togoldor khotkhon 3 oroo,2020,85.31,8,KHan-Uul,YAarmag,3.15,YAarmag,Yarmag
 387,Urangangыn khajuud 2 oroo,2019,52.18,13,KHan-Uul,19-r khoroolol,3.15,19-r khoroolol,19-r khoroolol
@@ -3437,7 +3437,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 3508,Altargana khotkhond 4 oroo,2019,113,9,KHan-Uul,Busad,3.14159292,Altargana khotkhon,Tavanbogd
 370,Zaisan solar gardyen khotkhond 3 oroo oron suuts,2016,78,3,KHan-Uul,Zaisan,3.141025641,Zaisan,Zaisan
 7818,Zaisan 2 oroo,2012,78,1,KHan-Uul,Zaisan,3.141025641,Zaisan,Zaisan
-2907,Dunjingaraw khotkhond 3 oroo bair,2013,74.5,2,Bayanzurkh,Bayanmongol khoroolol,3.140939597,Bayanmongol khoroolol,Bayanmongol khoroolol
+2907,Dunjingaraw khotkhond 3 oroo bair,2013,74.5,2,Bayanzurkh,Bayanmongol khoroolol,3.140939597,Bayanmongol khoroolol,Bayanmongol
 1449,YAarmag deedsiin orgoo khotkhon 2 oroo 41.39m2,2022,41.39,10,KHan-Uul,Busad,3.140855279,Deedsiin orgoo,Yarmag
 1669,KHotiin towd neg oroo bair.,2015,43,10,CHingeltei,Bayanburd,3.139534884,Bayanburd,Bayanburd
 5749,Misheel khotkhond 2 oroo bair,2022,43,2,Bayangol,Busad,3.139534884,Misheel,Misheel
@@ -3456,7 +3456,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 763,11-r khoroorlold 2 oroo 56m2,1990,56,8,Sukhbaatar,11-r khoroolol,3.125,11-r khoroolol,11-r khoroolol
 1265,16 dugaar khoroolol,1994,24,3,Bayanzurkh,16-r khoroolol,3.125,16-r khoroolol,Tsaiz
 1301,Baruun 4 zam shikhikhutag deed surguuliin zuun tald gal togoo tusdaa 1 oroo bair,1980,40,3,Sukhbaatar,Baruun 4 zam,3.125,Baruun 4 zam,Baruun 4 zam
-1549,Bzd bayanmongol khoroolold 43.2mkw 2 oroo,2010,43.2,1,Bayanzurkh,Bayanmongol khoroolol,3.125,Bayanmongol khoroolol,Bayanmongol khoroolol
+1549,Bzd bayanmongol khoroolold 43.2mkw 2 oroo,2010,43.2,1,Bayanzurkh,Bayanmongol khoroolol,3.125,Bayanmongol khoroolol,Bayanmongol
 1673,Sansar tunyeli 3oroo bair,1990,80,8,Bayanzurkh,Sansar,3.125,Sansar,Sansar
 2357,Dolgoon nuurt 2 oroo,2022,48,2,Sukhbaatar,Dolgoon nuur,3.125,Dolgoon nuur,Dolgoon nuur
 2439,10-r khoroolold 2 oroo,1990,56,2,Bayangol,10-r khoroolol,3.125,10-r khoroolol,10-r khoroolol
@@ -3483,7 +3483,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5307,Han uul 2 uruu,2004,41.6,5,KHan-Uul,Viva city,3.114182692,Viva city,Yarmag
 2581,YAarmagt encanto orange 3 oroo garaj,2018,60.7,13,KHan-Uul,YAarmag,3.113673806,YAarmag,Yarmag
 2564,Ofitsyeriin kh apartment 2 oroo duplyeks oron 44m2suuts,2016,44,14,Bayanzurkh,Busad,3.113636364,Kh apartment Officer,Officer
-4322,Saruul horoolold 2 oroo bair,2016,54.6,9,Bayanzurkh,Bayanmongol khoroolol,3.113553114,Bayanmongol khoroolol,Bayanmongol khoroolol
+4322,Saruul horoolold 2 oroo bair,2016,54.6,9,Bayanzurkh,Bayanmongol khoroolol,3.113553114,Bayanmongol khoroolol,Bayanmongol
 4135,Hotiin tovd 2 oroo,1990,54,2,Bayanzurkh,13-r khoroolol,3.111111111,13-r khoroolol,13-r khoroolol
 661,Dolgoon nuur 3 khotkhond 49mkw 2 oroo,2022,49,6,Sukhbaatar,Dolgoon nuur,3.110204082,Dolgoon nuur,Dolgoon nuur
 69,Ikh nayad-n khajuud river villa khotkhond 2 oroo oron suuts 73m2,2022,73,16,Bayanzurkh,Olimp khotkhon,3.109589041,Olimp khotkhon,Home plaza
@@ -3504,7 +3504,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 6734,4 oroo 98.33m2,2008,98.33,3,KHan-Uul,Busad,3.101800061,0,#N/A
 6112,SHine yaarmag khoroolold 2 oroo,2022,64.55,3,KHan-Uul,Nisekh,3.101471727,Nisekh,Nisekh
 1803,2 oroo bair 37m2,2015,37.08,12,Sukhbaatar,11-r khoroolol,3.101402373,11-r khoroolol,11-r khoroolol
-4755,River villa khotkhond 73.2mkw 2 oroo,2022,73.2,2,Bayanzurkh,Bayanmongol khoroolol,3.101092896,Bayanmongol khoroolol,Bayanmongol khoroolol
+4755,River villa khotkhond 73.2mkw 2 oroo,2022,73.2,2,Bayanzurkh,Bayanmongol khoroolol,3.101092896,Bayanmongol khoroolol,Bayanmongol
 3763,Altai khotkhon 2r eeljind 2 oroo bair,2022,46.28,16,Bayangol,Altai khotkhon,3.100043215,Altai khotkhon,Altai khotkhon
 2,KHoroollыn orgoo-n urd 3 oroo,2020,97.8,9,Bayangol,"3, 4 khoroolol",3.1,"3, 4 khoroolol","3, 4-r khoroolol"
 7,KHotыn tow ardыn erkh 2 oroo,1999,50,3,Sukhbaatar,100 ail,3.1,100 ail,100 ail
@@ -3527,7 +3527,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1755,KHud yaarmag artsatыn amand nova vista 3 oroo,2022,77.03,2,KHan-Uul,YAarmag,3.1,YAarmag,Yarmag
 2069,Premium apartment khotkhond 2 oroo,2021,77,15,Bayangol,Tomor zam,3.1,Tomor zam,Tomor zam
 2148,Nart khotkhon 2 oroo bair,2023,50.26,5,Bayanzurkh,13-r khoroolol,3.1,13-r khoroolol,13-r khoroolol
-2192,"Bzd, 26-r khoroo saruul khoroolold 1oroo",2016,34,8,Bayanzurkh,Bayanmongol khoroolol,3.1,Bayanmongol khoroolol,Bayanmongol khoroolol
+2192,"Bzd, 26-r khoroo saruul khoroolold 1oroo",2016,34,8,Bayanzurkh,Bayanmongol khoroolol,3.1,Bayanmongol khoroolol,Bayanmongol
 2389,"Bokhiin orgoonii urd, 2 oroo",2015,72.5,10,Bayanzurkh,13-r khoroolol,3.1,13-r khoroolol,13-r khoroolol
 2502,Dolgoon nuurt 2 oroo bair,2023,49,6,Sukhbaatar,Dolgoon nuur,3.1,Dolgoon nuur,Dolgoon nuur
 2557,Zaisan nomun willajyed 4oroo bair,2015,106.5,7,KHan-Uul,Zaisan,3.1,Zaisan,Zaisan
@@ -3555,14 +3555,14 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5960,Kapital taund 3 oroo,2016,102.45,11,Bayangol,"3, 4 khoroolol",3.1,"3, 4 khoroolol","3, 4-r khoroolol"
 5963,Misheeld 2oroo bair,2021,43,12,KHan-Uul,Misheel,3.1,Misheel,Misheel
 6203,"3 oroo 87,93 mkw bair",2023,87.93,2,KHan-Uul,YAarmag,3.1,YAarmag,Yarmag
-6405,Saruul khoroolold 3 oroo bair,2015,88.6,7,Bayanzurkh,Bayanmongol khoroolol,3.1,Bayanmongol khoroolol,Bayanmongol khoroolol
+6405,Saruul khoroolold 3 oroo bair,2015,88.6,7,Bayanzurkh,Bayanmongol khoroolol,3.1,Bayanmongol khoroolol,Bayanmongol
 6715,Dolgoon nuurt 2 oroo bair,2023,48.42,5,Sukhbaatar,Dolgoon nuur,3.1,Dolgoon nuur,Dolgoon nuur
 6766,Togoldor apartmyent-d 72mw 3 oroo,2021,72,9,KHan-Uul,YAarmag,3.1,YAarmag,Yarmag
 6812,KHan-uul duureg nukhtiin am sunset khotkhond 3 oroo bair,2022,88,2,KHan-Uul,YAarmag,3.1,YAarmag,Yarmag
 6822,Bayanzurkh 2 oroo,2016,30,1,Bayanzurkh,15-r khoroolol,3.1,15-r khoroolol,Jukov
 6911,"Dulguun nuurt gercgilgee belen 57,6m2 3 uruu",2022,57.6,14,Sukhbaatar,Dolgoon nuur,3.1,Dolgoon nuur,Dolgoon nuur
 7184,3 oroo bair,2013,94,4,KHan-Uul,120 myangat,3.1,120 myangat,120 myangat
-7243,"Baynmongol horoolol 88,9 mk2 3 uruu bair zogsooltoi",2011,88.9,5,Bayanzurkh,Bayanmongol khoroolol,3.1,Bayanmongol khoroolol,Bayanmongol khoroolol
+7243,"Baynmongol horoolol 88,9 mk2 3 uruu bair zogsooltoi",2011,88.9,5,Bayanzurkh,Bayanmongol khoroolol,3.1,Bayanmongol khoroolol,Bayanmongol
 7344,BZD TSaiz zakhыn khajuud sky residens khotkhond 39.62mk 2oroo bair,2020,39.62,14,Bayanzurkh,16-r khoroolol,3.1,16-r khoroolol,Tsaiz
 7464,Bzd-t 4 sard ashiglaltand orokh 3 oroo,2023,70,3,Bayanzurkh,15-r khoroolol,3.1,15-r khoroolol,Jukov
 7591,Nisekh gardyen 67.16 tai 3 oroo,2022,67.16,7,KHan-Uul,Nisekh,3.1,Nisekh,Nisekh
@@ -3592,7 +3592,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 3809,Bzd shine mongol surguuliin khoino 45-r bairand gal togoo tusdaa 2 oroo,2011,63,2,Bayanzurkh,13-r khoroolol,3.095238095,13-r khoroolol,13-r khoroolol
 4170,Lite city khotkhond 2023onы 12sard orokh 2oroo bolgokh bolomjtoi 42m2 1oroo bair,2023,42,1,KHan-Uul,YAarmag,3.095238095,YAarmag,Yarmag
 5249,Bogd ar 15a bairand 2 oroo bair,2010,42,9,Bayangol,Bogd-Ar,3.095238095,Bogd-Ar,Tomor zam
-5432,Time tower-t 63.1mkv 2 oroo,2018,63,2,Bayanzurkh,Bayanmongol khoroolol,3.095238095,Bayanmongol khoroolol,Bayanmongol khoroolol
+5432,Time tower-t 63.1mkv 2 oroo,2018,63,2,Bayanzurkh,Bayanmongol khoroolol,3.095238095,Bayanmongol khoroolol,Bayanmongol
 6874,Koyo town-d 3 oroo bair,2023,63,5,Bayangol,Altai khotkhon,3.095238095,Altai khotkhon,Altai khotkhon
 7086,2 oroo bair,2018,60.75,6,KHan-Uul,Zaisan,3.094650206,Zaisan,Zaisan
 6,KHoroollыn orgoo-n urd 3 oroo bair,2021,98,9,Bayangol,"3, 4 khoroolol",3.093673469,"3, 4 khoroolol","3, 4-r khoroolol"
@@ -3629,7 +3629,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5193,Dolgoon nuurыn khoino 2 oroo,2022,52,14,Sukhbaatar,Dolgoon nuur,3.076923077,Dolgoon nuur,Dolgoon nuur
 6754,Zaisand tsewer agaart gal togoo tusdaa 2 oroo,2008,52,3,KHan-Uul,Zaisan,3.076923077,Zaisan,Zaisan
 6962,Bzd 14 khoroolol altan orgoo 2 oroo oron suuts,2018,56.89,5,Bayanzurkh,13-r khoroolol,3.076111795,13-r khoroolol,13-r khoroolol
-6179,Bayanmongol khotkhond 3 oroo bolgoson 69.9mkw 2 oroo oron suuts,2010,69.9,3,Bayanzurkh,Bayanmongol khoroolol,3.075822604,Bayanmongol khoroolol,Bayanmongol khoroolol
+6179,Bayanmongol khotkhond 3 oroo bolgoson 69.9mkw 2 oroo oron suuts,2010,69.9,3,Bayanzurkh,Bayanmongol khoroolol,3.075822604,Bayanmongol khoroolol,Bayanmongol
 7488,Sbd dolgoon nuur 3 oroo bair,2022,74,16,Sukhbaatar,Dolgoon nuur,3.074324324,Dolgoon nuur,Dolgoon nuur
 1014,"KHud, tuulыn khowoo, 3 oroo bair",2012,68,2,KHan-Uul,Busad,3.073529412,Tuuliin khovoo,Zaisan Orgil
 3112,Sansar emartin zuun tald 3 uruu,1990,70,2,Bayanzurkh,"40, 50 myangat",3.071428571,"40, 50 myangat","40, 50 myangat"
@@ -3643,7 +3643,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 7660,Nisekhiin toirog victoria town-d 3 oroo pyentkhaus,2018,88,8,KHan-Uul,Nisekh,3.068181818,Nisekh,Nisekh
 1790,Dolgoon nuurt 2 oroo bair,2022,51.5,5,Sukhbaatar,Dolgoon nuur,3.067961165,Dolgoon nuur,Dolgoon nuur
 3051,"Zaisan astra willa khotkhond 2 oroo 51,5m2",2022,51.5,9,KHan-Uul,Zaisan,3.067961165,Zaisan,Zaisan
-4202,Bayanmongol khoroolold 3 oroo,2012,97.8,3,Bayanzurkh,Bayanmongol khoroolol,3.067484663,Bayanmongol khoroolol,Bayanmongol khoroolol
+4202,Bayanmongol khoroolold 3 oroo,2012,97.8,3,Bayanzurkh,Bayanmongol khoroolol,3.067484663,Bayanmongol khoroolol,Bayanmongol
 5244,19iin 2 oroo,2011,47.27,8,KHan-Uul,19-r khoroolol,3.067484663,19-r khoroolol,19-r khoroolol
 2707,Togoldor_apartmyented_2_oroo_oron_suutsыg_khudaldana,2020,45,7,KHan-Uul,YAarmag,3.066666667,YAarmag,Yarmag
 4229,KHan uul misheel 1 oroo bair 30m2,2022,30,2,KHan-Uul,Misheel,3.066666667,Misheel,Misheel
@@ -3698,11 +3698,11 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2098,13-r khoroolold 2 oroo bair,2015,66.9,7,Bayanzurkh,13-r khoroolol,3.049327354,13-r khoroolol,13-r khoroolol
 1571,Dulguun nuurt 2 uruu bair 41m2,2023,41,12,Sukhbaatar,Dolgoon nuur,3.048780488,Dolgoon nuur,Dolgoon nuur
 4334,100 aild 1oroo,2012,41,10,Sukhbaatar,100 ail,3.048780488,100 ail,100 ail
-2405,"Bzd, 26-khoroo, dunjingaraw khoroolold 4 oroo 87m2",2011,87,1,Bayanzurkh,Bayanmongol khoroolol,3.045977011,Bayanmongol khoroolol,Bayanmongol khoroolol
+2405,"Bzd, 26-khoroo, dunjingaraw khoroolold 4 oroo 87m2",2011,87,1,Bayanzurkh,Bayanmongol khoroolol,3.045977011,Bayanmongol khoroolol,Bayanmongol
 5055,"KHud 19-r khoroo, dol khotkhond 72,66mkw 3oroo",2021,73,8,KHan-Uul,19-r khoroolol,3.045753425,19-r khoroolol,19-r khoroolol
 5099,Dol khotkhond shine 3oroo bair,2016,73,8,KHan-Uul,Zaisan,3.045753425,Zaisan,Zaisan
 5633,KHud 15 khoroo dol khotkhond 3 oroo 72.66m2 bair,2016,73,8,KHan-Uul,19-r khoroolol,3.045753425,19-r khoroolol,19-r khoroolol
-2421,Bayanmongol khoroolold 65.7 mkw 3 oroo bair,2010,65.7,7,Bayanzurkh,Bayanmongol khoroolol,3.04414003,Bayanmongol khoroolol,Bayanmongol khoroolol
+2421,Bayanmongol khoroolold 65.7 mkw 3 oroo bair,2010,65.7,7,Bayanzurkh,Bayanmongol khoroolol,3.04414003,Bayanmongol khoroolol,Bayanmongol
 1224,KHoroolol ekh nyalkhas yag ard 43-r bairand 54.87 m2 2 oroo bair,2018,54.87,9,Bayangol,"3, 4 khoroolol",3.0435575,"3, 4 khoroolol","3, 4-r khoroolol"
 6382,YAarmag 51 mkw 2 oroo bair,2018,51,6,KHan-Uul,Busad,3.043529412,Yarmag,Yarmag
 1900,10 r khoroolol temuulen khotkhon 2 oroo,2012,46,8,Bayangol,10-r khoroolol,3.043478261,10-r khoroolol,10-r khoroolol
@@ -3715,7 +3715,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 760,Erin khoroolold 3 oroo bair,2016,75.69,3,Bayangol,1-r khoroolol,3.03871053,1-r khoroolol,1-r khoroolol
 869,Erin khoroolold 3 oroo bair,2016,75.69,3,Bayangol,1-r khoroolol,3.03871053,1-r khoroolol,1-r khoroolol
 7417,Nisekh gardyen khotkhond 2 oroo,2022,47.74,4,KHan-Uul,Nisekh,3.037285295,Nisekh,Nisekh
-1195,Bzd 26-r khoroo saruul khotkhond 54.6mkw-tai 2 oroo khudaldana,2015,54,2,Bayanzurkh,Bayanmongol khoroolol,3.037037037,Bayanmongol khoroolol,Bayanmongol khoroolol
+1195,Bzd 26-r khoroo saruul khotkhond 54.6mkw-tai 2 oroo khudaldana,2015,54,2,Bayanzurkh,Bayanmongol khoroolol,3.037037037,Bayanmongol khoroolol,Bayanmongol
 2478,Zaisan gal togoo tusdaa 1 oroo bair,2017,32.27,9,KHan-Uul,Zaisan,3.036876356,Zaisan,Zaisan
 7158,KHud-t 75.74m2 3oroo bair,2012,75.74,6,KHan-Uul,Busad,3.036704515,0,#N/A
 1513,KHangai khotkhonы 1 oroo bair,2020,28,1,Sukhbaatar,11-r khoroolol,3.035714286,11-r khoroolol,11-r khoroolol
@@ -3740,13 +3740,13 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 4321,"Bzd, aman khuur-2 khotkhond 72 mkw 3 oroo oron suuts",2020,72,12,Bayanzurkh,Zuun 4 zam,3.03,Zuun 4 zam,Zuun 4 zam
 4553,KHaldwartыn khoino aman khuur 2 khotkhond 72 mkw 3 oroo,2021,72,12,Bayanzurkh,13-r khoroolol,3.03,13-r khoroolol,13-r khoroolol
 7636,River villa s blokt 104 mkw 3 oroo,2023,104,15,KHan-Uul,Busad,3.028846154,River villa ,Home plaza
-852,Bayanmongol khoroolold 71m2 2 oroo bair,2012,71,2,Bayanzurkh,Bayanmongol khoroolol,3.028169014,Bayanmongol khoroolol,Bayanmongol khoroolol
+852,Bayanmongol khoroolold 71m2 2 oroo bair,2012,71,2,Bayanzurkh,Bayanmongol khoroolol,3.028169014,Bayanmongol khoroolol,Bayanmongol
 6396,"Bzd, narnы zam, 13-r khoroolol, shine dol khotkhond 3 oroo bair",2009,109,5,Bayanzurkh,13-r khoroolol,3.027522936,13-r khoroolol,13-r khoroolol
 4955,Dol khotkhond tsewerkhen 2 oroo,2015,41.29,2,KHan-Uul,Zaisan,3.027367401,Zaisan,Zaisan
 5463,Sky apartment,2020,58.8,15,Bayangol,"3, 4 khoroolol",3.027210884,"3, 4 khoroolol","3, 4-r khoroolol"
 4180,"Uildwerchin khotkhon, buren tokhijilttoi 44.6 m.kw 2 oroo",2014,44.6,1,Sukhbaatar,Busad,3.02690583,Uildverchin,Zamiin tsagdaa
 1026,KHangai khotkhond 38mkw 2 oroo bair,2016,38,2,Sukhbaatar,100 ail,3.026315789,100 ail,100 ail
-1626,2 oroo bair,2012,76,2,Bayanzurkh,Bayanmongol khoroolol,3.026315789,Bayanmongol khoroolol,Bayanmongol khoroolol
+1626,2 oroo bair,2012,76,2,Bayanzurkh,Bayanmongol khoroolol,3.026315789,Bayanmongol khoroolol,Bayanmongol
 2180,Bayanmongol khoroollыn khoino riwer willa khotkhond 2 oroo,2022,76,5,Bayanzurkh,Busad,3.026315789,River villa ,Home plaza
 3504,Riwyer willa naturыn zamыn urd 2 oroo,2023,76,5,Bayanzurkh,Busad,3.026315789,River villa ,Home plaza
 3616,"Bzd, river villa khotkhon 2 oroo",2023,76,15,Bayanzurkh,Busad,3.026315789,River villa ,Home plaza
@@ -3764,7 +3764,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 6374,Sky residence 2 c block-d 2 oroo bair,2021,45.64,2,Bayanzurkh,16-r khoroolol,3.023663453,16-r khoroolol,Tsaiz
 2918,Nisekhed 2 oroo,2022,43,16,KHan-Uul,YAarmag,3.023255814,YAarmag,Yarmag
 3161,"Bzd, tsagdaagiin khesegiin khajuud tow zam daguu nomin-toi bairnd",2014,43,15,Bayanzurkh,14-r khoroolol,3.023255814,14-r khoroolol,Narantuul
-4225,"Bzd 26-r khoroo,saruul khoroolold 85,8mkw 3 oroo",2015,86,1,Bayanzurkh,Bayanmongol khoroolol,3.023255814,Bayanmongol khoroolol,Bayanmongol khoroolol
+4225,"Bzd 26-r khoroo,saruul khoroolold 85,8mkw 3 oroo",2015,86,1,Bayanzurkh,Bayanmongol khoroolol,3.023255814,Bayanmongol khoroolol,Bayanmongol
 5854,Bzd 26-r khoroo olimp khotkhond 94.3mkw 3 oroo,2017,94.3,2,Bayanzurkh,Olimp khotkhon,3.022269353,Olimp khotkhon,Home plaza
 2513,13r khoroolol 6-r khoroo 3oroo,2015,96,10,Bayanzurkh,13-r khoroolol,3.020833333,13-r khoroolol,13-r khoroolol
 3569,KHotыn towtei oir 2 oroo,2012,48,8,KHan-Uul,19-r khoroolol,3.020833333,19-r khoroolol,19-r khoroolol
@@ -3808,15 +3808,15 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 61,KHud-t deedsiin orgoo khotkhond 52.30mkw 2 oroo,2022,52.3,11,KHan-Uul,YAarmag,3.001912046,YAarmag,Yarmag
 5378,BZD TSagaan khuaran khotkhond shine 2 oroo 41.65m2,2023,41.65,16,Bayanzurkh,13-r khoroolol,3.00120048,13-r khoroolol,13-r khoroolol
 26,Kino uildwert ulsыn surguuli tsetserlegiin derged 3 oroo,2023,68.64,8,Bayanzurkh,15-r khoroolol,3.001165501,15-r khoroolol,Jukov
-2354,Bayanmongol khoroolold 3 oroo bair,2010,69.99,2,Bayanzurkh,Bayanmongol khoroolol,3.000428633,Bayanmongol khoroolol,Bayanmongol khoroolol
+2354,Bayanmongol khoroolold 3 oroo bair,2010,69.99,2,Bayanzurkh,Bayanmongol khoroolol,3.000428633,Bayanmongol khoroolol,Bayanmongol
 2044,"Golden vill khotkhond 4 oroo 134,32m2",2018,134.32,7,KHan-Uul,Zaisan,3.000297796,Zaisan,Zaisan
 3894,Zaisan enkhjin khotkhond gal togoo tusdaa 2 oroo bair,2017,70.33,1,KHan-Uul,Zaisan,3.000142187,Zaisan,Zaisan
-152,"Bzd, banmongol khoroollыn zuun tald sumber ordod 110mkw 4 oroo",2015,110,11,Bayanzurkh,Bayanmongol khoroolol,3,Bayanmongol khoroolol,Bayanmongol khoroolol
-198,Nayad plazagыn khajuud river villad 2 oroo,2022,75,4,KHan-Uul,Bayanmongol khoroolol,3,Bayanmongol khoroolol,Bayanmongol khoroolol
+152,"Bzd, banmongol khoroollыn zuun tald sumber ordod 110mkw 4 oroo",2015,110,11,Bayanzurkh,Bayanmongol khoroolol,3,Bayanmongol khoroolol,Bayanmongol
+198,Nayad plazagыn khajuud river villad 2 oroo,2022,75,4,KHan-Uul,Bayanmongol khoroolol,3,Bayanmongol khoroolol,Bayanmongol
 328,KHaldwartыn awtobusnы buudlыn urd tald aman khuur 2 khotkhond 3 oroo oron suuts,2017,72.72,10,Bayanzurkh,Zuun 4 zam,3,Zuun 4 zam,Zuun 4 zam
 334,"Enkhjin khotkhond 89,98 mkw 4 oroo oron suuts",2017,89.89,3,KHan-Uul,Zaisan,3,Zaisan,Zaisan
 340,Altai khotkhond 2 oroo bair,2012,40.65,5,Bayangol,Altai khotkhon,3,Altai khotkhon,Altai khotkhon
-385,Zamыn tsagdaagыn urd tald river villa khotkhond 3 oroo oron suuts 105m2,2023,105,3,KHan-Uul,Bayanmongol khoroolol,3,Bayanmongol khoroolol,Bayanmongol khoroolol
+385,Zamыn tsagdaagыn urd tald river villa khotkhond 3 oroo oron suuts 105m2,2023,105,3,KHan-Uul,Bayanmongol khoroolol,3,Bayanmongol khoroolol,Bayanmongol
 465,4 oroo bair,1990,50,5,Songino KHairkhan,5 shar,3,5 shar,5 shar
 479,2 oroo 46m2,2022,46,5,KHan-Uul,YAarmag,3,YAarmag,Yarmag
 573,Dolgoon nuurt 2 oroo bair 45.48 mkw,2023,45.48,9,Sukhbaatar,Dolgoon nuur,3,Dolgoon nuur,Dolgoon nuur
@@ -3831,7 +3831,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1021,3 oroo bair 68.64m2,2023,68.64,8,Bayanzurkh,5-r khoroolol,3,5-r khoroolol,Tsirk
 1063,KHunnu willa khotkhond 75m2 3 oroo bair,2018,75.25,1,KHan-Uul,YAarmag,3,YAarmag,Yarmag
 1064,Bzd 2 oroo bair,2023,51,5,Bayanzurkh,Ofitsyer,3,Ofitsyer,Officer
-1086,Ikh nayad khudaldaanы towiin zuun tald river villa khotkhond 3 oroo oron suuts khudalda,2022,105,15,KHan-Uul,Bayanmongol khoroolol,3,Bayanmongol khoroolol,Bayanmongol khoroolol
+1086,Ikh nayad khudaldaanы towiin zuun tald river villa khotkhond 3 oroo oron suuts khudalda,2022,105,15,KHan-Uul,Bayanmongol khoroolol,3,Bayanmongol khoroolol,Bayanmongol
 1214,"Darkhan orgoo khotkhond 51,4 m.kw 2 oroo bair khudaldana.",2021,51.4,1,Sukhbaatar,Dolgoon nuur,3,Dolgoon nuur,Dolgoon nuur
 1222,"KHarkhorin zakhыn ard, 26 dugaar bairand ugsarmalыn 1 oroo",1988,30,6,Songino KHairkhan,1-r khoroolol,3,1-r khoroolol,1-r khoroolol
 1236,KHotыn towd gal togoo tusdaa 3 oroo bair 70m2,1995,70,3,CHingeltei,Baga toirog,3,Baga toirog,"40, 50 myangat"
@@ -3964,7 +3964,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 6608,Zaisand 3 uruu,2014,56,7,KHan-Uul,UB Town,3,UB Town,Misheel
 6615,"YAarmag nukht zam daguu green garden khotkhon 45,03mkw 2 oroo",2023,45.03,5,KHan-Uul,YAarmag,3,YAarmag,Yarmag
 6663,2 oroo,2022,50.29,13,KHan-Uul,YAarmag,3,YAarmag,Yarmag
-6675,River villa khotkhond 76m2 2 oroo bair,2022,76,12,KHan-Uul,Bayanmongol khoroolol,3,Bayanmongol khoroolol,Bayanmongol khoroolol
+6675,River villa khotkhond 76m2 2 oroo bair,2022,76,12,KHan-Uul,Bayanmongol khoroolol,3,Bayanmongol khoroolol,Bayanmongol
 6689,Zaisand altan bogd tsogtsolbor khotkhond 4 oroo bair,2022,136,7,KHan-Uul,Zaisan,3,Zaisan,Zaisan
 6701,2022 ond ashiglaltand orson driim appartamyent khotkhond 3 oroo,2022,67.65,10,Bayanzurkh,15-r khoroolol,3,15-r khoroolol,Jukov
 6723,Darkhan orgoo khotkhon 3 oroo,2022,60,4,Sukhbaatar,Dolgoon nuur,3,Dolgoon nuur,Dolgoon nuur
@@ -3975,7 +3975,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 6891,Sansarыn tunyel 3oroo bair,1990,80,8,Bayanzurkh,Sansar,3,Sansar,Sansar
 6898,Gal togoo tusdaa 3 oroo,1980,60,3,Bayanzurkh,Sansar,3,Sansar,Sansar
 6934,Anduud 26mkw 1 oroo,2015,26,9,Bayangol,25-r emiin san,3,25-r emiin san,Tomor zam
-6952,"Saruul khoroolold 88,2mkw mastyertai 3 oroo",2015,88.2,8,Bayanzurkh,Bayanmongol khoroolol,3,Bayanmongol khoroolol,Bayanmongol khoroolol
+6952,"Saruul khoroolold 88,2mkw mastyertai 3 oroo",2015,88.2,8,Bayanzurkh,Bayanmongol khoroolol,3,Bayanmongol khoroolol,Bayanmongol
 6980,Oron suuts,2022,50.29,13,KHan-Uul,YAarmag,3,YAarmag,Yarmag
 7043,Bzd-t 2 oroo bair,2023,42.76,16,Bayanzurkh,Ofitsyer,3,Ofitsyer,Officer
 7059,1 oroo bair,2017,32,9,Bayanzurkh,15-r khoroolol,3,15-r khoroolol,Jukov
@@ -3984,7 +3984,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 7129,5 shard 3 oroo,1990,40,4,Songino KHairkhan,5 shar,3,5 shar,5 shar
 7130,Goldyen will khotkhond 168.28m2 5 oroo oron suuts 2 dulaan zogsool,2015,168.28,5,KHan-Uul,Zaisan,3,Zaisan,Zaisan
 7202,Zaisan soyombotoi uulыn engert astra khotkhond 2 oroo bair,2022,45,8,KHan-Uul,Zaisan,3,Zaisan,Zaisan
-7241,"Bayanmongol khoroolold 3 oroo bair 112,8m2",2010,112.8,3,Bayanzurkh,Bayanmongol khoroolol,3,Bayanmongol khoroolol,Bayanmongol khoroolol
+7241,"Bayanmongol khoroolold 3 oroo bair 112,8m2",2010,112.8,3,Bayanzurkh,Bayanmongol khoroolol,3,Bayanmongol khoroolol,Bayanmongol
 7268,Zaisan golden vill khotkhond 5 oroo,2015,168.28,5,KHan-Uul,Zaisan,3,Zaisan,Zaisan
 7283,Ogoomor zakhыn khajuud altan tewsh khotkhond 3 oroo oron suuts,2022,62.4,10,Bayanzurkh,Ogoomor zakhыn zuun,3,Ogoomor zakhыn zuun,Ogoomor zakh
 7324,2 oroo,2023,50.75,4,KHan-Uul,YAarmag,3,YAarmag,Yarmag
@@ -4000,7 +4000,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 7680,Deedsiin orgoo,2022,29.28,6,KHan-Uul,YAarmag,3,YAarmag,Yarmag
 7699,Crystal town-d 183.53m.kw 5 oroo,2015,183.53,1,Bayanzurkh,Olimp khotkhon,3,Olimp khotkhon,Home plaza
 7701,Dolgoon nuur apartmyentad 2-oroo bair,2022,48.79,15,Sukhbaatar,Dolgoon nuur,3,Dolgoon nuur,Dolgoon nuur
-7764,"Bayanmongol khoroolold 112,8 mkw 3 oroo 2 garajtai bair",2010,112.8,3,Bayanzurkh,Bayanmongol khoroolol,3,Bayanmongol khoroolol,Bayanmongol khoroolol
+7764,"Bayanmongol khoroolold 112,8 mkw 3 oroo 2 garajtai bair",2010,112.8,3,Bayanzurkh,Bayanmongol khoroolol,3,Bayanmongol khoroolol,Bayanmongol
 7796,Altai khotkhonы 2 oroo oron suuts,2022,55.23,4,Bayangol,Altai khotkhon,3,Altai khotkhon,Altai khotkhon
 7836,Seoul garden soul gardyen 3 oroo 63 m2,2022,63,3,KHan-Uul,Nisekh,3,Nisekh,Nisekh
 7853,KHud 2 oroo bair,2020,62,10,KHan-Uul,19-r khoroolol,3,19-r khoroolol,19-r khoroolol
@@ -4022,9 +4022,9 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 3285,Bair,2015,41.06,1,KHan-Uul,15-r khoroolol,2.995616171,15-r khoroolol,Jukov
 674,Zaisan golden vill khotkhond 168.28 mkw 5 oroo bair 2 grashыn khamt,2017,168.28,5,KHan-Uul,Zaisan,2.995008319,Zaisan,Zaisan
 7259,BGD 3khoroolold 2oroo 76.8mkw bair,2013,76.8,6,Bayangol,"3, 4 khoroolol",2.994791667,"3, 4 khoroolol","3, 4-r khoroolol"
-626,Bayanmongol khoroolold 2oroo,2012,71.8,2,Bayanzurkh,Bayanmongol khoroolol,2.994428969,Bayanmongol khoroolol,Bayanmongol khoroolol
-4524,Bzd 26-r khoroo bayanmongol khoroolold 71.8mkw 2oroo,2012,71.8,2,Bayanzurkh,Bayanmongol khoroolol,2.994428969,Bayanmongol khoroolol,Bayanmongol khoroolol
-6712,Bzd 26-r khoroo bayanmongol khoroolold 71.8 mkw 2 oroo,2015,71.8,2,Bayanzurkh,Bayanmongol khoroolol,2.994428969,Bayanmongol khoroolol,Bayanmongol khoroolol
+626,Bayanmongol khoroolold 2oroo,2012,71.8,2,Bayanzurkh,Bayanmongol khoroolol,2.994428969,Bayanmongol khoroolol,Bayanmongol
+4524,Bzd 26-r khoroo bayanmongol khoroolold 71.8mkw 2oroo,2012,71.8,2,Bayanzurkh,Bayanmongol khoroolol,2.994428969,Bayanmongol khoroolol,Bayanmongol
+6712,Bzd 26-r khoroo bayanmongol khoroolold 71.8 mkw 2 oroo,2015,71.8,2,Bayanzurkh,Bayanmongol khoroolol,2.994428969,Bayanmongol khoroolol,Bayanmongol
 4445,Udirdlagыn akadyemiin urd 4 oroo 170m2 oron suuts,2010,170,4,KHan-Uul,Busad,2.994117647,Akademi,Udirdlagiin akademi
 4618,"BZD Nart-3 khotkhond 33.4m2 1 oroo 33,4m2",2023,33.4,7,Bayanzurkh,14-r khoroolol,2.994011976,14-r khoroolol,Narantuul
 896,Bgd-t 2oroo,2021,58.8,15,Bayangol,Busad,2.993197279,0,#N/A
@@ -4045,7 +4045,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1032,"Bzd, 26-r khoroo, tsetserlegt khureelengiin ard sunny town 88,61mkw 4 oroo",2014,89,4,Bayanzurkh,Busad,2.986853933,Sunny town,Dunjingarav
 5116,Zaisan suld khotkhond 3 oroo oron suuts,2023,73,7,KHan-Uul,Zaisan,2.98630137,Zaisan,Zaisan
 275,Buhiin urguu 2uruu,2010,72,10,Bayanzurkh,Busad,2.986111111,Bokhiin orgoo,13-r khoroolol
-5471,Baynmongol horoolold 2 uruu bair,2014,72,2,Bayanzurkh,Bayanmongol khoroolol,2.986111111,Bayanmongol khoroolol,Bayanmongol khoroolol
+5471,Baynmongol horoolold 2 uruu bair,2014,72,2,Bayanzurkh,Bayanmongol khoroolol,2.986111111,Bayanmongol khoroolol,Bayanmongol
 5874,"Gemtliin emnelegiin urd, modnы 2ыn zam daguu 3 oroo bair",2015,72,3,Bayangol,"3, 4 khoroolol",2.986111111,"3, 4 khoroolol","3, 4-r khoroolol"
 5067,Nisekh soul gardyen khotkhond 2 oroo,2022,64,13,KHan-Uul,Nisekh,2.9859375,Nisekh,Nisekh
 2318,Zaisan soyombot khotkhond 2 oroo bair,2015,58.63,4,KHan-Uul,Zaisan,2.984820058,Zaisan,Zaisan
@@ -4112,7 +4112,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 3699,Ogoomor khotkhond 55.86mkw 3 oroo bair,2022,55.86,12,Bayanzurkh,Busad,2.962764053,Ogoomor khotkhon,Ogoomor zakh
 3708,Zaisan goldyen will khotkhond 168.8m2 5 oroo,2015,168.8,5,KHan-Uul,Busad,2.962085308,Golden vill,Zaisan
 6673,"Dragond 2 oroo oron suuts 42,2m2",2017,42.2,3,Songino KHairkhan,Busad,2.962085308,Dragon,5 shar
-3837,4 oroo bair 130m2,2010,130,1,Bayanzurkh,Bayanmongol khoroolol,2.961538462,Bayanmongol khoroolol,Bayanmongol khoroolol
+3837,4 oroo bair 130m2,2010,130,1,Bayanzurkh,Bayanmongol khoroolol,2.961538462,Bayanmongol khoroolol,Bayanmongol
 4912,Koyo town 2 oroo bair,2023,52.37,2,KHan-Uul,Altai khotkhon,2.96,Altai khotkhon,Altai khotkhon
 7755,YAarmagt deedsiin orgoo khotkhond 2 oroo,2021,50,7,KHan-Uul,YAarmag,2.96,YAarmag,Yarmag
 5870,Tomor zamd 2 oroo oron suuts,2011,49,3,Bayangol,Tomor zam,2.959183673,Tomor zam,Tomor zam
@@ -4166,7 +4166,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 926,Zaisan griin khaus khajuud tuulыn khowoo khotkhond gal togoo tusdaa 2 oroo bair,2006,52,4,KHan-Uul,Busad,2.942307692,Tuuliin khovoo,Zaisan Orgil
 1943,1 oroo bair,2021,32.3,10,Bayanzurkh,Ofitsyer,2.941176471,Ofitsyer,Officer
 2490,"Dolgoon nuur, komipyutyer moll-n zuun tald shine khotkhond wann, 00tusdaa 2 oroo bair",2023,51,2,Sukhbaatar,Dolgoon nuur,2.941176471,Dolgoon nuur,Dolgoon nuur
-2546,Saruuld 1uruu bair,2016,34,6,Bayanzurkh,Bayanmongol khoroolol,2.941176471,Bayanmongol khoroolol,Bayanmongol khoroolol
+2546,Saruuld 1uruu bair,2016,34,6,Bayanzurkh,Bayanmongol khoroolol,2.941176471,Bayanmongol khoroolol,Bayanmongol
 3615,mongol 3-r surguuliin baruun tald 3 oroo bair 85m2,2008,85,5,Sukhbaatar,Busad,2.941176471,Mongol 3,11-r khoroolol
 6234,SBD 11r khoroolold 2 oroo bair 49m²,2014,51,11,Sukhbaatar,11-r khoroolol,2.941176471,11-r khoroolol,11-r khoroolol
 6562,"Dolgoon nuurt, kompiyutyer mall-n khajuud",2022,51,2,Sukhbaatar,Dolgoon nuur,2.941176471,Dolgoon nuur,Dolgoon nuur
@@ -4247,8 +4247,8 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5942,TSelmeg khotkhon 3 oroo,2013,83.7,5,KHan-Uul,TSelmeg khotkhon,2.915173238,TSelmeg khotkhon,Misheel
 6022,"Bgd, 10-r khoroolol",2023,47,4,Bayangol,10-r khoroolol,2.914893617,10-r khoroolol,10-r khoroolol
 4449,Dream apartment khotkhond 70mkw 3 oroo bair,2023,70,9,Bayanzurkh,Busad,2.914285714,Dream apartment,Tsaiz
-3004,Bayanmongol khoroolold 3 oroo bair dulaan zogsoolыn khamt,2013,97.8,3,Bayanzurkh,Bayanmongol khoroolol,2.914110429,Bayanmongol khoroolol,Bayanmongol khoroolol
-7556,Bayanmongol khoroolold 3 oroo bair,2013,97.8,3,Bayanzurkh,Bayanmongol khoroolol,2.914110429,Bayanmongol khoroolol,Bayanmongol khoroolol
+3004,Bayanmongol khoroolold 3 oroo bair dulaan zogsoolыn khamt,2013,97.8,3,Bayanzurkh,Bayanmongol khoroolol,2.914110429,Bayanmongol khoroolol,Bayanmongol
+7556,Bayanmongol khoroolold 3 oroo bair,2013,97.8,3,Bayanzurkh,Bayanmongol khoroolol,2.914110429,Bayanmongol khoroolol,Bayanmongol
 4344,KHud 120-n ereliin bairand 5 oroo bair,2002,103,6,KHan-Uul,120 myangat,2.912621359,120 myangat,120 myangat
 6186,Bzd ogoomor zakhыn zuun tald altan tewsh khotkhond 2 oroo oron suuts,2022,51.5,16,Bayanzurkh,Busad,2.912621359,Altan tevsh,Ogoomor zakh
 7789,100 ail atlas barilgыn matyerialыn delguuriin 10 dawkhart,2014,41.2,10,Sukhbaatar,100 ail,2.912621359,100 ail,100 ail
@@ -4318,12 +4318,12 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1133,Az jargal khotkhon 2 oroo,2023,42.24,6,Sukhbaatar,100 ail,2.9,100 ail,100 ail
 1145,Koyo town 47.13mk² 2 oroo,2023,47.13,2,Bayangol,Altai khotkhon,2.9,Altai khotkhon,Altai khotkhon
 1197,King tower t 4 oroo,2010,135,7,KHan-Uul,King Tower,2.9,King Tower,Marshal
-1325,Bayanmongol khoroolol 2 oroo,2013,78.5,2,Bayanzurkh,Bayanmongol khoroolol,2.9,Bayanmongol khoroolol,Bayanmongol khoroolol
-1521,Bzd 26-r khoroond saruul khoroolold 3 oroo,2015,80.4,8,Bayanzurkh,Bayanmongol khoroolol,2.9,Bayanmongol khoroolol,Bayanmongol khoroolol
+1325,Bayanmongol khoroolol 2 oroo,2013,78.5,2,Bayanzurkh,Bayanmongol khoroolol,2.9,Bayanmongol khoroolol,Bayanmongol
+1521,Bzd 26-r khoroond saruul khoroolold 3 oroo,2015,80.4,8,Bayanzurkh,Bayanmongol khoroolol,2.9,Bayanmongol khoroolol,Bayanmongol
 1606,"Bgd, 25-r emiin sand 1 oroo bair",2010,30,1,Bayangol,25-r emiin san,2.9,25-r emiin san,Tomor zam
 1607,Bogd willa khotkhon 108m2,2020,108,15,KHan-Uul,Nisekh,2.9,Nisekh,Nisekh
 1706,Bkhis-ыn khoino 2 oroo bair,2023,40,11,Bayanzurkh,16-r khoroolol,2.9,16-r khoroolol,Tsaiz
-1818,Bayanmongol khoroolold 3 oroo bair,2013,98.48,4,Bayanzurkh,Bayanmongol khoroolol,2.9,Bayanmongol khoroolol,Bayanmongol khoroolol
+1818,Bayanmongol khoroolold 3 oroo bair,2013,98.48,4,Bayanzurkh,Bayanmongol khoroolol,2.9,Bayanmongol khoroolol,Bayanmongol
 1932,Dolgoon nuur apartmyent 3 khotkhond 2 oroo bair,2023,48.79,13,Sukhbaatar,Dolgoon nuur,2.9,Dolgoon nuur,Dolgoon nuur
 1962,Bzd sondor apartmyent khotkhond 3 oroo bair 69.68m2,2023,69.68,5,Bayanzurkh,Ofitsyer,2.9,Ofitsyer,Officer
 1963,"Bzd, sondor apartmyent 1 khotkhond 2 oroo bair 44m2",2023,44,2,Bayanzurkh,Ofitsyer,2.9,Ofitsyer,Officer
@@ -4332,12 +4332,12 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2262,Haldwartad 2 uruu bair,2014,58.5,8,Bayanzurkh,13-r khoroolol,2.9,13-r khoroolol,13-r khoroolol
 2263,Baynburded haruuts saitai 2 uruu,2023,51.35,16,Sukhbaatar,Bayanburd,2.9,Bayanburd,Bayanburd
 2278,KHotыn towd naturt 4 oroo bair,2013,110,1,Bayanzurkh,13-r khoroolol,2.9,13-r khoroolol,13-r khoroolol
-2358,Bayanmongol khoroolold 3 oroo,2010,73.7,4,Bayanzurkh,Bayanmongol khoroolol,2.9,Bayanmongol khoroolol,Bayanmongol khoroolol
+2358,Bayanmongol khoroolold 3 oroo,2010,73.7,4,Bayanzurkh,Bayanmongol khoroolol,2.9,Bayanmongol khoroolol,Bayanmongol
 2525,Artsat luxury residence 3oroo bair,2023,73,2,KHan-Uul,YAarmag,2.9,YAarmag,Yarmag
-2556,Bzd bayanmongol khoroolold 3 oroo bair,2011,98.5,3,Bayanzurkh,Bayanmongol khoroolol,2.9,Bayanmongol khoroolol,Bayanmongol khoroolol
+2556,Bzd bayanmongol khoroolold 3 oroo bair,2011,98.5,3,Bayanzurkh,Bayanmongol khoroolol,2.9,Bayanmongol khoroolol,Bayanmongol
 2774,"Buyant od 2 oroo 44,58m2",2023,44.58,5,Bayanzurkh,15-r khoroolol,2.9,15-r khoroolol,Jukov
 2807,Nisekh 2 oroo bair,2021,61,7,KHan-Uul,Nisekh,2.9,Nisekh,Nisekh
-2820,Dunjingaraw khotkhond 4 oroo bair,2013,130,6,Bayanzurkh,Bayanmongol khoroolol,2.9,Bayanmongol khoroolol,Bayanmongol khoroolol
+2820,Dunjingaraw khotkhond 4 oroo bair,2013,130,6,Bayanzurkh,Bayanmongol khoroolol,2.9,Bayanmongol khoroolol,Bayanmongol
 2910,KHaldwartыn uulzwart 2 oroo,2014,58.5,8,Bayanzurkh,13-r khoroolol,2.9,13-r khoroolol,13-r khoroolol
 3058,Koyo town koyoo taund 63.05mkw 3 oroo,2023,63.05,3,Bayangol,Altai khotkhon,2.9,Altai khotkhon,Altai khotkhon
 3095,Bzd 13 khoroo bayanzurkh duurgiin zuun urd 101-r bairand 79mkw 3 oroo,2022,79,16,Bayanzurkh,13-r khoroolol,2.9,13-r khoroolol,13-r khoroolol
@@ -4374,7 +4374,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5584,Dolgoon nuur apartmyent 3oroo,2023,79,16,Sukhbaatar,Dolgoon nuur,2.9,Dolgoon nuur,Dolgoon nuur
 5771,Altai khotkhond 3 oroo bair,2010,75.06,1,Bayangol,Altai khotkhon,2.9,Altai khotkhon,Altai khotkhon
 5849,Nisekhiin soul gardyen khotkhond 63.70m2 2oroo bair,2022,63.7,6,KHan-Uul,Nisekh,2.9,Nisekh,Nisekh
-5940,Bayanmongold 2 oroo bair,2012,71,10,Bayanzurkh,Bayanmongol khoroolol,2.9,Bayanmongol khoroolol,Bayanmongol khoroolol
+5940,Bayanmongold 2 oroo bair,2012,71,10,Bayanzurkh,Bayanmongol khoroolol,2.9,Bayanmongol khoroolol,Bayanmongol
 5983,Global garden khotkhond 79.3mkw 3 oroo,2023,79.3,15,KHan-Uul,YAarmag,2.9,YAarmag,Yarmag
 6074,2oroo bair,2023,54,14,Bayanzurkh,16-r khoroolol,2.9,16-r khoroolol,Tsaiz
 6434,"13 khoroolol, minii zakhыn zuun tald 73 mkw 3 oroo oron suuts",2016,73,2,Bayanzurkh,13-r khoroolol,2.9,13-r khoroolol,13-r khoroolol
@@ -4439,9 +4439,9 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 6207,KHoroollыn etsest shine khoroolol khotkhond 2 oroo bair,2020,55.3,11,Bayangol,"3, 4 khoroolol",2.893309222,"3, 4 khoroolol","3, 4-r khoroolol"
 3298,Zaisand nomuun willaj khotkhond mastyertai 3 oroo bair khudaldana,2019,102,2,KHan-Uul,Zaisan,2.892156863,Zaisan,Zaisan
 5962,Tomor zamd 89.9 mkw 3 oroo oron suuts,2008,89.9,1,Bayangol,Tomor zam,2.892102336,Tomor zam,Tomor zam
-107,Bayanmongol khoroolold 78m2 2 oroo bair,2013,78.5,2,Bayanzurkh,Bayanmongol khoroolol,2.891719745,Bayanmongol khoroolol,Bayanmongol khoroolol
-992,"Bayanmongol khoroolold 2 oroo bair 78,5m2",2013,78.5,2,Bayanzurkh,Bayanmongol khoroolol,2.891719745,Bayanmongol khoroolol,Bayanmongol khoroolol
-3625,"Bzd, bayanmongol khoroolold 2 oroo",2013,78.5,2,Bayanzurkh,Bayanmongol khoroolol,2.891719745,Bayanmongol khoroolol,Bayanmongol khoroolol
+107,Bayanmongol khoroolold 78m2 2 oroo bair,2013,78.5,2,Bayanzurkh,Bayanmongol khoroolol,2.891719745,Bayanmongol khoroolol,Bayanmongol
+992,"Bayanmongol khoroolold 2 oroo bair 78,5m2",2013,78.5,2,Bayanzurkh,Bayanmongol khoroolol,2.891719745,Bayanmongol khoroolol,Bayanmongol
+3625,"Bzd, bayanmongol khoroolold 2 oroo",2013,78.5,2,Bayanzurkh,Bayanmongol khoroolol,2.891719745,Bayanmongol khoroolol,Bayanmongol
 3317,Bokhiin orgoo zuun khoino 2 oroo bair,2010,64,8,Bayanzurkh,Zuun 4 zam,2.890625,Zuun 4 zam,Zuun 4 zam
 7456,KHotыn towd said narыn emnelegiin baruun tald 2 oroo,2010,64,8,Bayanzurkh,Busad,2.890625,Khotiin tov,SBTalbai
 4049,Astra river view khotkhond 3 oroo 76m2,2023,76.46,11,KHan-Uul,19-r khoroolol,2.890400209,19-r khoroolol,19-r khoroolol
@@ -4459,7 +4459,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2987,Pelhanowiin surguuliin hoino 3 uruu bair,2015,90,11,Bayanzurkh,Busad,2.888888889,Plekhanov,Jukov
 4392,Bzd plyekhanowыn surguuliin zamыn khoid tald 90 mkw 3 oroo oron suuts,2008,90,11,Bayanzurkh,Busad,2.888888889,Plekhanov,Jukov
 5966,13-n zam daguu gal togoo tusdaa 2 oroo,1990,54,9,KHan-Uul,13-r khoroolol,2.888888889,13-r khoroolol,13-r khoroolol
-1,Bayanmongol khoroolold 73.7mkw 2 oroo,2012,74,10,Bayanzurkh,Bayanmongol khoroolol,2.888243243,Bayanmongol khoroolol,Bayanmongol khoroolol
+1,Bayanmongol khoroolold 73.7mkw 2 oroo,2012,74,10,Bayanzurkh,Bayanmongol khoroolol,2.888243243,Bayanmongol khoroolol,Bayanmongol
 2371,KHangarid siti 1 khotkhogd 2 oroo oron suuts,2018,53.67,1,KHan-Uul,YAarmag,2.888019378,YAarmag,Yarmag
 5229,Bgd altai khotkhonы chankh ard dema khotkhond 2 oroo bair,2016,65.8,7,Bayangol,Altai khotkhon,2.887537994,Altai khotkhon,Altai khotkhon
 1793,Bgd 20 -khoroo erin khoroolol 53.5 mkw 2 oroo,2017,53,4,Bayangol,1-r khoroolol,2.886792453,1-r khoroolol,1-r khoroolol
@@ -4525,7 +4525,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5666,Ekh nyalkhasыn ard 2 oroo bair,2015,54,10,Bayangol,Zuragt,2.87037037,Zuragt,Bayanburd
 2430,Sukhbaatar duureg khangai khotkhonы chankh urd 310 bair,2018,45.3,11,Sukhbaatar,Busad,2.869757174,Khangai,Dolgoon nuur
 1116,KHoroolold 2oroo 69m2,2013,69,8,Bayangol,"3, 4 khoroolol",2.869565217,"3, 4 khoroolol","3, 4-r khoroolol"
-5733,Bayanmongol khoroolold 2 oroo bair,2008,69,3,Bayanzurkh,Bayanmongol khoroolol,2.869565217,Bayanmongol khoroolol,Bayanmongol khoroolol
+5733,Bayanmongol khoroolold 2 oroo bair,2008,69,3,Bayanzurkh,Bayanmongol khoroolol,2.869565217,Bayanmongol khoroolol,Bayanmongol
 7212,"KHud, altai khotkhonы urd 1 oroo bair",2014,25.1,10,KHan-Uul,KHos-Orgoo,2.868525896,KHos-Orgoo,Altai khotkhon
 3238,"Bzd, naturt shine zuun khotkhond 114mkw 4 oroo oron suuts",2015,114,4,Bayanzurkh,Busad,2.868421053,Natur,Natur
 5878,4r khoroolol modnы 2t 3oroo bair,1986,68,1,Bayangol,"3, 4 khoroolol",2.867647059,"3, 4 khoroolol","3, 4-r khoroolol"
@@ -4538,9 +4538,9 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 7534,KHangai khotkhond 2 oroo bair,2017,41.9,5,Sukhbaatar,100 ail,2.863961814,100 ail,100 ail
 94,Misheel ekspogiin baruun tald dulaakhan 2 oroo,2012,52.38,6,KHan-Uul,Misheel,2.863688431,Misheel,Misheel
 6318,Mongol 3-r surguuliin ard atimos bairand pyentkhaus 110m2,2005,110,5,Sukhbaatar,Busad,2.863636364,Mongol 3,11-r khoroolol
-4522,"Bayanmongol khoroolold 1 dawkharыn 2 oroo 69,9m2",2010,69.9,1,Bayanzurkh,Bayanmongol khoroolol,2.861230329,Bayanmongol khoroolol,Bayanmongol khoroolol
-4870,"Bzd, 26-r khoroo, bayanmongol khoroolold 1 dawkharыn 2 oroo bair 69,9m2",2015,69.9,1,Bayanzurkh,Bayanmongol khoroolol,2.861230329,Bayanmongol khoroolol,Bayanmongol khoroolol
-6311,Bayanmongol khoroolold 1 dawkhrыn 2 oroo bair 69.9m2,2009,69.9,1,Bayanzurkh,Bayanmongol khoroolol,2.861230329,Bayanmongol khoroolol,Bayanmongol khoroolol
+4522,"Bayanmongol khoroolold 1 dawkharыn 2 oroo 69,9m2",2010,69.9,1,Bayanzurkh,Bayanmongol khoroolol,2.861230329,Bayanmongol khoroolol,Bayanmongol
+4870,"Bzd, 26-r khoroo, bayanmongol khoroolold 1 dawkharыn 2 oroo bair 69,9m2",2015,69.9,1,Bayanzurkh,Bayanmongol khoroolol,2.861230329,Bayanmongol khoroolol,Bayanmongol
+6311,Bayanmongol khoroolold 1 dawkhrыn 2 oroo bair 69.9m2,2009,69.9,1,Bayanzurkh,Bayanmongol khoroolol,2.861230329,Bayanmongol khoroolol,Bayanmongol
 184,Misheel khotkhond 2oroo bair,2021,43,6,KHan-Uul,Misheel,2.860465116,Misheel,Misheel
 117,Modnы 2-ыn golыn zam daguu 2 oroo 42m2,2012,42,1,Bayangol,Baruun 4 zam,2.857142857,Baruun 4 zam,Baruun 4 zam
 1481,63 mkw 2 oroo bair,2015,63,15,Bayanzurkh,15-r khoroolol,2.857142857,15-r khoroolol,Jukov
@@ -4578,13 +4578,13 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1901,Artsat-2 3 oroo,2022,75,13,KHan-Uul,YAarmag,2.85,YAarmag,Yarmag
 2035,51m2 shine 2 uruu,2023,51,10,KHan-Uul,YAarmag,2.85,YAarmag,Yarmag
 3066,10-r khoroolold 2 oroo bair,2015,52,9,Bayangol,10-r khoroolol,2.85,10-r khoroolol,10-r khoroolol
-3138,Bayanmongol khoroolold 1 dawkharыn 2 oroo bair,2013,70,1,Bayanzurkh,Bayanmongol khoroolol,2.85,Bayanmongol khoroolol,Bayanmongol khoroolol
+3138,Bayanmongol khoroolold 1 dawkharыn 2 oroo bair,2013,70,1,Bayanzurkh,Bayanmongol khoroolol,2.85,Bayanmongol khoroolol,Bayanmongol
 3860,4 oroo oron suuts 113m2.,2010,113,4,Bayanzurkh,13-r khoroolol,2.85,13-r khoroolol,13-r khoroolol
 4007,Bzd baganat orgoo khotkhond 3 oroo belen bair 69m2,2022,69,5,Bayanzurkh,Ofitsyer,2.85,Ofitsyer,Officer
 4047,Polaris apartment 3 oroo bair,2019,68,16,Bayanzurkh,Busad,2.85,Polaris khotkhon,Jukov
 5620,Bzd altantewsh khotkhond 2 oroo gal togoo tusdaa,2022,62.4,5,Bayanzurkh,CHuluun owoo,2.85,CHuluun owoo,Botanik
 6889,Bzd 13-r khoroo bzd-ыn yag urd tald 49.94 mkw 2 oroo,2022,50,8,Bayanzurkh,15-r khoroolol,2.85,15-r khoroolol,Jukov
-7361,"Bayanmongol khoroolold 98,58mkw 3 oroo",2010,98,4,Bayanzurkh,Bayanmongol khoroolol,2.85,Bayanmongol khoroolol,Bayanmongol khoroolol
+7361,"Bayanmongol khoroolold 98,58mkw 3 oroo",2010,98,4,Bayanzurkh,Bayanmongol khoroolol,2.85,Bayanmongol khoroolol,Bayanmongol
 7834,Artsat luxury residence khotkhond 3 oroo oron suuts,2023,69.85,11,KHan-Uul,YAarmag,2.85,YAarmag,Yarmag
 271,4 oroo bair,2010,113.1,4,Bayanzurkh,13-r khoroolol,2.849955791,13-r khoroolol,13-r khoroolol
 5357,Driim apartmyent khotkhond 68.64mkw 3 oroo oron suuts,2022,68.64,8,Bayanzurkh,Busad,2.849941725,Dream apartment,Tsaiz
@@ -4614,10 +4614,10 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2356,16 khoroolold 2 oroo bair,2022,50.68,15,Bayanzurkh,16-r khoroolol,2.841357537,16-r khoroolol,Tsaiz
 58,Misheel ekspo towiin baruun tald 44mkw 2 oroo,2016,44,12,KHan-Uul,Misheel,2.840909091,Misheel,Misheel
 4642,Misheel ekspo baruun tald 2 oroo 44m2,2019,44,12,KHan-Uul,Misheel,2.840909091,Misheel,Misheel
-4037,3 oroo,2008,98.57,3,Bayanzurkh,Bayanmongol khoroolol,2.840620879,Bayanmongol khoroolol,Bayanmongol khoroolol
+4037,3 oroo,2008,98.57,3,Bayanzurkh,Bayanmongol khoroolol,2.840620879,Bayanmongol khoroolol,Bayanmongol
 3982,KHud-n urd iweel khotkhond 3 oroo bair,2014,69,9,KHan-Uul,19-r khoroolol,2.84057971,19-r khoroolol,19-r khoroolol
-3419,Bayanmogol khoroolold 3 oroo bair,2012,98.58,3,Bayanzurkh,Bayanmongol khoroolol,2.840332725,Bayanmongol khoroolol,Bayanmongol khoroolol
-7816,Bayanmongol khoroolold 3 oroo oron suuts,2012,98.58,3,Bayanzurkh,Bayanmongol khoroolol,2.840332725,Bayanmongol khoroolol,Bayanmongol khoroolol
+3419,Bayanmogol khoroolold 3 oroo bair,2012,98.58,3,Bayanzurkh,Bayanmongol khoroolol,2.840332725,Bayanmongol khoroolol,Bayanmongol
+7816,Bayanmongol khoroolold 3 oroo oron suuts,2012,98.58,3,Bayanzurkh,Bayanmongol khoroolol,2.840332725,Bayanmongol khoroolol,Bayanmongol
 4238,Nart khotkhond 2 oroo bair,2017,49.31,6,Bayanzurkh,14-r khoroolol,2.839180694,14-r khoroolol,Narantuul
 1160,Bgd bogd ar 43 mkw 2 oroo,2008,43.33,6,Bayangol,Bogd-Ar,2.838679898,Bogd-Ar,Tomor zam
 6386,SHine orgoo khoroolold 2 oroo bair,2017,52.86,3,KHan-Uul,YAarmag,2.837684449,YAarmag,Yarmag
@@ -4644,7 +4644,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 4604,Jukow khotkhond 1 oroo,2016,30,12,Bayanzurkh,Busad,2.833333333,Jukov,Jukov
 6195,1 oroo bair,2011,24,4,Songino KHairkhan,1-r khoroolol,2.833333333,1-r khoroolol,1-r khoroolol
 7014,KHud inel zaisan village khotkhond 120mkw 4oroo oron suuts,2014,120,4,KHan-Uul,Zaisan,2.833333333,Zaisan,Zaisan
-6551,Bayanmongol khotkhon,1998,69.9,3,Bayanzurkh,Busad,2.832618026,Bayanmongol,Bayanmongol khoroolol
+6551,Bayanmongol khotkhon,1998,69.9,3,Bayanzurkh,Busad,2.832618026,Bayanmongol,Bayanmongol
 4931,SHine zuun khotkhond 4 oroo,2010,113,4,Bayanzurkh,13-r khoroolol,2.831858407,13-r khoroolol,13-r khoroolol
 2164,KHan uul duureg zuun tald 2 oroo,2016,47.7,9,KHan-Uul,19-r khoroolol,2.830188679,19-r khoroolol,19-r khoroolol
 3033,TSoglog khotkhon 2-oroo,2015,53,7,Bayangol,10-r khoroolol,2.830188679,10-r khoroolol,10-r khoroolol
@@ -4652,8 +4652,8 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 6288,"KHud- 3r khoroo, khan uul duurgiin zuun tald 10/3 bairand 47.7m2 1oroo",2016,47.7,9,KHan-Uul,19-r khoroolol,2.830188679,19-r khoroolol,19-r khoroolol
 2436,Jukow one family khotkhond 2 oroo,2022,47,7,Bayanzurkh,Busad,2.829787234,Jukov,Jukov
 6134,YAarmagt 57.39m2 1 dawkharыn,2022,57.39,1,KHan-Uul,Zaisan,2.829761282,Zaisan,Zaisan
-2583,Bayanmongol khoroolold 2 oroo oron suuts,2011,70,3,Bayanzurkh,Bayanmongol khoroolol,2.828571429,Bayanmongol khoroolol,Bayanmongol khoroolol
-3946,Bayanmongol khoroolold 99mkw 3 oroo bair,2009,99,10,Bayanzurkh,Bayanmongol khoroolol,2.828282828,Bayanmongol khoroolol,Bayanmongol khoroolol
+2583,Bayanmongol khoroolold 2 oroo oron suuts,2011,70,3,Bayanzurkh,Bayanmongol khoroolol,2.828571429,Bayanmongol khoroolol,Bayanmongol
+3946,Bayanmongol khoroolold 99mkw 3 oroo bair,2009,99,10,Bayanzurkh,Bayanmongol khoroolol,2.828282828,Bayanmongol khoroolol,Bayanmongol
 7338,Bayanzurkh 2 oroo gal togoonы tawilgatai,2014,51.3,4,Bayanzurkh,14-r khoroolol,2.826510721,14-r khoroolol,Narantuul
 510,"3,4-r khoroolol korea town2 khotkhond 46m2 2 oroo",2014,46,6,Bayangol,"3, 4 khoroolol",2.826086957,"3, 4 khoroolol","3, 4-r khoroolol"
 3050,Zaisand soyombot khotkhond 2 oroo 63m2,2022,63,6,KHan-Uul,Zaisan,2.825396825,Zaisan,Zaisan
@@ -4671,7 +4671,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 7276,Bgd 8-r khoroo khogjil khotkhon 1 oroo,2015,39,5,Bayangol,"3, 4 khoroolol",2.820512821,"3, 4 khoroolol","3, 4-r khoroolol"
 5351,KHud yaarmagt 35.74m2 1 oroo bair,2022,35.74,7,KHan-Uul,YAarmag,2.820369334,YAarmag,Yarmag
 517,Gemteliin emnelegiin urd 1 oroo,2015,28.72,6,Bayangol,"3, 4 khoroolol",2.820334262,"3, 4 khoroolol","3, 4-r khoroolol"
-3833,Bayanmongol khoroolold 98m² 3 oroo oron suuts,2012,98.58,3,Bayanzurkh,Bayanmongol khoroolol,2.820044634,Bayanmongol khoroolol,Bayanmongol khoroolol
+3833,Bayanmongol khoroolold 98m² 3 oroo oron suuts,2012,98.58,3,Bayanzurkh,Bayanmongol khoroolol,2.820044634,Bayanmongol khoroolol,Bayanmongol
 589,Bayanburd 51.35m2 2 oroo bair zarna tsoo shine,2023,51,16,Sukhbaatar,Bayanburd,2.819215686,Bayanburd,Bayanburd
 522,"YAarmag, maral ayalal khotkhond 2 oroo bair",2022,49.66,9,KHan-Uul,YAarmag,2.819170358,YAarmag,Yarmag
 7541,KHotыn towd 3 oroo bair,2010,63.14,7,Bayangol,Tomor zam,2.819132087,Tomor zam,Tomor zam
@@ -4697,7 +4697,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 4209,Bzd emnelegiin zuun khoino 32m2 2 oroo oron suuts,2023,32,9,Bayanzurkh,16-r khoroolol,2.8125,16-r khoroolol,Tsaiz
 4716,3 surguuliin khajuud 3 oroo,2014,112,5,Sukhbaatar,Busad,2.8125,3-r surguuli,Tsirk
 7039,Mongol 3r surguuliin khajuud 112.64m2 3 oroo,2011,112,5,Sukhbaatar,100 ail,2.8125,100 ail,100 ail
-7787,Bayanmongol khoroolold 2 oroo bair,2016,64,8,Bayanzurkh,Bayanmongol khoroolol,2.8125,Bayanmongol khoroolol,Bayanmongol khoroolol
+7787,Bayanmongol khoroolold 2 oroo bair,2016,64,8,Bayanzurkh,Bayanmongol khoroolol,2.8125,Bayanmongol khoroolol,Bayanmongol
 7844,Zaisan kfc-n khajuud 2 oroo,2012,80,4,KHan-Uul,Zaisan,2.8125,Zaisan,Zaisan
 2638,Astra river view khotkhond 3 oroo,2023,76.46,11,KHan-Uul,Busad,2.811927805,Astra river view,Misheel
 4573,Altai khotkhon 3 oroo,2012,76.5,5,Bayangol,Altai khotkhon,2.810457516,Altai khotkhon,Altai khotkhon
@@ -4737,7 +4737,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1887,TSagaan khuaran khotkhond 3 oroo,2022,52.36,16,Bayanzurkh,14-r khoroolol,2.800611154,14-r khoroolol,Narantuul
 2553,KHud-iin zuun urd tald 4 oroo bair 91.24m2,2016,91.24,15,KHan-Uul,Nekhmeliin shar,2.800306883,Nekhmeliin shar,19-r khoroolol
 4710,KHud niskhed 2 oroo bair.,2023,56.78,4,KHan-Uul,Nisekh,2.800281789,Nisekh,Nisekh
-28,Bayanmongol khoroolold 3 oroo oron suuts,2010,98.58,3,Bayanzurkh,Bayanmongol khoroolol,2.8,Bayanmongol khoroolol,Bayanmongol khoroolol
+28,Bayanmongol khoroolold 3 oroo oron suuts,2010,98.58,3,Bayanzurkh,Bayanmongol khoroolol,2.8,Bayanmongol khoroolol,Bayanmongol
 157,KHan willad 4 sard ashiglaltand orokh 2oroo,2023,46,16,KHan-Uul,YAarmag,2.8,YAarmag,Yarmag
 182,"KHud, zaisan enkhjin khotkhond 3 oroo oron suuts",2018,94,5,KHan-Uul,Zaisan,2.8,Zaisan,Zaisan
 442,YAarmag fyermyertai bairand 2 oroo bair,2016,65,11,KHan-Uul,YAarmag,2.8,YAarmag,Yarmag
@@ -4802,7 +4802,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2902,Ogoomor zakhыn ard 2 oroo bair,2022,50,2,Bayanzurkh,Ogoomor zakhыn zuun,2.8,Ogoomor zakhыn zuun,Ogoomor zakh
 2903,"Baganat khoroolold 32,4mkw 1 oroo",2022,32.4,7,Bayanzurkh,16-r khoroolol,2.8,16-r khoroolol,Tsaiz
 3026,Deedsiin orgoo khotkhonы myetall pasadtai bairan deer 2 oroo bair,2022,53,14,KHan-Uul,YAarmag,2.8,YAarmag,Yarmag
-3151,Bayanmongol khoroolold 3 oroo 91m2 grajtai,2012,91,6,Bayanzurkh,Bayanmongol khoroolol,2.8,Bayanmongol khoroolol,Bayanmongol khoroolol
+3151,Bayanmongol khoroolold 3 oroo 91m2 grajtai,2012,91,6,Bayanzurkh,Bayanmongol khoroolol,2.8,Bayanmongol khoroolol,Bayanmongol
 3200,3 oroo,2023,93.92,10,KHan-Uul,YAarmag,2.8,YAarmag,Yarmag
 3227,King tower khotkhond 135mkw 4 oroo,2018,135,7,KHan-Uul,King Tower,2.8,King Tower,Marshal
 3271,YAarmag riva residence-d 55m2 2 oroo bair,2023,55,6,KHan-Uul,YAarmag,2.8,YAarmag,Yarmag
@@ -4820,7 +4820,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 4298,Altan tewsh khotkhond 3 oroo 72.5 m2,2022,72.5,2,Bayanzurkh,Ogoomor zakhыn zuun,2.8,Ogoomor zakhыn zuun,Ogoomor zakh
 4308,7sard ashiglaltand orokh 2 oroo,2023,44.85,16,Bayanzurkh,CHuluun owoo,2.8,CHuluun owoo,Botanik
 4356,"Zaisan, orgilыn urd gal togoo tusdaa 3 oroo",2015,95,3,KHan-Uul,Zaisan,2.8,Zaisan,Zaisan
-4543,"Bayanmongol khoroolold 69,mkw 2 oroo",2012,69.9,1,Bayanzurkh,Bayanmongol khoroolol,2.8,Bayanmongol khoroolol,Bayanmongol khoroolol
+4543,"Bayanmongol khoroolold 69,mkw 2 oroo",2012,69.9,1,Bayanzurkh,Bayanmongol khoroolol,2.8,Bayanmongol khoroolol,Bayanmongol
 4556,"River villa,d 116mkv 3 uruu",2023,116,11,KHan-Uul,Busad,2.8,River villa ,Home plaza
 4637,"KHud 15-r khoroo, river villa khotkhond 105mkw 3 oroo oron suuts",2022,105,7,KHan-Uul,Busad,2.8,River villa ,Home plaza
 4696,Zamыn tsagdaa uildwerchin khotkhond 3 oroo bair,2018,69,2,Bayanzurkh,Busad,2.8,Uildverchin,Zamiin tsagdaa
@@ -4883,7 +4883,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5290,KHangarid 1 khotkhond 72m2 3 oroo bair,2020,72.33,6,KHan-Uul,YAarmag,2.799944698,YAarmag,Yarmag
 471,Az jargal khotkhond 3 oroo,2023,65.28,9,Sukhbaatar,100 ail,2.799938725,100 ail,100 ail
 4542,Saikhan enyergi bukhen undarsan 2 oroo bairaa zarakhaar bolloo,2014,52.86,3,KHan-Uul,YAarmag,2.799848657,YAarmag,Yarmag
-2806,Bayanmongol khoroolold 3 oroo,2008,98.58,3,Bayanzurkh,Bayanmongol khoroolol,2.799756543,Bayanmongol khoroolol,Bayanmongol khoroolol
+2806,Bayanmongol khoroolold 3 oroo,2008,98.58,3,Bayanzurkh,Bayanmongol khoroolol,2.799756543,Bayanmongol khoroolol,Bayanmongol
 2590,Misheel ekspo lawai zakhыn baruun tald 2 oroo,2015,59.83,8,KHan-Uul,Misheel,2.799598863,Misheel,Misheel
 4461,Tarwalin khiidiin zuun tald 3 oroo,2013,66.26,1,Bayanzurkh,Busad,2.799577422,Tarvaliin khiid,Jukov
 1134,Aman khuur khotkhond 3 oroo bair,2015,89.3,10,Bayanzurkh,13-r khoroolol,2.799552072,13-r khoroolol,13-r khoroolol
@@ -4894,7 +4894,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 1121,Zaisan soyombo khotkhond 4oroo,2014,134,3,KHan-Uul,Zaisan,2.798507463,Zaisan,Zaisan
 2943,Telmuun khotkhond 2 oroo bair,2020,53.6,5,KHan-Uul,Altai khotkhon,2.798507463,Altai khotkhon,Altai khotkhon
 4803,4 oroo bair,2008,134,4,KHan-Uul,Zaisan,2.798507463,Zaisan,Zaisan
-3464,Bayanmongol khoroolold 401 blokd2 oroo oron suuts,2015,64.33,8,Bayanzurkh,Bayanmongol khoroolol,2.798072439,Bayanmongol khoroolol,Bayanmongol khoroolol
+3464,Bayanmongol khoroolold 401 blokd2 oroo oron suuts,2015,64.33,8,Bayanzurkh,Bayanmongol khoroolol,2.798072439,Bayanmongol khoroolol,Bayanmongol
 3069,4oroo,2019,108.3,15,KHan-Uul,YAarmag,2.797783934,YAarmag,Yarmag
 5566,YAarmagt 2 oroo oron suuts,2021,51.83,13,KHan-Uul,YAarmag,2.797607563,YAarmag,Yarmag
 6071,Jukow polaris apartmyent 2 oroo,2019,42.9,3,Bayanzurkh,Busad,2.797202797,Polaris khotkhon,Jukov
@@ -4995,7 +4995,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 6478,13t ugsarmalыn 2 oroo,1991,54,6,Bayanzurkh,13-r khoroolol,2.777777778,13-r khoroolol,13-r khoroolol
 7160,Bgd khoroolol ye mart-s gemtel uruudakh zamd 2 oroo,2020,36,4,Bayangol,"3, 4 khoroolol",2.777777778,"3, 4 khoroolol","3, 4-r khoroolol"
 7320,Garden residence khotkhond 2 oroo bair,2018,36,16,Bayanzurkh,Ofitsyer,2.777777778,Ofitsyer,Officer
-3849,Bayanmongol khoroolold 78.5 mkw 2 oroo bair,2013,78.5,2,Bayanzurkh,Bayanmongol khoroolol,2.777070064,Bayanmongol khoroolol,Bayanmongol khoroolol
+3849,Bayanmongol khoroolold 78.5 mkw 2 oroo bair,2013,78.5,2,Bayanzurkh,Bayanmongol khoroolol,2.777070064,Bayanmongol khoroolol,Bayanmongol
 937,YAarmag riwyer ryesidensi apartmyentad 2 oroo,2023,58,6,KHan-Uul,YAarmag,2.775862069,YAarmag,Yarmag
 3727,YAarmag khangarid siti-2 2 oroo 55.12m2 bair,2021,55.12,4,KHan-Uul,YAarmag,2.775761974,YAarmag,Yarmag
 2635,Dolgoon nuur apartmyent 2 oroo bair,2023,49,7,CHingeltei,Baga toirog,2.775510204,Baga toirog,"40, 50 myangat"
@@ -5023,7 +5023,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 2785,Nukhtiin zam daguu sunset khotkhond 2 oroo bair,2022,46,7,KHan-Uul,YAarmag,2.767391304,YAarmag,Yarmag
 5303,16 khoroolold 1 oroo bair,2023,30,15,Bayanzurkh,16-r khoroolol,2.766666667,16-r khoroolol,Tsaiz
 2054,2 oroo oron suuts,2023,47,4,Bayanzurkh,Busad,2.765957447,0,#N/A
-1649,"Dunjingaraw khotkhon. 4-n oroo bair , 130.21 m2",2011,130.21,6,Bayanzurkh,Bayanmongol khoroolol,2.764764611,Bayanmongol khoroolol,Bayanmongol khoroolol
+1649,"Dunjingaraw khotkhon. 4-n oroo bair , 130.21 m2",2011,130.21,6,Bayanzurkh,Bayanmongol khoroolol,2.764764611,Bayanmongol khoroolol,Bayanmongol
 3518,Dunjingaraw khotkhon 4 oroo,2011,130.21,6,Bayanzurkh,Busad,2.764764611,Dunjingarav khotkhon,Dunjingarav
 393,Romeo juliet khotkhond 55m2 2 oroo bair,2012,55,4,Bayanzurkh,15-r khoroolol,2.763636364,15-r khoroolol,Jukov
 2519,3 oroo bair,2023,68.39,3,Bayanzurkh,16-r khoroolol,2.763561924,16-r khoroolol,Tsaiz
@@ -5727,7 +5727,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5248,YAarmagt ashiglaltad orson mastyertai 3 oroo,2022,69.85,7,KHan-Uul,YAarmag,2.6,YAarmag,Yarmag
 5274,KHangai khotkhond 2 oroo bair,2023,43.1,2,Sukhbaatar,100 ail,2.6,100 ail,100 ail
 5275,1 oroo bair,2023,25,9,KHan-Uul,Nisekh,2.6,Nisekh,Nisekh
-5318,Naturыn zam daguu bairlaltai khusliin orgoo khotkhond 3 oroo bair,2013,71,12,Bayanzurkh,Bayanmongol khoroolol,2.6,Bayanmongol khoroolol,Bayanmongol khoroolol
+5318,Naturыn zam daguu bairlaltai khusliin orgoo khotkhond 3 oroo bair,2013,71,12,Bayanzurkh,Bayanmongol khoroolol,2.6,Bayanmongol khoroolol,Bayanmongol
 5344,Tow zam daguu 2 oroo oron suuts,2018,53.75,16,Bayanzurkh,Ofitsyer,2.6,Ofitsyer,Officer
 5361,Artsat lakshiri ryezidyens khotkhond 3 oroo,2023,69.85,13,KHan-Uul,YAarmag,2.6,YAarmag,Yarmag
 5549,KHud 3-r khoroo erchim khotkhond 50m2 2 oroo bair,2016,50,3,KHan-Uul,Busad,2.6,Erchim khotkhon,1-r khoroolol
@@ -6211,7 +6211,7 @@ ID,title,year_of_commissioning,area_sq_m,apartment_storey,district,location,pric
 5027,YAarmag zamыn urd 2 oroo,2023,58,11,KHan-Uul,YAarmag,2.5,YAarmag,Yarmag
 5032,BZD Sandei plaza zamыn esreg tald mash goyo bairlaltai 4 oroo 72m2,2005,72,5,Bayanzurkh,13-r khoroolol,2.5,13-r khoroolol,13-r khoroolol
 5045,10 khoroolol 1 oroo,2008,39.4,8,Bayangol,10-r khoroolol,2.5,10-r khoroolol,10-r khoroolol
-5085,Natur khomland khotkhond 3 oroo bair,2012,91.3,9,Bayanzurkh,Bayanmongol khoroolol,2.5,Bayanmongol khoroolol,Bayanmongol khoroolol
+5085,Natur khomland khotkhond 3 oroo bair,2012,91.3,9,Bayanzurkh,Bayanmongol khoroolol,2.5,Bayanmongol khoroolol,Bayanmongol
 5108,2 oroo shine bair,2023,62.7,8,CHingeltei,Denjiin 1000,2.5,Denjiin 1000,Bayanburd
 5130,KHud griin art khotkhond 70m2 3 oroo,2021,70,4,KHan-Uul,YAarmag,2.5,YAarmag,Yarmag
 5135,Moskwa khoroolold1 oroo bair 34m2,2015,34,7,Songino KHairkhan,Moskwa khoroolol,2.5,Moskwa khoroolol,5 shar
