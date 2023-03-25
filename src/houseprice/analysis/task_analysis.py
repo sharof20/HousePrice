@@ -21,7 +21,7 @@ def task_toy(depends_on, produces):
         .groupby(['location']) \
         .median() \
         .sort_values(by='price_m2')
-    pdb.set_trace()
+    # pdb.set_trace()
     # fig = px.box(df, x="location", y="price_m2")
     # fig.show()
 

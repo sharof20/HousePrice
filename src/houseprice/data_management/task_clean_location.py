@@ -1,0 +1,25 @@
+"""Tasks for data cleaning and featurization."""
+
+import pandas as pd
+import pytask
+import pdb
+
+from houseprice.config import BLD, SRC
+from houseprice.data_management import clean_data
+
+
+@pytask.mark.depends_on(
+    {
+        "data": BLD / "data" / "house_price_clean.csv",
+        "location": SRC / "data" / "location_map.csv",
+    },
+)
+@pytask.mark.produces(BLD / "data" / "house_price_clean_loc.csv")
+def task_clean_location(depends_on, produces):
+    """Clean the data (Python version)."""
+    data = pd.read_csv(depends_on["data"])
+    lctn = pd.read_csv(depends_on["location"])
+    lctn = lctn[["ID","location_group"]]
+    pdb.set_trace()
+    data = data.merge(lctn, on='ID', how='left')
+    data.to_csv(produces, index=False, encoding="utf-8-sig")
