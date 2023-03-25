@@ -129,13 +129,12 @@ def clean_data(df):
     mask = df['price'] > 11
     df.loc[mask, 'price_m2'] = df.loc[mask, 'price'] / df.loc[mask, 'area_sq_m']
 
-    pdb.set_trace()
-
-    df.price_m2.describe()
-    df.price_m2.unique()
-
-    df[df.price_m2<1]
-    df[df.price_m2>14]
+    # df.reset_index(inplace=True)
+    # pdb.set_trace()
+    # df.price_m2.describe()
+    # df.price_m2.unique()
+    # df[df.price_m2<1]
+    # df[df.price_m2>14]
 
 
 

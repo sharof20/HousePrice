@@ -27,6 +27,8 @@ dependencies:
   - toml
   - pip:
       - -e .
-      - kaleido
+      - kaleido==0.1.*
       - selenium
       - transliterate
+      - matplotlib
+      - seaborn

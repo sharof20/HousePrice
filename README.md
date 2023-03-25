@@ -1,7 +1,24 @@
+# ToDo
+
+Useful to collect ->
+
+- number of rooms?
+- ad placement date?
+
 # HousePrice
 
+This project involves creating a model that can accurately estimate the prices of
+houses.
 
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Sugarkhuu, sharof20/houseprice/main.svg)](https://results.pre-commit.ci/latest/github/Sugarkhuu, sharof20/houseprice/main)
+# How to start
+
+clone, create conda env, precommit, pytask, pytest
+
+You need Chromedriver compatible with your Chrome browser.
+
+\[!\[pre-commit.ci status\](https://results.pre-commit.ci/badge/github/Sugarkhuu,
+sharof20/houseprice/main.svg)\](https://results.pre-commit.ci/latest/github/Sugarkhuu,
+sharof20/houseprice/main)
 [![image](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Usage

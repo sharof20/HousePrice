@@ -12,7 +12,7 @@ from houseprice.data_management import clean_data
         "data": SRC / "data" / "house_price.csv",
     },
 )
-@pytask.mark.produces(BLD / "python" / "data" / "house_price_clean.csv")
+@pytask.mark.produces(BLD / "data" / "house_price_clean.csv")
 def task_clean_data_python(depends_on, produces):
     """Clean the data (Python version)."""
     data = pd.read_csv(depends_on["data"])
