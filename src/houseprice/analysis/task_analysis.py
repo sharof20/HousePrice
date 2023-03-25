@@ -34,7 +34,7 @@ def task_toy(depends_on, produces):
     sns.boxplot(x=df.location, y=df.price_m2, order=grouped.index)
     plt.xticks(fontsize=10, rotation=90)
     plt.subplots_adjust(bottom=0.2)
-    plt.show()
+    plt.savefig(produces)
 
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
 @pytask.mark.produces(BLD  / "plot" / "histogram.png")
