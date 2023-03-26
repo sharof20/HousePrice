@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pdb
 from houseprice.config import BLD, SRC
+from houseprice.utilities import save_close_plt
 
 # sns.set_theme()
 
@@ -25,16 +26,14 @@ def task_toy(depends_on, produces):
         .groupby(['location']) \
         .median() \
         .sort_values(by='price_m2')
-    # pdb.set_trace()
-    # fig = px.box(df, x="location", y="price_m2")
-    # fig.show()
-
-    # df.groupby('location').agg({'location': ['count']})
 
     sns.boxplot(x=df.location, y=df.price_m2, order=grouped.index)
     plt.xticks(fontsize=10, rotation=90)
     plt.subplots_adjust(bottom=0.2)
-    plt.savefig(produces)
+
+    save_close_plt(produces)
+
+
 
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
 @pytask.mark.produces(BLD  / "plot" / "histogram.png")
@@ -42,6 +41,8 @@ def task_hist(depends_on, produces):
     df = pd.read_csv(depends_on)
     fig = px.histogram(df, x="price_m2")
     fig.write_image(produces)
+
+
 
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
 @pytask.mark.produces(BLD  / "plot" / "price_flrMat.png")
@@ -64,6 +65,8 @@ def task_price_flrMat(depends_on, produces):
 
     fig.write_image(produces)
 
+
+
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
 @pytask.mark.produces(BLD  / "plot" / "price_area_dist.png")
 def task_price_area_dist(depends_on, produces):
@@ -73,6 +76,8 @@ def task_price_area_dist(depends_on, produces):
     fig = px.scatter(df, x='area_sq_m', y='price_m2', color='district')
 
     fig.write_image(produces)
+
+
 
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
 @pytask.mark.produces(BLD  / "plot" / "price_year.png")
@@ -84,6 +89,7 @@ def task_price_year(depends_on, produces):
     fig = px.line(grouped, x='year_of_commissioning', y='price_m2')
 
     fig.write_image(produces)
+
 
 
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
@@ -103,7 +109,9 @@ def task_area_dist(depends_on, produces):
     plt.xticks(fontsize=12)
     plt.yticks(fontsize=12)
 
-    plt.savefig(produces)
+    save_close_plt(produces)
+
+
 
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
 @pytask.mark.produces(BLD  / "plot" / "price_area.png")
@@ -123,7 +131,9 @@ def task_price_area(depends_on, produces):
     plt.xticks(fontsize=12)
     plt.yticks(fontsize=12)
 
-    plt.savefig(produces)
+    save_close_plt(produces)
+
+
 
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
 @pytask.mark.produces(BLD  / "plot" / "total_price_area.png")
@@ -143,7 +153,8 @@ def task_total_price_area(depends_on, produces):
     plt.xticks(fontsize=12)
     plt.yticks(fontsize=12)
 
-    plt.savefig(produces)
+    save_close_plt(produces)
+
 
 
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
@@ -164,4 +175,4 @@ def task_total_price_dist(depends_on, produces):
     plt.xticks(fontsize=12)
     plt.yticks(fontsize=12)
 
-    plt.savefig(produces)
+    save_close_plt(produces)
