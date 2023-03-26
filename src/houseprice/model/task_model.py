@@ -2,45 +2,30 @@ from houseprice.config import BLD
 
 import pandas as pd
 import numpy as np
-import re
 import os
 import pickle
 import pytask
-import matplotlib.pyplot as plt
 import xgboost as xgb
-from patsy import dmatrices
-from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn import linear_model
 from sklearn import svm
 from sklearn import ensemble
 from sklearn import tree
-from sklearn.model_selection import cross_val_score
-from sklearn.metrics import mean_squared_error
-from sklearn.metrics import r2_score
-from sklearn.model_selection import KFold
-from sklearn.model_selection import GridSearchCV
+from houseprice.model import util_model as ut
 
 
-regex = re.compile(r"\[|\]|<", re.IGNORECASE)
-
-@pytask.mark.depends_on(BLD / "data" / "house_price_clean_loc.csv")
+@pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
 @pytask.mark.produces(BLD  / "model" / "data")
 def task_model_data(depends_on, produces):
     if not os.path.isdir(produces):
         os.makedirs(produces)
     df = pd.read_csv(depends_on)
-
     formula = "price_m2 ~ location + area_sq_m + number_of_balcony + \
                year_of_commissioning + number_of_storeys + apartment_storey + \
                number_of_windows + garage + flooring_material + \
                window_type + door_type + construction_progress"
 
-    y, x = dmatrices(formula, df, return_type="dataframe")
-
-    x_train, x_test, y_train, y_test = train_test_split(
-            x, y, test_size=0.3, random_state=100
-        )
+    x_train, x_test, y_train, y_test = ut.create_model_data(formula, df)
 
     x_train.to_pickle(produces / "x_train.pkl")
     x_test.to_pickle(produces  / "x_test.pkl")
@@ -56,9 +41,8 @@ def task_model_data(depends_on, produces):
 def task_model_select(depends_on, produces):
     if not os.path.isdir(produces):
         os.makedirs(produces)
-    y_train = pd.read_pickle(os.path.join(depends_on['data'], "y_train.pkl")).values.ravel()
-    x_train = pd.read_pickle(os.path.join(depends_on['data'], "x_train.pkl"))
-    x_test = pd.read_pickle(os.path.join(depends_on['data'], "x_test.pkl"))
+
+    y_train, _, x_train, x_test = ut.fetch_data(depends_on['data'])
 
     models = []
     # models.append(('SVM',svm.SVR()))
@@ -73,40 +57,12 @@ def task_model_select(depends_on, produces):
     models.append(('DecisionTree',tree.DecisionTreeRegressor()))
     models.append(('XGB',xgb.XGBRegressor()))
 
-    x_train.columns = [regex.sub("_", col) if any(x in str(col) for x in set(('[', ']', '<'))) else col for col in x_train.columns.values]
-    x_test.columns = [regex.sub("_", col) if any(x in str(col) for x in set(('[', ']', '<'))) else col for col in x_test.columns.values]
-
-    out = {}
-    results = []
-    names = []
-    scores = []
-    for name, model in models:
-        kfold = KFold(n_splits=2, shuffle=True, random_state=123)
-        cv_results = cross_val_score(model, x_train, y_train, cv=kfold, scoring='r2')
-        results.append(cv_results)
-        names.append(name)
-
-        out[name] = {
-        "r2_mean": cv_results.mean(),
-        "r2_median": np.median(cv_results),
-        "r2_std" : cv_results.std()
-        }
-
-        scores.append(np.median(cv_results))
-
-    # Compare Algorithms
-    plt.boxplot(results, labels=names)
-    plt.title('Algorithm Comparison')
-    plt.savefig(produces / "compare_models.png")
-
-    stats = pd.DataFrame(out)
-    stats.to_csv(produces / "compare_models_stat.csv")
+    scores = ut.loop_cv(models, x_train, y_train, produces)
 
     # pick the best model - without tuning
-    # my_model = models[np.argmax(scores)]
-    my_model = ('XGB',xgb.XGBRegressor()) # choose XGB as it frequently beats the rest. But it is bordering on RF and GB
-    pickle.dump(my_model, open(produces / "model_notTuned.sav", "wb"))
-
+    # ut.pick_save_model(models, scores, produces)
+    # choose XGB as it frequently beats the rest. But it is bordering on RF and GB
+    ut.pick_save_model([('XGB',xgb.XGBRegressor())], produces = produces  / "model_notTuned.sav")
 
 
 
@@ -118,23 +74,12 @@ def task_model_select(depends_on, produces):
 def task_model_tune(depends_on, produces):
     if not os.path.isdir(BLD  / "model" / "prediction"):
         os.makedirs(BLD  / "model" / "prediction")
-    y_train = pd.read_pickle(os.path.join(depends_on['data'], "y_train.pkl")).values.ravel()
-    x_train = pd.read_pickle(os.path.join(depends_on['data'], "x_train.pkl"))
-    y_test = pd.read_pickle(os.path.join(depends_on['data'], "y_test.pkl")).values.ravel()
-    x_test = pd.read_pickle(os.path.join(depends_on['data'], "x_test.pkl"))
 
-    Y_train = y_train
-    x_train = x_train
-    x_train.columns = [regex.sub("_", col) if any(x in str(col) for x in set(('[', ']', '<'))) else col for col in x_train.columns.values]
-    x_test.columns = [regex.sub("_", col) if any(x in str(col) for x in set(('[', ']', '<'))) else col for col in x_test.columns.values]
-
+    y_train, _, x_train, _ = ut.fetch_data(depends_on['data'])
 
     model = pickle.load(open(os.path.join(depends_on['model'], "model_notTuned.sav"), "rb"))
     name = model[0]
     estimator = model[1]
-    # param_grid = {'bootstrap': [True, False],
-    #         'min_samples_split': [2, 4, 6],
-    #         'n_estimators': [100,150,200]}
 
     param_grid={"max_depth": [ 5, 10, 15],           # 10
                 "eta": [0.05, 0.10, 0.15, 0.20],     # learning_rate 0.15
@@ -146,11 +91,7 @@ def task_model_tune(depends_on, produces):
 
     param_grid={"max_depth": [ 5, 10]}
 
-    grid = GridSearchCV(estimator, param_grid, n_jobs=-1, cv=5)
-
-    grid.fit(x_train, y_train)
-    model = grid.best_estimator_
-
+    model = ut.tune_model(estimator,param_grid,x_train, y_train)
     pickle.dump(model, open(produces, "wb"))
 
 
@@ -161,18 +102,10 @@ def task_model_tune(depends_on, produces):
         )
 @pytask.mark.produces(BLD  / "model" / "prediction"  / "prediction_stat.csv")
 def task_model_pred(depends_on, produces):
-    y_test = pd.read_pickle(os.path.join(depends_on['data'], "y_test.pkl")).values.ravel()
-    x_test = pd.read_pickle(os.path.join(depends_on['data'], "x_test.pkl"))
-    x_test.columns = [regex.sub("_", col) if any(x in str(col) for x in set(('[', ']', '<'))) else col for col in x_test.columns.values]
+    _, y_test, _, x_test = ut.fetch_data(depends_on['data'])
 
     model = pickle.load(open(os.path.join(depends_on['model']), "rb"))
-
     y_pred = model.predict(x_test)
 
-    out = {}
-    out['best_model'] = {
-    "mse": mean_squared_error(y_test, y_pred),
-    "r2" : r2_score(y_test, y_pred)}
-
-    stats = pd.DataFrame(out)
+    stats = ut.calculate_diagnostics( y_test, y_pred)
     stats.to_csv(produces)

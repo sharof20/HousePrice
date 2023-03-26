@@ -13,7 +13,7 @@ from houseprice.config import BLD, SRC
 
 # sns.set_theme()
 
-@pytask.mark.depends_on(BLD / "data" / "house_price_clean_loc.csv")
+@pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
 @pytask.mark.produces(BLD  / "plot" / "toy.png")
 def task_toy(depends_on, produces):
     df = pd.read_csv(depends_on)

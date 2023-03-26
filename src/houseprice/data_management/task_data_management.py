@@ -12,21 +12,37 @@ from houseprice.data_management import clean_data
         "data": SRC / "data" / "house_price.csv",
     },
 )
-@pytask.mark.produces(BLD / "data" / "house_price_clean.csv")
+@pytask.mark.produces(BLD / "data" / "house_price_clean_without_location.csv")
 def task_clean_data_python(depends_on, produces):
     """Clean the data (Python version)."""
     data = pd.read_csv(depends_on["data"])
     data = clean_data(data)
     data.to_csv(produces, index=False, encoding="utf-8-sig")
 
+@pytask.mark.depends_on(
+    {
+        "data": BLD / "data" / "house_price_clean_without_location.csv",
+        "location": SRC / "data" / "location_map.csv"
+    },
+)
+@pytask.mark.produces(BLD / "data" / "location_map.csv")
+def task_create_location(depends_on, produces):
+    """Clean the location - raw sketch"""
+    lctn = pd.read_csv(depends_on["location"])
+    data = pd.read_csv(depends_on["data"])
+
+    ### would handle location cleaning somewhere here
+
+    lctn.to_csv(produces, index=False, encoding="utf-8-sig")
+
 
 @pytask.mark.depends_on(
     {
-        "data": BLD / "data" / "house_price_clean.csv",
-        "location": SRC / "data" / "location_map.csv",
+        "data": BLD / "data" / "house_price_clean_without_location.csv",
+        "location": BLD / "data" / "location_map.csv",
     },
 )
-@pytask.mark.produces(BLD / "data" / "house_price_clean_loc.csv")
+@pytask.mark.produces(BLD / "data" / "house_price_clean.csv")
 def task_clean_location(depends_on, produces):
     """Clean the data (Python version)."""
     data = pd.read_csv(depends_on["data"])
