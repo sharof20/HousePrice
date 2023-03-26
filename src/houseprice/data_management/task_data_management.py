@@ -19,6 +19,18 @@ def task_clean_data_python(depends_on, produces):
     data = clean_data(data)
     data.to_csv(produces, index=False, encoding="utf-8-sig")
 
+
+# For about 1/4 of the all ads, the location is missing.
+# We can figure it out from the ad text, however. But
+# cleaning location by this way is really messy and time consuming.
+# Ideally, we would have a dictionary and functions which can map
+# out the location from the text.
+# We already put manually cleared locations in location_map.csv.
+# In task_create_location, we bring it to BLD, just paralleling how we will create
+# these locations by a functions.
+# By using ad's ID, we can map ad with its hand created location. That's
+# how we do it below in task_clean_location. In the future, ideally, this task will be automated.
+
 @pytask.mark.depends_on(
     {
         "data": BLD / "data" / "house_price_clean_without_location.csv",
@@ -32,6 +44,7 @@ def task_create_location(depends_on, produces):
     data = pd.read_csv(depends_on["data"])
 
     ### would handle location cleaning somewhere here
+    # pass
 
     lctn.to_csv(produces, index=False, encoding="utf-8-sig")
 

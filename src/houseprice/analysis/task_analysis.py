@@ -16,7 +16,7 @@ from houseprice.utilities import save_close_plt
 
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
 @pytask.mark.produces(BLD  / "plot" / "price_by_location.png")
-def task_toy(depends_on, produces):
+def task_price_location(depends_on, produces):
     df = pd.read_csv(depends_on)
 
     above5_ads = df.groupby('location')['location'].transform('count') > 5
@@ -37,14 +37,16 @@ def task_toy(depends_on, produces):
 
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
 @pytask.mark.produces(BLD  / "plot" / "histogram_price.png")
-def task_hist(depends_on, produces):
+def task_hist_price(depends_on, produces):
     df = pd.read_csv(depends_on)
     fig = px.histogram(df, x="price_m2")
     fig.write_image(produces)
 
+
+
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
 @pytask.mark.produces(BLD  / "plot" / "histogram_area.png")
-def task_hist(depends_on, produces):
+def task_hist_area(depends_on, produces):
     df = pd.read_csv(depends_on)
     fig = px.histogram(df, x="area_sq_m")
     fig.write_image(produces)
@@ -53,7 +55,7 @@ def task_hist(depends_on, produces):
 
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
 @pytask.mark.produces(BLD  / "plot" / "histogram_price_total.png")
-def task_hist(depends_on, produces):
+def task_hist_p_tot(depends_on, produces):
     df = pd.read_csv(depends_on)
     fig = px.histogram(df, x="price")
     fig.write_image(produces)
@@ -69,7 +71,7 @@ for var in vars:
     @pytask.mark.task
     @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
     @pytask.mark.produces(BLD  / "plot" / f"price_{var}.png")
-    def task_toy(depends_on, produces, myvar = var):
+    def task_vars(depends_on, produces, myvar = var):
         df = pd.read_csv(depends_on)
         grouped = df.loc[:,[myvar, 'price_m2']] \
             .groupby([myvar]) \
@@ -85,7 +87,7 @@ for var in vars:
 
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
 @pytask.mark.produces(BLD  / "plot" / "price_area.png")
-def task_price_area_dist(depends_on, produces):
+def task_dist_price_area(depends_on, produces):
     # read data from csv
     df = pd.read_csv(depends_on)
     # create scatter plot
@@ -94,7 +96,7 @@ def task_price_area_dist(depends_on, produces):
     fig.write_image(produces)
 
 @pytask.mark.depends_on(BLD / "data" / "house_price_clean.csv")
-@pytask.mark.produces(BLD  / "plot" / "price_year.png")
+@pytask.mark.produces(BLD  / "plot" / "price_avg_year.png")
 def task_price_year(depends_on, produces):
     # read data from csv
     df = pd.read_csv(depends_on)
