@@ -1,31 +1,25 @@
-# # 1. data_exploration
-# # 2. model_selection
-# # # try different models on the data, do cross validation and pick the best model
+from houseprice.config import BLD
 
 import pandas as pd
+import numpy as np
 import re
 import os
 import pickle
 import pytask
 import matplotlib.pyplot as plt
+import xgboost as xgb
 from patsy import dmatrices
-from houseprice.config import BLD
-
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-import numpy as np
 from sklearn import linear_model
 from sklearn import svm
 from sklearn import ensemble
 from sklearn import tree
-import xgboost as xgb
 from sklearn.model_selection import cross_val_score
 from sklearn.metrics import mean_squared_error
 from sklearn.metrics import r2_score
 from sklearn.model_selection import KFold
 from sklearn.model_selection import GridSearchCV
-
-import pdb
 
 
 regex = re.compile(r"\[|\]|<", re.IGNORECASE)
@@ -35,12 +29,13 @@ regex = re.compile(r"\[|\]|<", re.IGNORECASE)
 def task_model_data(depends_on, produces):
     if not os.path.isdir(produces):
         os.makedirs(produces)
-
     df = pd.read_csv(depends_on)
+
     formula = "price_m2 ~ location + area_sq_m + number_of_balcony + \
                year_of_commissioning + number_of_storeys + apartment_storey + \
                number_of_windows + garage + flooring_material + \
                window_type + door_type + construction_progress"
+
     y, x = dmatrices(formula, df, return_type="dataframe")
 
     x_train, x_test, y_train, y_test = train_test_split(
@@ -48,9 +43,11 @@ def task_model_data(depends_on, produces):
         )
 
     x_train.to_pickle(produces / "x_train.pkl")
-    x_test.to_pickle(produces / "x_test.pkl")
+    x_test.to_pickle(produces  / "x_test.pkl")
     y_train.to_pickle(produces / "y_train.pkl")
-    y_test.to_pickle(produces / "y_test.pkl")
+    y_test.to_pickle(produces  / "y_test.pkl")
+
+
 
 @pytask.mark.depends_on(
         {"data": BLD / "model" / "data"}
@@ -61,7 +58,6 @@ def task_model_select(depends_on, produces):
         os.makedirs(produces)
     y_train = pd.read_pickle(os.path.join(depends_on['data'], "y_train.pkl")).values.ravel()
     x_train = pd.read_pickle(os.path.join(depends_on['data'], "x_train.pkl"))
-    # y_test = pd.read_pickle(os.path.join(depends_on['data'], "y_test.pkl")).values.ravel()
     x_test = pd.read_pickle(os.path.join(depends_on['data'], "x_test.pkl"))
 
     models = []
@@ -75,11 +71,9 @@ def task_model_select(depends_on, produces):
     # models.append(('AdaBoost',ensemble.AdaBoostRegressor()))
     # models.append(('RandomForest',ensemble.RandomForestRegressor()))
     models.append(('DecisionTree',tree.DecisionTreeRegressor()))
-    models.append(('XGB',xgb.XGBRegressor())) # objective="reg:linear", random_state=123
+    models.append(('XGB',xgb.XGBRegressor()))
 
-    Y_train = y_train
-    X_train = x_train
-    X_train.columns = [regex.sub("_", col) if any(x in str(col) for x in set(('[', ']', '<'))) else col for col in X_train.columns.values]
+    x_train.columns = [regex.sub("_", col) if any(x in str(col) for x in set(('[', ']', '<'))) else col for col in x_train.columns.values]
     x_test.columns = [regex.sub("_", col) if any(x in str(col) for x in set(('[', ']', '<'))) else col for col in x_test.columns.values]
 
     out = {}
@@ -88,7 +82,7 @@ def task_model_select(depends_on, produces):
     scores = []
     for name, model in models:
         kfold = KFold(n_splits=2, shuffle=True, random_state=123)
-        cv_results = cross_val_score(model, X_train, Y_train, cv=kfold, scoring='r2')
+        cv_results = cross_val_score(model, x_train, y_train, cv=kfold, scoring='r2')
         results.append(cv_results)
         names.append(name)
 
@@ -100,17 +94,19 @@ def task_model_select(depends_on, produces):
 
         scores.append(np.median(cv_results))
 
-    # my_model = models[np.argmax(scores)]
-    my_model = ('XGB',xgb.XGBRegressor()) #('RandomForest',ensemble.RandomForestRegressor())
-    pickle.dump(my_model, open(produces / "model.sav", "wb"))
-
     # Compare Algorithms
     plt.boxplot(results, labels=names)
     plt.title('Algorithm Comparison')
-    plt.savefig(produces / "reg_results.png")
+    plt.savefig(produces / "compare_models.png")
 
     stats = pd.DataFrame(out)
-    stats.to_csv(produces / "reg_results.csv")
+    stats.to_csv(produces / "compare_models_stat.csv")
+
+    # pick the best model - without tuning
+    # my_model = models[np.argmax(scores)]
+    my_model = ('XGB',xgb.XGBRegressor()) # choose XGB as it frequently beats the rest. But it is bordering on RF and GB
+    pickle.dump(my_model, open(produces / "model_notTuned.sav", "wb"))
+
 
 
 
@@ -118,7 +114,7 @@ def task_model_select(depends_on, produces):
         {"data": BLD / "model" / "data",
          "model": BLD / "model" / "model"}
         )
-@pytask.mark.produces(BLD  / "model" / "prediction"  / "best_model.sav")
+@pytask.mark.produces(BLD  / "model" / "prediction"  / "model_tuned.sav")
 def task_model_tune(depends_on, produces):
     if not os.path.isdir(BLD  / "model" / "prediction"):
         os.makedirs(BLD  / "model" / "prediction")
@@ -133,7 +129,7 @@ def task_model_tune(depends_on, produces):
     x_test.columns = [regex.sub("_", col) if any(x in str(col) for x in set(('[', ']', '<'))) else col for col in x_test.columns.values]
 
 
-    model = pickle.load(open(os.path.join(depends_on['model'], "model.sav"), "rb"))
+    model = pickle.load(open(os.path.join(depends_on['model'], "model_notTuned.sav"), "rb"))
     name = model[0]
     estimator = model[1]
     # param_grid = {'bootstrap': [True, False],
@@ -158,11 +154,12 @@ def task_model_tune(depends_on, produces):
     pickle.dump(model, open(produces, "wb"))
 
 
+
 @pytask.mark.depends_on(
         {"data": BLD / "model" / "data",
-         "model": BLD / "model" / "prediction"  / "best_model.sav"}
+         "model": BLD / "model" / "prediction"  / "model_tuned.sav"}
         )
-@pytask.mark.produces(BLD  / "model" / "prediction"  / "test_results.csv")
+@pytask.mark.produces(BLD  / "model" / "prediction"  / "prediction_stat.csv")
 def task_model_pred(depends_on, produces):
     y_test = pd.read_pickle(os.path.join(depends_on['data'], "y_test.pkl")).values.ravel()
     x_test = pd.read_pickle(os.path.join(depends_on['data'], "x_test.pkl"))
