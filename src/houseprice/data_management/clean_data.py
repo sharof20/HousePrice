@@ -3,6 +3,33 @@ import pdb
 from transliterate import translit
 import re
 import numpy as np
+import pandas as pd
+
+
+def clean_data(df):
+    df = drop_columns(df)
+    df = rename_columns(df)
+    # extract numbers from the price column and convert to float
+    df["price"] = df["price_text"].apply(extract_price)
+    df = extract_and_convert_area(df)
+    df = convert_column_to_string(df, "number_of_balcony")
+    df = replace_balcony_no(df)
+    df = extract_balcony_numbers(df)
+
+    df = filter_by_range(df, "area_sq_m", 10, 1000)
+    # Apply the function to the 'text' column
+    df['location'] = df['location'].apply(transliterate_mn)
+    df['district'] = df['district'].apply(transliterate_mn)
+    df['title'] = df['title'].apply(transliterate_mn)
+    df = replace_flooring_material(df)
+    df = replace_garage(df)
+    df = replace_window_type(df)
+    df = replace_door_type(df)
+    df = replace_lease_type(df)
+    df = clean_manual(df)
+
+
+    return df
 
 # Define a function to transliterate Mongolian Cyrillic to English
 def transliterate_mn(text):
@@ -15,10 +42,21 @@ def extract_price(x):
     else:
         return price
 
-def clean_data(df):
-    # drop the 'location:' and 'Koд:' columns as they are almost empty columns
-    df = df.drop(["location:", "Код:"], axis=1)
+# drop_columns()
+def drop_columns(df):
+    """Drops the 'location:' and 'Koд:' columns from a DataFrame.
 
+    Parameters:
+    df (pandas DataFrame): The DataFrame from which to drop the columns.
+
+    Returns:
+    The modified DataFrame with the specified columns dropped.
+
+    """
+    return df.drop(["location:", "Код:"], axis=1)
+
+# rename_columns()
+def rename_columns(df):
     # create a dictionary of old and new column names
     new_names = {"Title": "title",
                 "Price": "price_text",
@@ -40,57 +78,81 @@ def clean_data(df):
     # rename the columns using the dictionary
     df = df.rename(columns=new_names)
 
-    # display the updated DataFrame
+    return df
 
-    # extract numbers from the price column and convert to float
-    df["price"] = df["price_text"].apply(extract_price)
-
-    # extract numbers from the area_sq_m column and convert to float
+# extract_and_convert_area()
+def extract_and_convert_area(df):
     df["area_sq_m"] = df["area_sq_m"].str.extract("(\\d+[\\.\\d]*)").astype(float)
+    return df
 
+# convert_column_to_string()
+def convert_column_to_string(df, column_name):
+    """Convert a specified column in a pandas DataFrame to string type.
+
+    Parameters:
+        df (pandas DataFrame): The DataFrame containing the column to convert.
+        column_name (str): The name of the column to convert to string type.
+
+    Returns:
+        The DataFrame with the specified column converted to string type.
+
+    """
+    df[column_name] = df[column_name].astype(str)
+    return df
+
+# replace_balcony_no()
+def replace_balcony_no(df):
     # convert 'number_of_balcony:' column to string type before using .str accessor
     df["number_of_balcony"] = df["number_of_balcony"].astype(str)
-
     # replace 'Tarтryй', which means 'No balcony', with 0
     df["number_of_balcony"] = np.where(df["number_of_balcony"].str.contains("Tarтrүй"), "0 Tarтrүй", df["number_of_balcony"])
+    return df
 
-    # extract numbers from the Tarт column and convert to float
+# extract_balcony_numbers()
+def extract_balcony_numbers(df):
     df["number_of_balcony"] = df["number_of_balcony"].str.extract("(\\d+[\\.\\d]*)").astype(float)
+    return df
 
+# filter_by_range()
+def filter_by_range(df, column, min_value, max_value):
+    df = df[(df[column] >= min_value) & (df[column] <= max_value)]
+    return df
 
-    #the number of values dropped is 21
-
-    #checking outliers in 'area_sq_m' column
-
-    # filter out values below 10 and above 1000. The number of values dropped is 21
-    df = df[(df["area_sq_m"] >= 10) & (df["area_sq_m"] <= 1000)]
-
-    # Apply the function to the 'text' column
-    df['location'] = df['location'].apply(transliterate_mn)
-    df['district'] = df['district'].apply(transliterate_mn)
-    df['title'] = df['title'].apply(transliterate_mn)
-
+# replace_flooring_material()
+def replace_flooring_material(df):
     flooring_dict = {'Паркет': 'parquet', 'Ламинат': 'laminate',
-                        'Мод': 'wood', 'Цемент': 'cement',
-                        'Плита': 'tiles', 'Чулуу': 'stone'}
-
-    garage_dict = {'Байгаа': 'yes', 'Байхгүй': 'no'}
-    window_dict = {'Вакум': 'vinyl', 'Модон вакум': 'vinwood',
-                   'Мод': 'wood', 'Төмөр вакум': 'viniron'}
-    door_dict   = {'Бүргэд': 'burged', 'Төмөр': 'iron',
-                   'Төмөр вакум': 'ironvacuum', 'Вакум': 'vacuum',
-                   'Мод': 'wood'}
-    lease_dict  = {'Банкны лизингтэй': 'withlease', 'Лизинггүй': 'nolease',
-                   'Хувь лизингтэй': 'privlease'}
-    prog_dict   = {'Ашиглалтад орсон': 'complete', 'Ашиглалтад ороогүй': 'incomplete'}
-
+                    'Мод': 'wood', 'Цемент': 'cement',
+                    'Плита': 'tiles', 'Чулуу': 'stone'}
     df['flooring_material'] = df['flooring_material'].replace(flooring_dict)
-    df['garage'] = df['garage'].replace(garage_dict)
-    df['window_type'] = df['window_type'].replace(window_dict)
-    df['door_type'] = df['door_type'].replace(door_dict)
-    df['leasing'] = df['leasing'].replace(lease_dict)
-    df['construction_progress'] = df['construction_progress'].replace(prog_dict)
+    return df
 
+# replace_garage()
+def replace_garage(df):
+    garage_dict = {'Байгаа': 'yes', 'Байхгүй': 'no'}
+    df['garage'] = df['garage'].replace(garage_dict)
+    return df
+
+# replace_window_type()
+def replace_window_type(df):
+    window_dict = {'Вакум': 'vinyl', 'Модон вакум': 'vinwood', 'Мод': 'wood', 'Төмөр вакум': 'viniron'}
+    df['window_type'] = df['window_type'].replace(window_dict)
+    return df
+
+# replace_door_type()
+def replace_door_type(df):
+    door_dict = {'Бүргэд': 'burged', 'Төмөр': 'iron',
+                 'Төмөр вакум': 'ironvacuum', 'Вакум': 'vacuum',
+                 'Мод': 'wood'}
+    df['door_type'] = df['door_type'].replace(door_dict)
+    return df
+
+# replace_lease_type()
+def replace_lease_type(df):
+    lease_dict = {'Банкны лизингтэй': 'withlease', 'Лизинггүй': 'nolease', 'Хувь лизингтэй': 'privlease'}
+    df['leasing'] = df['leasing'].replace(lease_dict)
+    return df
+
+def clean_manual(df):
     # fix errors manually
     # rents
     df = df[df['title'] != 'Nisekh, buman zaluus khoroolold 2 oroo bair']
@@ -128,17 +190,5 @@ def clean_data(df):
     # price_m2
     mask = df['price'] > 11
     df.loc[mask, 'price_m2'] = df.loc[mask, 'price'] / df.loc[mask, 'area_sq_m']
-
-    # df.reset_index(inplace=True)
-    # pdb.set_trace()
-    # df.price_m2.describe()
-    # df.price_m2.unique()
-    # df[df.price_m2<1]
-    # df[df.price_m2>14]
-
-
-
-
-
 
     return df
