@@ -1,8 +1,9 @@
 # House Price
 
-The House Price project comprises of tasks for collecting apartment ads in Ulaanbaatar,
-Mongolia placed in www.unegui.mn, the most popular portal site for ads and building a
-machine learning model for estimating apartment prices.
+The House Price project comprises of tasks starting from the one for collecting
+apartment ads in Ulaanbaatar, Mongolia placed in www.unegui.mn, the most popular portal
+site for ads and to the one building a machine learning model for estimating apartment
+prices.
 
 The project utilizes and operates on the workflow management system
 [pytask](https://pytask-dev.readthedocs.io/en/stable/index.html).
@@ -22,7 +23,7 @@ To get started, follow these steps:
    ```
 
    This will help you manage dependencies and ensure that you have the necessary
-   packages installed which are written down in the file environment.yml.
+   packages installed which are written down in the file `environment.yml`.
 
 1. Install Chromedriver: This is not required to run the project by default and you can
    already proceed to the next step. We skip the task of data collection through
@@ -34,14 +35,14 @@ To get started, follow these steps:
    your Chrome browser.
 
    On the other hand, if you want to run the webscraping part, then set
-   NO_LONG_RUNNING_TASKS to False in config.py under src folder.
+   NO_LONG_RUNNING_TASKS to False in `config.py` under src folder.
 
 ## Usage:
 
 ### Running the project
 
 Once you have set up the environment and installed the necessary packages, you can build
-the project running the pytask command in the home folder of the project:
+the project running the pytask command in the `home` folder of the project:
 
 ```bash
 $ pytask
@@ -63,8 +64,8 @@ tasks:
 
 ## Tests
 
-We have implemented various tests in tests directory. The tests are based on a testing
-framework pytest. You can run them as follows:
+We have implemented various tests in the `tests` directory. The tests are based on the
+testing framework pytest. You can run them as follows:
 
 ```bash
 $ pytest
