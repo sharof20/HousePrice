@@ -16,6 +16,9 @@ To start working on the HousePrice project, follow these steps:
 
    ```
    $ conda/mamba env create
+   ```
+
+   ```
    $ conda activate houseprice
    ```
 
@@ -25,18 +28,21 @@ To start working on the HousePrice project, follow these steps:
 1. Install Pre-commit, Pytask, and Pytest: These are tools that help you maintain code
    quality, automate tasks, and test your code.
 
-1. Install Chromedriver: This is required to run the project, and you should ensure that
-   you have a version that is compatible with your Chrome browser.
+   ```
+   $ pip install pre-commit
+   ```
 
-## Badge:
+   ```
+   $ pip install pytask
+   ```
 
-You can check the status of pre-commit checks for the project by clicking on the badge
-provided. The badge displays the latest status of the pre-commit checks run on the main
-branch of the repository. \[!\[pre-commit.ci
-status\](https://results.pre-commit.ci/badge/github/Sugarkhuu,
-sharof20/houseprice/main.svg)\](https://results.pre-commit.ci/latest/github/Sugarkhuu,
-sharof20/houseprice/main)
-[![image](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+   ```
+   $ pip install -U pytest
+   ```
+
+1. Install [Chromedriver](https://chromedriver.chromium.org/downloads): This is required
+   to run the project, and you should ensure that you have a version that is compatible
+   with your Chrome browser.
 
 ## Usage:
 
