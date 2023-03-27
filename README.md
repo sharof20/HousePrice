@@ -33,8 +33,8 @@ To get started, follow these steps:
    chromedriver on your machine. Make sure you have a version that is compatible with
    your Chrome browser.
 
-On the other hand, if you want to run the webscraping part, then set
-NO_LONG_RUNNING_TASKS to False in config.py under src folder.
+   On the other hand, if you want to run the webscraping part, then set
+   NO_LONG_RUNNING_TASKS to False in config.py under src folder.
 
 ## Usage:
 
@@ -62,6 +62,9 @@ tasks:
 - model/task_model_pred - checking the prediction ability of the chosen model
 
 ## Tests
+
+We have implemented various tests in tests directory. The tests are based on a testing
+framework pytest. You can run them as follows:
 
 ```bash
 $ pytest
