@@ -4,13 +4,6 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
-
-def save_data(data):
-    # Convert the data to a pandas DataFrame
-    df = pd.DataFrame(data)
-    # Save the DataFrame to a CSV file with UTF-8 encoding
-    df.to_csv("output1.csv", index=False, encoding="utf-8-sig")
-
 def run_collection():
     chrome_options = Options() # Initialize options for Chrome browser
     driver = webdriver.Chrome(options=chrome_options) # New webdriver instance
@@ -85,4 +78,4 @@ def run_collection():
             # Go back to the list of listings
             driver.back()
 
-    save_data(data)
+    return data
