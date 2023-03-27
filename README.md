@@ -1,56 +1,74 @@
-# Project Name: HousePrice
+# House Price Project
 
-The HousePrice project involves building a machine learning model that accurately
-estimates the prices of houses. This project can be useful for real estate
-professionals, homeowners, and anyone else interested in predicting the value of
-residential properties.
+The House Price project comprises of tasks starting from the one for collecting
+apartment ads in Ulaanbaatar, Mongolia placed in www.unegui.mn, the most popular portal
+site for ads and to the one building a machine learning model for estimating apartment
+prices.
+
+The project utilizes and operates on the workflow management system
+[pytask](https://pytask-dev.readthedocs.io/en/stable/index.html).
 
 ## How to Get Started:
 
-To start working on the HousePrice project, follow these steps:
+To get started, follow these steps:
 
-1. Clone the repository: This will create a local copy of the project on your machine.
+1. Clone the repository to have a local copy of the project on your machine.
 
-1. Create a Conda environment: Use the following command to create an environment
-   specifically for this project and activate it:
+1. Create a Conda environment specific to this project and activate it using the
+   following commands:
 
-   ```
-   $ conda/mamba env create
-   ```
-
-   ```
+   ```bash
+   $ conda env create -f environment.yml
    $ conda activate houseprice
    ```
 
    This will help you manage dependencies and ensure that you have the necessary
-   packages installed.
+   packages installed which are written down in the file `environment.yml`.
 
-1. Install Pre-commit, Pytask, and Pytest: These are tools that help you maintain code
-   quality, automate tasks, and test your code.
+1. Install Chromedriver: This is not required to run the project by default and you can
+   already proceed to the next step. We skip the task of data collection through
+   webscraping in Chrome as it takes time (about 10 hours) and the rest of the tasks
+   will use the data that we have already collected. Therefore, you can install
+   chromedriver only if you want to collect data from scratch. Go
+   [here](https://chromedriver.chromium.org/getting-started) to download and install the
+   chromedriver on your machine. Make sure you have a version that is compatible with
+   your Chrome browser.
 
-   ```
-   $ pip install pre-commit
-   ```
-
-   ```
-   $ pip install pytask
-   ```
-
-   ```
-   $ pip install -U pytest
-   ```
-
-1. Install Chromedriver: This is required to run the project, and you should ensure that
-   you have a version that is compatible with your Chrome browser. You can download
-   [Chromedriver here](https://chromedriver.chromium.org/downloads)
+   On the other hand, if you want to run the webscraping part, then set
+   NO_LONG_RUNNING_TASKS to False in `config.py` under src folder.
 
 ## Usage:
 
-Once you have set up the environment and installed the necessary packages, you can build
-the project using the following command:
+### Running the project
 
-```
+Once you have set up the environment and installed the necessary packages, you can build
+the project running the pytask command in the `home` folder of the project:
+
+```bash
 $ pytask
+```
+
+The project results will be created in bld folder. The project contains the following
+tasks:
+
+- data_collection/task_webscraping - it will be skipped by default. Read Chromedriver
+  part above to run it.
+- data_management/task_clean_data_python - clean raw data
+- data_management/task_create_location - parsing locations
+- data_management/task_clean_location - assigning cleaned location to ads
+- 16 tasks creating visualization figures.
+- model/task_model_data - preparing data matrices for modelling part
+- model/task_model_select - picking the best model on the data out of multiple ML models
+- model/task_model_tune - further fine tuning the chosen model
+- model/task_model_pred - checking the prediction ability of the chosen model
+
+## Tests
+
+We have implemented various tests in the `tests` directory. The tests are based on the
+testing framework pytest. You can run them as follows:
+
+```bash
+$ pytest
 ```
 
 ## Credits
