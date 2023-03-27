@@ -38,7 +38,7 @@ NO_LONG_RUNNING_TASKS to False in config.py under src folder.
 
 ## Usage:
 
-# Running the project
+### Running the project
 
 Once you have set up the environment and installed the necessary packages, you can build
 the project running the pytask command in the home folder of the project:
@@ -61,7 +61,7 @@ tasks:
 - model/task_model_tune - further fine tuning the chosen model
 - model/task_model_pred - checking the prediction ability of the chosen model
 
-# project tests
+## Tests
 
 ```bash
 $ pytest
