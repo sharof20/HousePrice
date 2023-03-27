@@ -82,47 +82,64 @@
 \section{Introduction} % (fold)
 \label{sec:introduction}
 
-If you are using this template, please cite this item from the references:
-\citet{GaudeckerEconProjectTemplates}.
-
-The data set for the example project is taken from
-\url{https://www.stem.org.uk/resources/elibrary/resource/28452/large-datasets-stats4schools}.
-It contains data on smoking habits in the UK, with 1691 observations and 12 variables.
-We consider only 4 of the 12 features for the prediction of the variable
-\texttt{smoking}: \texttt{marital\_status}, \texttt{highest\_qualification},
-\texttt{gender} and \texttt{age}. We model the dependence using a Logistic model. All
-numerical features are included linearly, while categorical features are expanded into
-dummy variables. Figures below illustrate the model predictions over the lifetime. You
-will find one figure and one estimation summary table for each installed programming
-language.
+This project, named HousePrice, aims to predict the prices of residential properties.
+The dataset used for this study contains information about 7842 apartments located in Ulaanbaatar, the capital of Mongolia.
+The dataset includes features such as price, square footage, location, and other relevant factors.
+To ensure the reliability and accuracy of the data, we cleaned and preprocessed it before conducting any analysis.
+To gain insights into the dataset, we utilized various data visualization techniques.
+These techniques allowed us to identify important trends and patterns in the data, which served as the foundation for our subsequent analysis.
+After analyzing the dataset, we constructed a machine learning model capable of accurately predicting the prices of residential properties.
+Our model utilizes various features such as location, number of windows, and square footage to generate predictions.
+We thoroughly evaluated the performance of our model and selected the best performing one for this study.
 
 
 
-\begin{figure}[H]
+%\begin{figure}[H]
 
-    \centering
-    \includegraphics[width=0.85\textwidth]{../python/figures/smoking_by_marital_status}
+%    \centering
+%    \includegraphics[width=0.85\textwidth]{../python/figures/smoking_by_marital_status}
 
-    \caption{\emph{Python:} Model predictions of the smoking probability over the
-        lifetime. Each colored line represents a case where marital status is fixed to one
-        of the values present in the data set.}
-    \label{fig:python-predictions}
+%    \caption{\emph{Python:} Model predictions of the smoking probability over the
+%        lifetime. Each colored line represents a case where marital status is fixed to one
+%        of the values present in the data set.}
+%    \label{fig:python-predictions}
 
-\end{figure}
+%\end{figure}
 
 
-\begin{table}[!h]
-    \input{../python/tables/estimation_results.tex}
-    \caption{\label{tab:python-summary}\emph{Python:} Estimation results of the
-        linear Logistic regression.}
-\end{table}
+%\begin{table}[!h]
+%    \input{../python/tables/estimation_results.tex}
+%    \caption{\label{tab:python-summary}\emph{Python:} Estimation results of the
+%        linear Logistic regression.}
+%\end{table}
 
 
 
 
 % section introduction (end)
-
-
+\section{Data collection} % (fold)
+\label{sec:data_collection}
+The aim of our project is to develop a machine learning model that can accurately predict residential property prices in Ulaanbaatar, Mongolia.
+To achieve this, we need to identify the key features of residential properties that have an impact on their prices.
+Therefore, we opted to collect data from the popular and long-standing \href{https://www.unegui.mn/}{unegui.mn} website, which is widely visited by users seeking information on properties in Ulaanbaatar.
+Our decision to use unegui.mn as our data source was based on its extensive reach and reputation as a reliable platform for property listings in the region.\par
+The Python code presented in this project's code part describes a web scraping script that collects data on flats in Ulaanbaatar from the "Unegui" real estate website using the Selenium WebDriver,
+and stores it in a Pandas dataframe. The script imports the required libraries such as pandas, selenium, and exceptions from the selenium library.
+A function named \texttt{run\_collection ()} is defined, which executes the web scraping process.
+The function initializes the options for the Chrome browser and the Chrome webdriver, navigates to the website,
+and determines the total number of pages that require scraping.
+It creates an empty list named "data" to hold the scraped data, then uses a loop to iterate through each page and extract the relevant information.
+For each flat, the script clicks on the listing to view its details, retrieves the title, price, and description of the flat, and saves them in a dictionary.
+The script then retrieves the flat's attributes, such as the number of windows, square footage, prices, location and door types, and adds them to the same dictionary.
+The dictionary is then appended to the data list. The function ultimately returns the data list, which is a list of dictionaries containing the scraped data for each flat.
+\section{Data cleaning} % (fold)
+\label{sec:data_cleaning}
+After the data collection phase, the systematic cleaning of the data begins in order to prepare it for further analysis.
+This involves creating small data cleaning functions, which can be called easily and allow for progress tracking.
+To ensure clarity and reproducibility, detailed docstrings were added to the functions, specifying their input and output parameters.
+As the data is in Mongolian, it needs to be translated to English. A function called \texttt{transliterate\_mn ()} was created for this purpose,
+using the translit Python library within the function.
+In addition, the data was refined by dropping outliers and other unnecessary data, in order to prepare it for use in building a machine learning model based on the cleaned data.
 
 \setstretch{1}
 \printbibliography
