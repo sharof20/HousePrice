@@ -132,6 +132,14 @@ It creates an empty list named "data" to hold the scraped data, then uses a loop
 For each flat, the script clicks on the listing to view its details, retrieves the title, price, and description of the flat, and saves them in a dictionary.
 The script then retrieves the flat's attributes, such as the number of windows, square footage, prices, location and door types, and adds them to the same dictionary.
 The dictionary is then appended to the data list. The function ultimately returns the data list, which is a list of dictionaries containing the scraped data for each flat.
+\section{Data cleaning} % (fold)
+\label{sec:data_cleaning}
+After the data collection phase, the systematic cleaning of the data begins in order to prepare it for further analysis.
+This involves creating small data cleaning functions, which can be called easily and allow for progress tracking.
+To ensure clarity and reproducibility, detailed docstrings were added to the functions, specifying their input and output parameters.
+As the data is in Mongolian, it needs to be translated to English. A function called \texttt{transliterate\_mn ()} was created for this purpose,
+using the translit Python library within the function.
+In addition, the data was refined by dropping outliers and other unnecessary data, in order to prepare it for use in building a machine learning model based on the cleaned data.
 
 \setstretch{1}
 \printbibliography
