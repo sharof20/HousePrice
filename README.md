@@ -1,4 +1,4 @@
-# House Price
+# House Price Project
 
 The House Price project comprises of tasks starting from the one for collecting
 apartment ads in Ulaanbaatar, Mongolia placed in www.unegui.mn, the most popular portal
