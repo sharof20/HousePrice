@@ -40,9 +40,9 @@ To start working on the HousePrice project, follow these steps:
    $ pip install -U pytest
    ```
 
-1. Install [Chromedriver](https://chromedriver.chromium.org/downloads): This is required
-   to run the project, and you should ensure that you have a version that is compatible
-   with your Chrome browser.
+1. Install Chromedriver: This is required to run the project, and you should ensure that
+   you have a version that is compatible with your Chrome browser. You can download
+   [Chromedriver here](https://chromedriver.chromium.org/downloads)
 
 ## Usage:
 
