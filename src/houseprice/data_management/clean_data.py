@@ -7,25 +7,25 @@ import pandas as pd
 
 
 def clean_data(df):
-    df = drop_columns(df)
-    df = rename_columns(df)
+    df = remove_location_and_code_columns(df)
+    df = translate_mongolian_colnames_to_english(df)
     # extract numbers from the price column and convert to float
-    df["price"] = df["price_text"].apply(extract_price)
-    df = extract_and_convert_area(df)
-    df = convert_column_to_string(df, "number_of_balcony")
-    df = replace_balcony_no(df)
-    df = extract_balcony_numbers(df)
+    df["price"] = df["price_text"].apply(extract_currency_value)
+    df = extract_numeric_area_values(df)
+    df = change_column_data_type_to_string(df, "number_of_balcony")
+    df = replace_no_balcony_with_zero(df)
+    df = parse_balcony_numbers_from_column(df)
 
-    df = filter_by_range(df, "area_sq_m", 10, 1000)
+    df = filter_dataframe_by_column_range(df, "area_sq_m", 10, 1000)
     # Apply the function to the 'text' column
     df['location'] = df['location'].apply(transliterate_mn)
     df['district'] = df['district'].apply(transliterate_mn)
     df['title'] = df['title'].apply(transliterate_mn)
-    df = replace_flooring_material(df)
-    df = replace_garage(df)
-    df = replace_window_type(df)
-    df = replace_door_type(df)
-    df = replace_lease_type(df)
+    df = translate_mongolian_flooring_material_types_to_english(df)
+    df = translate_garage_status_to_binary(df)
+    df = translate_mongolian_window_types_to_english(df)
+    df = translate_mongolian_door_types_to_english(df)
+    df = translate_mongolian_lease_types_to_english(df)
     df = clean_manual(df)
 
 
@@ -44,7 +44,7 @@ def transliterate_mn(text):
     """
     return translit(text, 'mn', reversed=True)
 
-def extract_price(x):
+def extract_currency_value(x):
     """A function to extract the price from a string containing Mongolian currency
     notation.
 
@@ -64,8 +64,8 @@ def extract_price(x):
     else:
         return price
 
-# drop_columns()
-def drop_columns(df):
+
+def remove_location_and_code_columns(df):
     """Drops the 'location:' and 'Koд:' columns from a DataFrame.
 
     Parameters:
@@ -77,8 +77,8 @@ def drop_columns(df):
     """
     return df.drop(["location:", "Код:"], axis=1)
 
-# rename_columns()
-def rename_columns(df):
+
+def translate_mongolian_colnames_to_english(df):
     """Renames the columns of the given pandas DataFrame using a dictionary of old and
     new column names.
 
@@ -112,8 +112,8 @@ def rename_columns(df):
 
     return df
 
-# extract_and_convert_area()
-def extract_and_convert_area(df):
+
+def extract_numeric_area_values(df):
     """Extracts numerical values from the 'area_sq_m' column of a given dataframe and
     converts them to floats.
 
@@ -127,8 +127,8 @@ def extract_and_convert_area(df):
     df["area_sq_m"] = df["area_sq_m"].str.extract("(\\d+[\\.\\d]*)").astype(float)
     return df
 
-# convert_column_to_string()
-def convert_column_to_string(df, column_name):
+
+def change_column_data_type_to_string(df, column_name):
     """Convert a specified column in a pandas DataFrame to string type.
 
     Parameters:
@@ -142,8 +142,8 @@ def convert_column_to_string(df, column_name):
     df[column_name] = df[column_name].astype(str)
     return df
 
-# replace_balcony_no()
-def replace_balcony_no(df):
+
+def replace_no_balcony_with_zero(df):
     """Replaces the string 'Tarтryй' in the 'number_of_balcony' column with '0 Tarтrүй'
     to indicate that there are no balconies.
 
@@ -160,8 +160,8 @@ def replace_balcony_no(df):
     df["number_of_balcony"] = np.where(df["number_of_balcony"].str.contains("Tarтrүй"), "0 Tarтrүй", df["number_of_balcony"])
     return df
 
-# extract_balcony_numbers()
-def extract_balcony_numbers(df):
+
+def parse_balcony_numbers_from_column(df):
     """Extracts balcony numbers from the 'number_of_balcony' column in the input
     DataFrame.
 
@@ -176,8 +176,8 @@ def extract_balcony_numbers(df):
     df["number_of_balcony"] = df["number_of_balcony"].str.extract("(\\d+[\\.\\d]*)").astype(float)
     return df
 
-# filter_by_range()
-def filter_by_range(df, column, min_value, max_value):
+
+def filter_dataframe_by_column_range(df, column, min_value, max_value):
     """Filters a DataFrame by a specified range of values in a given column.
 
     Args:
@@ -194,8 +194,8 @@ def filter_by_range(df, column, min_value, max_value):
     df = df[(df[column] >= min_value) & (df[column] <= max_value)]
     return df
 
-# replace_flooring_material()
-def replace_flooring_material(df):
+
+def translate_mongolian_flooring_material_types_to_english(df):
     """Replace flooring material names in the 'flooring_material' column of the input
     DataFrame with their English equivalents using a dictionary of translations.
 
@@ -213,8 +213,8 @@ def replace_flooring_material(df):
     df['flooring_material'] = df['flooring_material'].replace(flooring_dict)
     return df
 
-# replace_garage()
-def replace_garage(df):
+
+def translate_garage_status_to_binary(df):
     """Replace values in the 'garage' column of the given DataFrame with either 'yes' or
     'no' based on a predefined dictionary.
 
@@ -229,8 +229,8 @@ def replace_garage(df):
     df['garage'] = df['garage'].replace(garage_dict)
     return df
 
-# replace_window_type()
-def replace_window_type(df):
+
+def translate_mongolian_window_types_to_english(df):
     """Replaces the values in the 'window_type' column of a Pandas DataFrame with
     standardized values.
 
@@ -245,8 +245,8 @@ def replace_window_type(df):
     df['window_type'] = df['window_type'].replace(window_dict)
     return df
 
-# replace_door_type()
-def replace_door_type(df):
+
+def translate_mongolian_door_types_to_english(df):
     """" Replaces Mongolian Cyrillic door types with their English equivalents.
 
     Args:
@@ -270,8 +270,8 @@ def replace_door_type(df):
     df['door_type'] = df['door_type'].replace(door_dict)
     return df
 
-# replace_lease_type()
-def replace_lease_type(df):
+
+def translate_mongolian_lease_types_to_english(df):
     """Replaces the Mongolian Cyrillic lease type value in the 'leasing' column of the
     given DataFrame with their English equivalents.
 
