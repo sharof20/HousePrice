@@ -12,6 +12,11 @@
 # bld
 bld/
 
+# tmp files
+.idea/
+.vscode/
+.github/
+
 # latex
 *.aux
 *.bbl
