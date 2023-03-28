@@ -9,7 +9,7 @@ from houseprice.data_management import clean_data
 
 @pytask.mark.depends_on(
     {
-        "data": SRC / "data" / "house_price.csv",
+        "data": SRC / "data" / "house_price.csv", # NO_LONG_RUNNING_TASKS: change to BLD if running webscraping
     },
 )
 @pytask.mark.produces(BLD / "data" / "house_price_clean_without_location.csv")
