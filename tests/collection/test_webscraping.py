@@ -33,6 +33,7 @@ def url():
 def driver():
     # Initialize options for Chrome browser
     chrome_options = Options()
+    chrome_options.add_argument("--headless")
     # Create a new instance of the Google Chrome browser using the webdriver.Chrome function
     driver = webdriver.Chrome(options=chrome_options)
     yield driver
@@ -49,7 +50,9 @@ def test_driver_page(driver):
 
 @pytest.fixture
 def driver():
-    driver = webdriver.Chrome()
+    options = Options()
+    options.add_argument('--headless')
+    driver = webdriver.Chrome(options=options)
     yield driver
     driver.quit()
 
@@ -80,11 +83,17 @@ def test_get_num_page():
 
 @pytest.fixture
 def driver():
-    # Set up the WebDriver object
-    driver = webdriver.Chrome()
+    # Set up the ChromeOptions object
+    options = webdriver.ChromeOptions()
+    options.headless = True
+
+    # Set up the WebDriver object with the options
+    driver = webdriver.Chrome(options=options)
     yield driver
+
     # Clean up after the test is done
     driver.quit()
+
 
 @pytest.mark.skip(reason="Element with ID 'ad-title' may have been changed")
 def test_get_main_info(driver):
@@ -110,7 +119,12 @@ def test_get_main_info(driver):
 
 @pytest.fixture()
 def driver():
-    driver = webdriver.Chrome()
+    # Initialize options for Chrome browser
+    chrome_options = Options()
+    chrome_options.add_argument('--headless')
+
+    # Create a new instance of the Google Chrome browser using the webdriver.Chrome function
+    driver = webdriver.Chrome(options=chrome_options)
     driver.get('https://example.com')
     yield driver
     driver.quit()
@@ -127,7 +141,9 @@ def test_collect_attr(driver):
 
 @pytest.fixture(scope="module")
 def driver():
-    driver = webdriver.Chrome()
+    chrome_options = Options()
+    chrome_options.add_argument("--headless") # add this line to run Chrome in headless mode
+    driver = webdriver.Chrome(options=chrome_options)
     yield driver
     driver.quit()
 
@@ -136,6 +152,7 @@ def ad_element(driver):
     driver.get("https://www.unegui.mn/l-hdlh/l-hdlh-zarna/oron-suuts-zarna/ulan-bator/")
     ad_element = driver.find_element(By.XPATH, "//div[@class='ad']")
     yield ad_element
+
 @pytest.mark.skip(reason="div[@class=attributes may have been changed")
 def test_collect_data(driver, ad_element):
     data = collect_data(driver, ad_element)
