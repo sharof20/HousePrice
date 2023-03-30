@@ -50,29 +50,57 @@
 
 
 \begin{frame}[t]
-    \frametitle{heading here}
+    \frametitle{HousePrice: Project Overview}
     \begin{itemize}
-        \item<+-> Please cite this template as: \citet{GaudeckerEconProjectTemplates}
-        \item<+-> Example data is taken from \url{https://www.stem.org.uk/resources/elibrary/resource/28452/large-datasets-stats4schools}
+        \item Objective: Predict residential property prices in Ulaanbaatar, Mongolia.
+        \item Dataset: about 8000 apartments' information including price, square footage, location, and other relevant factors.
+        \item Data Analysis: Used data visualization techniques to identify important trends and patterns in the data.
+        \item Machine Learning Model: Capable of predicting residential property prices using features such as location, number of windows, square footage, and other factors
     \end{itemize}
     \note{~}
 \end{frame}
 
-
-
 \begin{frame}[t]
-    \begin{figure}[H]
-
-        \centering
-        \includegraphics[width=0.5\textwidth]{../python/figures/smoking_by_marital_status}
-
-        \caption{\emph{Python:} Model predictions of the smoking probability over the
-            lifetime. Each colored line represents a case where marital status is fixed to
-            one of the values present in the data set.}
-        \label{fig:python-predictions}
-
-    \end{figure}
+    \frametitle{Key Findings and Implications}
+    \begin{itemize}
+        \item Key Findings: Square footage is the most important factor influencing residential property prices, followed by location and others.
+        \item Property developers can utilize our findings to make informed decisions regarding the location and features of their properties.
+        \item Homebuyers can use our model to ensure that they are paying a fair price for a property based on its features.
+    \end{itemize}
 \end{frame}
+
+\begin{frame}{Data Collection}
+    \begin{itemize}
+        \item Data Source: unegui.mn, a popular and reliable platform for property listings in the region.
+        \item Data Collection: Used a Python web scraping script that collects data on flats in Ulaanbaatar using the Selenium WebDriver.
+        \item Libraries: Used pandas, selenium, and exceptions from the selenium library.
+        \item Function: Defined a function named \texttt{run\_collection()} to execute the web scraping process and store data in a Pandas dataframe.
+        \item Features: The collected data includes information about the price, square footage, location, and other relevant factors of residential properties.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Data Collection}
+    \begin{itemize}
+        \item Data cleaning functions were created to clean the data systematically and enable progress tracking.
+        \item Docstrings were added to the functions to ensure clarity and reproducibility.
+        \item The data was refined by dropping outliers and unnecessary data, and translated from Mongolian to English using a Python library.
+        \item Additionally, outliers and other unnecessary data were dropped, refining the data for use in building a machine learning model based on the cleaned data.
+    \end{itemize}
+\end{frame}
+
+%\begin{frame}[t]
+%    \begin{figure}[H]
+%
+%        \centering
+%        \includegraphics[width=0.5\textwidth]{../python/figures/smoking_by_marital_status}
+%
+%        \caption{\emph{Python:} Model predictions of the smoking probability over the
+%            lifetime. Each colored line represents a case where marital status is fixed to
+%            one of the values present in the data set.}
+%        \label{fig:python-predictions}
+%
+%    \end{figure}
+%\end{frame}
 
 
 

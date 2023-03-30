@@ -24,8 +24,6 @@ from houseprice.model.util_model import calculate_diagnostics
 
 #loop_cv
 
-
-
 @pytest.fixture(scope='module')
 def test_data():
     """Create a Pandas DataFrame for testing the create_model_data function."""
@@ -78,10 +76,6 @@ def test_remove_sym_name_df():
 
 @pytest.fixture
 def models():
-    #from sklearn.linear_model import LinearRegression
-    #from sklearn.tree import DecisionTreeRegressor
-    #from sklearn.ensemble import RandomForestRegressor
-
     lr = LinearRegression()
     dt = DecisionTreeRegressor(random_state=42)
     rf = RandomForestRegressor(n_estimators=100, random_state=42)
