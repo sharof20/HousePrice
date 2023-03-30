@@ -1,6 +1,6 @@
 # House Price Project
 
-The House Price project comprises of tasks starting from the one for collecting
+The House Price python project comprises of tasks starting from the one for collecting
 apartment ads in Ulaanbaatar, Mongolia placed in www.unegui.mn, the most popular portal
 site for ads and to the one building a machine learning model for estimating apartment
 prices.
