@@ -7,6 +7,16 @@ import pandas as pd
 
 
 def clean_data(df):
+    """Clean the raw data.
+
+    Args:
+    - df (Pandas DataFrame): The DataFrame with house price raw data
+
+    Returns:
+    - Clean DataFrame
+
+    """
+
     df = remove_location_and_code_columns(df)
     df = translate_mongolian_colnames_to_english(df)
     # extract numbers from the price column and convert to float
@@ -287,8 +297,15 @@ def translate_mongolian_lease_types_to_english(df):
     return df
 
 def clean_manual(df):
-    # fix errors manually
-    # rents
+    """Sort of manually remove or edit ads with some error for various reasons.
+
+    Args:
+    - df (Pandas DataFrame): The DataFrame with house price data
+
+    Returns:
+    - The updated DataFrame
+
+    """
     df = df[df['title'] != 'Nisekh, buman zaluus khoroolold 2 oroo bair']
     df = df[~((df['title'] == 'TSambagarawd 2oroo')&(df['price'] == 1))]
 
