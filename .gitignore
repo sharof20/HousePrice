@@ -31,3 +31,6 @@ bld/
 *.synctex.gz
 *.iml
 *.xml
+*.toc
+*.snm
+*.nav
