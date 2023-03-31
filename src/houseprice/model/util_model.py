@@ -11,6 +11,7 @@ import pickle
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import mean_squared_error
 from sklearn.metrics import r2_score
+from houseprice.utilities import save_close_plt
 
 
 def create_model_data(formula, df, test_size=0.3, random_state=100):
@@ -111,7 +112,9 @@ def loop_cv(models, x_train, y_train, produces):
     # Plot a box plot of the R-squared scores for each model
     plt.boxplot(results, labels=names)
     plt.title('Algorithm Comparison')
-    plt.savefig(produces / "compare_models.png")
+    plt.xticks(rotation=-90)
+    plt.subplots_adjust(bottom=0.2)
+    save_close_plt(produces / "compare_models.png")
 
     # Write the statistics for each model to a CSV file
     stats = pd.DataFrame(out)

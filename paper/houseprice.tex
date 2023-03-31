@@ -16,6 +16,7 @@
 \usepackage[dvipsnames]{xcolor}
 \usepackage{subcaption}
 \usepackage{minibox}
+\usepackage{adjustbox}
 % \usepackage{pdf14} % Enable for Manuscriptcentral -- can't handle pdf 1.5
 % \usepackage{endfloat} % Enable to move tables / figures to the end. Useful for some
 % submissions.
@@ -34,7 +35,7 @@
 \AtBeginDocument{\toggletrue{blx@useprefix}}
 \AtBeginBibliography{\togglefalse{blx@useprefix}}
 \setlength{\bibitemsep}{1.5ex}
-\addbibresource{../../paper/refs.bib}
+\addbibresource{refs.bib}
 
 \usepackage[unicode=true]{hyperref}
 \hypersetup{
@@ -55,7 +56,7 @@
 \setlength{\parskip}{1ex}
 \setlength{\parindent}{0ex}
 \setstretch{1.5}
-
+\date{March 31, 2023}
 
 \begin{document}
 
@@ -63,23 +64,18 @@
 
 \author{Sugarkhuu Radnaa, Juraev Sharofiddin}
 
-\date{
-    \\[1ex]
-    \today
-}
-
 \maketitle
 
 
 \begin{abstract}
-    \textbf{The HousePrice project} aims to forecast the prices of residential properties in Ulaanbaatar,
+    \textbf{The HousePrice project} aims to forecast the prices of residential properties (apartments) in Ulaanbaatar,
     the capital of Mongolia, by leveraging a dataset of around 8000 apartments that includes various features such as location,
     square footage, price, and other relevant features. We collected the dataset ourselves using
-    Python and Selenium. We obtained the data from the website unegui.mn.
+    Python and Selenium. We obtained the data from the largest ad portal site in Mongolia.
     Prior to analysis, we cleaned and preprocessed the data, and drew data visualizations
-    to identify patterns and trends. Subsequently, we built a machine learning model that accurately predicts
-    prices by incorporating significant factors such as location and square footage.
-    Finally, we comprehensively evaluated the model and selected the best-performing one for this project.
+    to identify patterns and trends in the data that will help us capture impact of characteristics on price. Subsequently, we ran modelling exercise where we compared the performance of various machine learning
+    algorithms that in terms of predictive power of apartment prices. Finally, we picked one of the best performing model, XGBoost
+    and further improved its out-of-sample performance.
 \end{abstract}
 
 \clearpage
@@ -88,8 +84,8 @@
 \section{Introduction} % (fold)
 \label{sec:introduction}
 
-This project, named HousePrice, aims to predict the prices of residential properties.
-The dataset used for this study contains information about 7842 apartments located in Ulaanbaatar, the capital of Mongolia.
+This project, named HousePrice, aims to predict the prices of residential properties (apartments).
+The dataset used for this study contains information about 8000 apartments located in Ulaanbaatar, the capital of Mongolia.
 The dataset includes features such as price, square footage, location, and other relevant factors.
 To ensure the reliability and accuracy of the data, we cleaned and preprocessed it before conducting any analysis.
 To gain insights into the dataset, we utilized various data visualization techniques.
@@ -99,30 +95,6 @@ Our model utilizes various features such as location, number of windows, and squ
 We thoroughly evaluated the performance of our model and selected the best performing one for this study.
 
 
-
-%\begin{figure}[H]
-
-%    \centering
-%    \includegraphics[width=0.85\textwidth]{../python/figures/smoking_by_marital_status}
-
-%    \caption{\emph{Python:} Model predictions of the smoking probability over the
-%        lifetime. Each colored line represents a case where marital status is fixed to one
-%        of the values present in the data set.}
-%    \label{fig:python-predictions}
-
-%\end{figure}
-
-
-%\begin{table}[!h]
-%    \input{../python/tables/estimation_results.tex}
-%    \caption{\label{tab:python-summary}\emph{Python:} Estimation results of the
-%        linear Logistic regression.}
-%\end{table}
-
-
-
-
-% section introduction (end)
 \section{Data collection} % (fold)
 \label{sec:data_collection}
 The aim of our project is to develop a machine learning model that can accurately predict residential property prices in Ulaanbaatar, Mongolia.
@@ -147,15 +119,85 @@ As the data is in Mongolian, it needs to be translated to English. A function ca
 using the translit Python library within the function.
 In addition, the data was refined by dropping outliers and other unnecessary data, in order to prepare it for use in building a machine learning model based on the cleaned data.
 
-\setstretch{1}
-\printbibliography
-\setstretch{1.5}
+\section{Data visualization} % (fold)
+\label{sec:data_model}
+
+We drew various figures on important characteristics of the apartments. Specifically, we illustrated the relationship between the price (per
+square meters) of apartments and the characteristics.
+
+\begin{frame}[t]
+    \begin{figure}[H]
+
+        \centering
+        \includegraphics[width=0.5\textwidth]{../bld/plot/histogram_price.png}
+
+        \caption{\emph{Python:} Frequency Distribution of Prices per Square Meter for a Set of Properties:
+        The histogram shows a normal distribution of prices per square meter for a set of properties, with the most common price around 3.
+        The x-axis ranges from 0 to 6, and the y-axis represents the frequency or count of properties, ranging from 0 to 500.}
+        \label{fig:histogram_price}
+    \end{figure}
+\end{frame}
+
+\begin{frame}[t]
+    \begin{figure}[H]
+
+        \centering
+        \includegraphics[width=0.5\textwidth]{../bld/plot/price_by_location.png}
+
+        \caption{\emph{Python:} Price by Location}
+        \label{fig:loc_price}
+    \end{figure}
+\end{frame}
+
+\section{Modelling} % (fold)
+\label{sec:data_model}
+
+We ran regression models such as Random Forest regression, Gradient Boost regression, XGBoost regression and usual multiple regression.
+
+Out of the models we ran, XGBoost, Random Forest and Gradient Boost models were notably higher than the other 8 algorithms. The $R^{2}$ of
+those models were around 0.60 and usually close to each other. Since depending on the seed, each of those models were equally likely to win in the competition
+among the three of them, we chose XGBoost as the best model. This is also motivated by the fact that in the next step we do grid search
+tuning of the best parameter values of the chosen model. If it is uncertain which model will be chosen, it will take lots of effort to
+prepare for grid search design for every potential winner model.
+
+\begin{frame}[t]
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{../bld/model/model/compare_models.png}
+        \caption{\emph{Python:} Box plot of $R^{2}$ (coefficient of determination) of various models}
+        \label{fig:loc_price}
+    \end{figure}
+\end{frame}
 
 
-% \appendix
+% \begin{table}[h]
+%     \centering
+%     \caption{Comparison of Regression Models $R^{2}$ statistics}
+%     \label{tab:regression}
+%     \begin{adjustbox}{width=0.7\textwidth}
+%     \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+%         \hline
+%         \textbf{Metric} & {SVM} & {Bayesian Ridge} & {Lasso Lars} & {ARD} & {TheilSen} & {Linear} & {GB} & {AdaBoost} & {RandomForest} & {DecisionTree} & {{XGB}} \\
+%         \hline
+%         $r^2$ mean & 0.07 & 0.48 & 0.23 & 0.47 & 0.45 & 0.48 & 0.58 & 0.13 & 0.57 & 0.23 & 0.58 \\
+%         $r^2$ median & 0.07 & 0.48 & 0.23 & 0.47 & 0.45 & 0.48 & 0.58 & 0.13 & 0.57 & 0.23 & 0.58 \\
+%         $r^2$ std & 0.00 & 0.01 & 0.01 & 0.01 & 0.03 & 0.01 & 0.01 & 0.11 & 0.03 & 0.00 & 0.03 \\
+%         \hline
+%     \end{tabular}
+%     \end{adjustbox}
+% \end{table}
 
-% The chngctr package is needed for the following lines.
-% \counterwithin{table}{section}
-% \counterwithin{figure}{section}
+For XGBoost, we ran grid search on 6 parameters, 3-4 values for each. Once the best model is chosen, we evaluated predictive ability of the
+model by test dataset. The model gives about $R^{2}$ of 0.70, much higher than (even taking into account uncertainty of the measure) the
+training performance.
+
+\section{Conclusion} % (fold)
+\label{sec:conclusion}
+
+An XGBoost model was found to be one of the best regression model for predicting apartment prices in Ulaanbaatar with out-of-sample
+predictive power of about 0.70. \\
+
+Assigning proper location to ads those do not have proper location field is time-consuming process. In the future, improving
+the efficiency of finding faster handling of those will be an important step forward for data quality and cost.
 
 \end{document}

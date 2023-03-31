@@ -266,8 +266,8 @@ def translate_mongolian_door_types_to_english(df):
         pandas.DataFrame: The input DataFrame with the 'door_type' column modified.
 
     Example:
-        >>> df = pd.DataFrame({'door_type': ['Бүргэд', 'Төмөр вакум', 'Мод']})
-        >>> replace_door_type(df)
+        df = pd.DataFrame({'door_type': ['Бүргэд', 'Төмөр вакум', 'Мод']})
+        replace_door_type(df)
             door_type
         0   burged
         1   ironvacuum

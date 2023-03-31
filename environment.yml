@@ -1,8 +1,6 @@
 ---
 name: houseprice
-channels:
-  - conda-forge
-  - nodefaults
+channels: [conda-forge, nodefaults]
 
 dependencies:
   - conda-lock
@@ -13,9 +11,9 @@ dependencies:
   - pip >=21.1
   - plotly>=5.13.0
   - pre-commit
-  - pytask-latex
-  - pytask-parallel
+  - pytask-latex>=0.2
   - pytask>=0.2
+  - pytask-parallel
   - pytest
   - pytest-cov
   - pytest-xdist

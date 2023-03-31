@@ -49,18 +49,13 @@ $ pytask
 ```
 
 The project results will be created in bld folder. The project contains the following
-tasks:
+task modules which each of which consists of several tasks:
 
-- data_collection/task_webscraping - it will be skipped by default. Read Chromedriver
-  part above to run it.
-- data_management/task_clean_data_python - clean raw data
-- data_management/task_create_location - parsing locations
-- data_management/task_clean_location - assigning cleaned location to ads
-- 16 tasks creating visualization figures.
-- model/task_model_data - preparing data matrices for modelling part
-- model/task_model_select - picking the best model on the data out of multiple ML models
-- model/task_model_tune - further fine tuning the chosen model
-- model/task_model_pred - checking the prediction ability of the chosen model
+- `data_collection` - Data collection via webscraping (skip by default)
+- `data_management` - Clean raw data
+- `analysis` - Visualize the cleaned data
+- `model` - Run machine learning model on the data
+- `paper` - Short summary of the project and its results
 
 ## Tests
 
